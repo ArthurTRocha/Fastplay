@@ -1,0 +1,40 @@
+/*LOGOS*/
+.logo {
+    margin-top: 1vh;
+    margin-left: 1.5vw;
+    height: 10vh;
+    width: 7vw;
+}
+
+/*REDES SOCIAIS*/
+.redessociais {
+    position: absolute;
+    right: 1vw;
+    top: 3vh;
+    transition: transform 0.3s; 
+}
+.icone:hover {
+    transform: scale(1.2);
+}
+.icone {
+    font-size: 5vh; 
+    text-decoration: none;
+    color: #fff;
+    margin-left: 0.8vw; 
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 949px) {
+
+   .logo {
+       height: 8vh;
+       width: 18vw;
+   }
+}

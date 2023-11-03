@@ -1,0 +1,16 @@
+body {
+    background-image: url("../assets/image/fundo.png");
+    background-size: cover;
+}
+.home {
+overflow: hidden;
+position: relative;
+}
+
+
+@media (max-width: 949px) {
+   
+
+
+
+}
