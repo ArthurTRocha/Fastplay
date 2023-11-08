@@ -1,0 +1,43 @@
+{
+    "Header": {
+        "Servicos": "Services",
+        "Contato": "Contact",
+        "Sobre nos": "About us"
+    },
+    
+    "EmpresasSM": {
+        "Titulo": "Companies without",
+        "Titulo-1": "Marketing",
+        "Paragrafo": "This can seriously compromise",
+        "Paragrafo-1": "the growth and success you",
+        "Paragrafo-2": "aim for. Without effective marketing, a",
+        "Paragrafo-3": "company can go unnoticed in the",
+        "Paragrafo-4": "digital world, resulting in a",
+        "Paragrafo-5": "lack of online visibility, which can",
+        "Paragrafo-6": "lead to a significant loss of",
+        "Paragrafo-7": "potential customers.",
+    
+        "Titulo-2": "Benefits of having a marketing",
+        "Titulo-3": "team",
+        "Paragrafo-8": "",
+        "Paragrafo-9": "",
+        "Paragrafo-10": "",
+        "Paragrafo-11": ""
+    },
+    
+    "Parceiro": {
+        "Titulo": "Meet our partner clients",
+        "Descricao": "Choosing Fastplay means choosing a marketing and communication agency",
+        "Descricao2": "committed to leveraging the success of your brand on a global scale."
+    },
+    "Vendasmaiores": {
+        "Titulo":"Por quê você deve escolher",
+        "Titulo2":"a FastPlay Marketing para o",
+        "Titulo3":"seu negócio?",
+        "Descricao": "Discover how FastPlay Marketing can be the",
+        "Descricao2": "key piece",
+        "Descricao3": "missing to",
+        "Descricao4": "boost the success",
+        "Descricao5": "of your company."
+    }
+}

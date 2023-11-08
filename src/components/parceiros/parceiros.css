@@ -18,67 +18,7 @@
     font-size: 3vh;
 }
 
-/*LOGOS*/
-.logossss {
-    text-align: center;
-}
-.uork{
-    height: 25vh;  
-}
-.avb {
-    height: 25vh;  
 
-}
-.allboro{
-    height: 25vh;  
-
-}
-.allmix{
-    height: 25vh;  
-
-}
-.df{
-    height: 25vh;  
-
-}
-.gelosete{
-    height: 25vh;  
-
-}
-.gmc {
-    height: 25vh;  
-
-}
-.adilson{
-    height: 25vh;  
-
-}
-.medlife{
-    height: 25vh;  
-
-}
-.sanatti{
-    height: 25vh;  
-
-}
-.spx {
-    height: 25vh;  
-
-}
-
-
-/* CAROUSEL */
-.carouselfotos {
-    object-fit: cover;
-}
-  .carousel .thumbs-wrapper {
-    display: none; /* Oculta as miniaturas */
-  }
-  .carousel-container {
-    margin-top: 5vh;
-  align-items: center; /* Centraliza verticalmente as imagens */
-  justify-content: center; /* Centraliza horizontalmente as imagens */
-  }
   
 
 /*BUTTON*/

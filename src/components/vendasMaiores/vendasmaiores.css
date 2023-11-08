@@ -1,0 +1,136 @@
+.logovendasmaiores{
+    height: 10vh;
+    width: 7vw;
+    position: absolute;
+    right: 3vw;
+}
+
+/*TEXTOS*/
+.textosvendasmaiores{
+    margin-left: 7vw;
+}
+.textosvendasmaiores h1 {
+    margin-right: 5vw;
+    font-weight: bold;
+    font-size: 8vh;
+    color: #FF3900;
+}
+.textosvendasmaiores span {
+    color: #FF3900;
+}
+.textosvendasmaiores p {
+    font-weight: bold;
+    font-size: 3vh;
+    color: #fff;
+}
+.vendasmaiores-texto0 {
+position: absolute;
+left: 17.5vw;
+margin-top: -3vh;
+}
+.vendasmaiores-texto1 {
+position: absolute;
+left: 48vw;
+margin-top: -3vh;
+
+}
+.vendasmaiores-texto2 {
+position: absolute;
+left: 79vw;
+margin-top: -3vh;
+
+}
+
+.vendasmaiores-texto0 h1,
+.vendasmaiores-texto1 h1,
+.vendasmaiores-texto2
+h1{
+    color: #FF3900;
+    font-weight: bold;
+    font-size: 3.4vh;
+}
+.vendasmaiores-texto0 p,
+.vendasmaiores-texto1 p,
+.vendasmaiores-texto2
+p{
+    line-height: 2.3vh;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+
+
+/*FOTOS*/
+.vendasmaiores-celular {
+    height: 50vh;
+    width: 50vh;
+    position: absolute;
+    right: 3vw;
+    margin-top: -3vh;
+}
+.vendasmaiores-celular img{
+    transform: scaleX(-1);
+    height: 100%;
+    width: 100%;
+}
+.vendasmaioresfotos-textos{
+    margin-top: 10vh;
+    display: flex;
+
+}
+.vendasmaiores-fotos0 {
+    background-color: #fff;
+    width: 14.43vw; /* Largura em vw */
+    height: 35vh; /* Altura em vh */ 
+    margin-left: 1.5vw;
+}
+.vendasmaiores-fotos1 {
+    background-color: #fff;
+    width: 14.43vw; /* Largura em vw */
+    height: 35vh; /* Altura em vh */ 
+    margin-left: 16vw;
+}
+.vendasmaiores-fotos2 {
+    background-color: #fff;
+    width: 14.43vw; /* Largura em vw */
+    height: 35vh; /* Altura em vh */ 
+    margin-left: 16vw;
+}
+/*Icone*/
+.BsDashLg {
+    margin-left: 13.2vw;
+    margin-top: -2vh;
+    height: 10vh;
+    width: 10vh;
+    color: #FF3900;
+    transform: scale(1.5); /* Ajuste o valor conforme necessário para esticar o ícone */
+    transform: rotate(90deg); /* Ajuste o ângulo conforme necessário para a rotação desejada */
+}
+
+/*Button*/
+.vendasmaiores-texto0 button,
+.vendasmaiores-texto1 button,
+.vendasmaiores-texto2 button{
+    font-size: 2.5vh;
+    background-color: #FF3900;
+    border-radius: 5vh;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1vh 3vh;
+    margin-top: 0vh;
+}
+.vendasmaiores-texto0 button:hover,
+.vendasmaiores-texto1 button:hover,
+.vendasmaiores-texto2 button:hover {
+    transform: scale(1.1); 
+
+}
+
+
+
+

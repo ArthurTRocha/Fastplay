@@ -1,27 +1,63 @@
+.Header {
+    background-color: #1E1E1E;     
+    width: 100vw;
+    height: 12vh;
+}
+.SelectLanguage {
+    width: 6vw;
+    position: absolute;
+    top: 3.3vh;
+    right: 4vw;
+}
+.SelectHeader {
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    background-color: transparent;
+}
+  
 /*LOGOS*/
 .logo {
     margin-top: 1vh;
     margin-left: 1.5vw;
     height: 10vh;
     width: 7vw;
+    max-height: 10vh;
+    max-width: 7vw;
+    min-height: 10vh;
+}
+.bandeira {
+    height: 3.9vh;
+    margin: 0;
+    padding: 0;
 }
 
-/*REDES SOCIAIS*/
-.redessociais {
-    position: absolute;
-    right: 1vw;
-    top: 3vh;
-    transition: transform 0.3s; 
+/*OPÇÕES*/
+.opcoes {
+    float: right; /* Alinha os elementos à esquerda */
+    margin-right: 15vw;
+    margin-top: 5vh;
 }
-.icone:hover {
-    transform: scale(1.2);
-}
-.icone {
-    font-size: 5vh; 
+.opcoes a {
     text-decoration: none;
     color: #fff;
-    margin-left: 0.8vw; 
+    font-weight: bold;
+    margin-left: 2vw;
+    font-size: 2.5vh;
+    margin-top: -12vh;
 }
+
+.opcoes,
+.opcoes2,
+.opcoes3 {
+     display: flex;
+     flex-direction: row;
+}
+
+
+
+
+
 
 
 

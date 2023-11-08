@@ -1,0 +1,44 @@
+{
+    "Header": {
+    "Servicos": "Serviços",
+    "Contato": "Contato",
+    "Sobre nos": "Sobre nós"
+    },
+
+    "EmpresasSM":{
+        "Titulo": "Empresas sem",
+        "Titulo-1": "Marketing",
+        "Paragrafo": "Isso pode comprometer  seriamente o",
+        "Paragrafo-1": "crescimento e o sucesso que você",
+        "Paragrafo-2": "almeja. Sem um marketing eficaz, a",
+        "Paragrafo-3": "empresa pode passar despercebida no",
+        "Paragrafo-4": "mundo digital, resultando em uma",
+        "Paragrafo-5": "falta de visibilidade online, o que pode",
+        "Paragrafo-6": "levar a uma perda significativa de",
+        "Paragrafo-7": "potenciais clientes.",
+
+        "Titulo-2": "Benefícios de ter uma equipe de",
+        "Titulo-3": "marketing",
+        "Paragrafo-8": "",
+        "Paragrafo-9": "",
+        "Paragrafo-10": "",
+        "Paragrafo-11": "",
+        "Paragrafo-12": ""
+    },
+
+    "Parceiro": {
+        "Titulo":"Conheça nossos clientes parceiros",
+        "Descricao":"Escolher a Fastplay significa optar por uma agência de marketing e comunicação",
+        "Descricao2":"comprometida em alavancar o sucesso de sua marca em uma escala global."
+    },
+    "Vendasmaiores": {
+        "Titulo":"Por quê você deve escolher",
+        "Titulo2":"a FastPlay Marketing para o",
+        "Titulo3":"seu negócio?",
+        "Descricao":"Descubra como a FastPlay Marketing pode ser a",
+        "Descricao2":"peça-chave",
+        "Descricao3":"que falta para",
+        "Descricao4":"impulsionar o sucesso",
+        "Descricao5":"da sua empresa."
+    }
+}

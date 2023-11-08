@@ -1,0 +1,56 @@
+.informacoes {
+   margin-top: 31vh;
+   background-color: #1E1E1E;
+   height: 28vh;
+}
+.InconsInfomacoes img {
+    margin-top: 1.5vh;
+}
+.InconsInfomacoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Divide o espaço em 4 colunas iguais */
+    gap: 5vw; /* Define o espaçamento entre as colunas */
+    margin-left: 5vw;
+}
+ /*TEXTOS*/
+ .imagemalcancetexto,
+ .imagemestrategiastexto,
+ .imagemotimizacaotexto,
+ .imagemconstrutucaotexto {
+     font-weight: bold;
+     color: #fff;
+     text-align: center;
+}
+
+/*IMAGENS*/
+.imagemalcance img {
+    max-width: 100%; 
+    max-height: 100%;
+}
+.imagemestrategias img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.imagemotimizacao img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.imagemconstrutucao img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/*ICONES*/
+.imagemalcance {
+    text-align: center;
+    height: 20vh;
+}
+.imagemotimizacao {
+    text-align: center;
+}
+.imagemestrategias {
+    text-align: center;
+}
+.imagemconstrutucao {
+    text-align: center;
+}

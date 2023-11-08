@@ -3,11 +3,10 @@ import "../styles/home.css"
 
 {/*IMPORTS PAGINAS*/}
 import Header from "../components/header/Header"  
-import Primeiro from "../components/parte1/Primeiro"
-import Segunda from "../components/parte2/Segunda"
-import Terceira from "../components/parte3/Terceira"
-import Quarta from "../components/parte4/Quarta"
-import Quinta from "../components/parte5/Quinta"
+import Parceiro from "../components/parceiros/Parceiros"
+import EmpresasSM from "../components/EmpresasSM/EmpresasSM"
+import VendasMaiores from '../components/VendasMaiores/VendasMaiores';
+import Informacoes from "../components/Informações/Informacoes";
 
 
 function Home() {
@@ -19,15 +18,13 @@ function Home() {
 
          <Header/>
 
-         <Primeiro/>
+         <EmpresasSM/>
 
-         <Segunda/>
+         <Informacoes/>
 
-         <Terceira/>
+         <VendasMaiores/>
 
-         <Quarta/>
-
-         <Quinta/>
+         <Parceiro/>
 
       
 

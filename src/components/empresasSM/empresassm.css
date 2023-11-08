@@ -1,0 +1,118 @@
+/*FOTOS*/
+.imagemhomem img {
+    height: 100%;
+    width: 100%;
+}
+.imagemhomem {
+    height: 80vh;
+    width: 43vw;
+    position: absolute;
+    top: 11vh;
+    right: 0.1vw;
+    object-fit: cover;
+}
+.alvo-sombra {
+    position: absolute;
+    top: 87vh;
+    height: 50vh;
+    width: 27vw;
+}
+.alvo {
+   position: relative;
+   top: 8vh;
+   left: 1vw;
+
+}
+.alvo img {
+    height: 100%;
+    width: 100%;
+}
+.sombra img {
+    height: 100%;
+    width: 100%;
+}
+
+/*TEXTOS*/
+.TextosEmpresasSM {
+   margin-left: 7vw;
+}
+.TextosEmpresasSM h1 {
+    font-weight: bold;
+    font-size: 8vh;
+    color: #FF3900;
+}
+.TextosEmpresasSM p {
+    font-weight: bold;
+    font-size: 3.5vh;
+    color: #fff;
+}
+
+
+.TextosEmpresasSM2 {
+    margin-top: 25vh;
+}
+.TextosEmpresasSM2 h1 {
+    margin-right: 5vw;
+    font-weight: bold;
+    font-size: 8vh;
+    color: #FF3900;
+    text-align: right;
+}
+
+.TextosEmpresasSM2 p {
+margin-right: 5vw;
+font-style: normal;
+font-weight: bold;
+font-size: 3.5vh;
+text-align: right;
+color: #fff;
+}
+
+
+
+/*REDES SOCIAIS*/
+.redessociais {
+    position: absolute;
+    left: 2vw;
+    top: 28vh;
+    transition: transform 0.3s; 
+}
+.icone:hover {
+    transform: scale(1.2);
+}
+.icone {
+    font-size: 5vh; 
+    text-decoration: none;
+    color: #fff;
+    margin-left: 0.8vw; 
+    display: block;
+    margin-bottom: 1.2vh; 
+    height:3.5vh;
+}
+
+
+/*Button*/
+.button-qtme {
+    font-size: 3.5vh; 
+    background-color: #FF3900;
+    border-radius: 5vh;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer; 
+    padding: 1vh 3vh; 
+    height: 8vh;
+    width: 40vw;
+
+}
+.button-qtme:hover {
+    transform: scale(1.1); 
+}
+
+
+
+
+
+
