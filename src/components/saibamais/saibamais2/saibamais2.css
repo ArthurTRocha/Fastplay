@@ -1,0 +1,41 @@
+.saibaMais2{
+    background-color: #000;
+    height: 100vh;
+    position: relative;
+}
+.segundoRetangulo h1 {
+    color: #FF3900;
+    font-size: 8vh;
+    position: absolute;
+    top: 8vh;
+    left: 3vw;
+}
+.segundoRetangulo p {
+    color: #fff;
+    font-size: 3.5vh;
+    position: absolute;
+    top: 26vh;
+    left: 3vw;
+}
+.seta1 img {
+    height: 100%;
+    width: 100%;
+}
+.seta1 {
+    height: 30vh;
+    width: 25vw;
+    position: absolute;
+    right: 0vw;
+    bottom: 86vh;
+}
+.dinheiroRetangulo img {
+    height: 100%;
+    width: 100%;
+}
+.dinheiroRetangulo {
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+}

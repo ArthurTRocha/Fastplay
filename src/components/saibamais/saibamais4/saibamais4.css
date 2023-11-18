@@ -1,0 +1,40 @@
+.saibaMais4{
+    background-color: #FF3900;
+    position: relative;
+    height: 100vh;
+}
+.seta3 img {
+    height: 100%;
+    width: 100%;
+}
+.seta3 {
+    height: 30vh;
+    width: 25vw;
+    position: absolute;
+    bottom: 86vh;
+    right: 0vw;
+}
+.mulherSaibamais4 img {
+    height: 100%;
+    width: 100%;
+}
+.mulherSaibamais4 {
+    height: 50vh;
+    width: 60vh;
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+}
+.quartoRetangulo h1 {
+    font-size: 8vh;
+    position: absolute;
+    top: 8vh;
+    left: 3vw;
+}
+.quartoRetangulo p {
+    font-size: 3.5vh;
+    position: absolute;
+    top: 25vh;
+    left: 3vw;
+    color: #fff;
+}

@@ -1,0 +1,34 @@
+.saibaMais3Mobile {
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+.seta2Mobile img {
+    height: 100%;
+    width: 100%;
+}
+.seta2Mobile {
+    height: 20vh;
+    width: 30vh;
+    position: absolute;
+    bottom: 90vh;
+}
+.terceiroRetanguloMobile h1 {
+    color: #FF3900;
+}
+.terceiroRetanguloMobile p {
+    margin-top: 8vh;
+}
+.terceiroRetanguloMobile {
+    position: absolute;
+    top: 12vh;
+    white-space: pre-line;
+}
+.retangulo2Mobile img {
+    height: 100%;
+    width: 100%;
+}
+.retangulo2Mobile {
+    position: absolute;
+    top: 45vh;
+}

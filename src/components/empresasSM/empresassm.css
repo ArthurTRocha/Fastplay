@@ -13,7 +13,7 @@
 }
 .alvo-sombra {
     position: absolute;
-    top: 87vh;
+    top: 75vh;
     height: 50vh;
     width: 27vw;
 }
@@ -34,8 +34,10 @@
 
 /*TEXTOS*/
 .TextosEmpresasSM {
+    margin-top: 5vh;
    margin-left: 7vw;
 }
+
 .TextosEmpresasSM h1 {
     font-weight: bold;
     font-size: 8vh;
@@ -45,6 +47,11 @@
     font-weight: bold;
     font-size: 3.5vh;
     color: #fff;
+
+}
+.TextosEmpresasSM span {
+    font-weight: bold;
+    color: #FF3900;
 }
 
 

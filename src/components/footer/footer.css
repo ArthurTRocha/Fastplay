@@ -1,0 +1,136 @@
+.footer {
+    background: linear-gradient(0deg, #FF3900 -30%, #1E1E1E 20%);
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+/*TEXTO*/
+.textosfooter h1 {
+    color: #fff;
+    font-size: 3vh;
+    white-space: nowrap;
+    margin-top: 5vh;
+    white-space: pre-line; 
+}
+.ladodireito h1 {
+    color: #fff;
+    margin-top: 0vh;
+    text-align: right;
+}
+.meiodireito h1,
+.meioesquerdo h1 {
+    color: #FF3900;
+    font-size: 3vh;
+    margin-bottom: 5vh;
+}
+.meiodireito a,
+.meioesquerdo p{
+text-decoration: none;
+display: block;
+color: #fff;
+margin-bottom: 2vh;
+font-size: 2.2vh;
+}
+
+
+
+/*LOGOS*/
+.logooFooter {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.logofooter {
+    height: 10vh;
+    width: 8vw;
+}
+.PlayStore img {
+    height: 100%;
+    width: 100%;
+
+}
+.AppStore img {
+    height: 100%;
+    width: 100%;
+
+}
+.PlayStore{
+    height: 8vh;
+    width: 12vw;
+    max-height: 100%;
+}
+.AppStore {
+    margin-top: 1vh;
+    height: 8vh;
+    width: 12vw;
+    max-height: 100%;
+}
+.downloads {
+    position: absolute;
+    right: 0vw;
+}
+
+
+/*REDESSOCIAIS*/
+
+.iconee {
+    font-size: 4vh; 
+    text-decoration: none;
+    color: #fff;
+    margin-top: 2vh;
+    margin-left: 0.5vw;
+}
+.iconee:hover {
+    transform: scale(1.2);
+}
+/*BUTTON*/
+.divbuttontopo img{
+    height: 100%;
+    width: 100%;
+}
+.topo01 {position: relative;
+
+}
+.divbuttontopo {
+    width: 10vw;
+    height: 8vh;
+    position: relative;
+    left: 42.5vw;
+    top: 0.2vh;
+}
+.buttontopo {
+    border: none;
+    outline: none;
+    background: transparent; 
+    cursor: pointer; 
+    padding: 0; 
+}
+
+/*POSICIONAMENTO*/
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
+.ladoesquerdofooter {
+    margin-top: 5vh;
+    position: relative;
+    margin-left: 3vw;
+}
+.meioesquerdofooter {
+    margin-top: 6vh;
+    position: relative;
+}
+.meiodireitofooter{
+    margin-top: 6vh;
+    position: relative;
+}
+.ladodireitofooter {
+    margin-top: 5vh;
+    position: relative;
+}
+.ladodireito {
+    position: absolute;
+    right: 4vw;
+}

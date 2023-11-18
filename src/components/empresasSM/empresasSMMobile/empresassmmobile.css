@@ -1,0 +1,126 @@
+/* FOTOS */
+.alvo-sombraMobile {
+    position: absolute;
+    top: 0vh;
+    width: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.posicaoAlvoSombra {
+    position: relative;
+}
+.alvoMobile {
+    position: relative;
+    top: 3vh;
+    left: 1vw;
+}
+.alvoMobile img {
+    height: 100%;
+    width: 100%;
+}
+.sombraMobile img {
+    height: 100%;
+    width: 100%;
+}
+
+/* TEXTOS */
+.TextosEmpresasSMMobile h1 {
+    font-weight: bold;
+    font-size: 4.8vh;
+    color: #FF3900;
+    text-align: center;
+    margin-top: 7vh;
+}
+.TextosEmpresasSMMobile p {
+    font-weight: bold;
+    font-size: 2.7vh;
+    color: #fff;
+    text-align: center;
+}
+.TextosEmpresasSMMobile span {
+    font-weight: bold;
+    color: #FF3900;
+}
+
+.TextosEmpresasSM2Mobile {
+    margin-top: 20vh;
+    position: relative;
+}
+.TextosEmpresasSM2Mobile h1 {
+    font-weight: bold;
+    font-size: 4.8vh;
+    color: #FF3900;
+    text-align: left;
+}
+.TextosEmpresasSM2Mobile{
+    margin-bottom: 45vh;
+}
+.TextosEmpresasSM2Mobile p {
+    font-weight: bold;
+    font-size: 2.7vh;
+    text-align: center;
+    color: #fff;
+}
+/* Button */
+.positionbuttonMobileqtme {
+    position: relative;
+}
+.button-qtmeMobile {
+    display: flex;
+    font-size: 3.5vh;
+    background-color: #FF3900;
+    border-radius: 5vh;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1vh 3vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 3vh;
+    width: 55vw;
+}
+
+@media (min-width: 540px) {
+    .alvo-sombraMobile {
+        position: absolute;
+        top: -8vh;
+        width: 50vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .alvoMobile {
+        height: 30vh;
+        width: 28vh;
+    }
+    .button-qtmeMobile {
+        display: flex;
+        font-size: 3.5vh;
+        background-color: #FF3900;
+        border-radius: 5vh;
+        border: none;
+        font-weight: 700;
+        color: #fff;
+        transition: all .3s ease-in-out;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 1vh 3vh;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        top: 3vh;
+        width: 39vw;
+    }
+    .TextosEmpresasSMMobile h1 {
+        font-weight: bold;
+        font-size: 4.8vh;
+        color: #FF3900;
+        text-align: center;
+        margin-top: 10vh;
+    }
+}

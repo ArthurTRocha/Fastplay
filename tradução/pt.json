@@ -6,30 +6,26 @@
     },
 
     "EmpresasSM":{
-        "Titulo": "Empresas sem",
-        "Titulo-1": "Marketing",
-        "Paragrafo": "Isso pode comprometer  seriamente o",
-        "Paragrafo-1": "crescimento e o sucesso que você",
-        "Paragrafo-2": "almeja. Sem um marketing eficaz, a",
-        "Paragrafo-3": "empresa pode passar despercebida no",
-        "Paragrafo-4": "mundo digital, resultando em uma",
-        "Paragrafo-5": "falta de visibilidade online, o que pode",
-        "Paragrafo-6": "levar a uma perda significativa de",
-        "Paragrafo-7": "potenciais clientes.",
+        "Titulo": "A sua Empresa está",
+        "Titulo-1": " sem Marketing?",
+        "Paragrafo": "A falta de marketing eficaz pode prejudicar o ",
+        "Paragrafo-1": "crescimento e sucesso desejados, já que a falta de ",
+        "Paragrafo-2": "visibilidade online pode resultar na perda de",
+        "Paragrafo-3": "potenciais clientes e oportunidades.",
+        "Paragrafo-4": "Clique em ",
+        "Paragrafo-5": "Saiba Mais",
+        "Paragrafo-6": " para descobrir as ",
+        "Paragrafo-7": "consequências de não ter um marketing em sua ",
+        "Paragrafo-8": "empresa",
 
-        "Titulo-2": "Benefícios de ter uma equipe de",
+        "Titulo-2": "Benefícios de ter uma equipe de ",
         "Titulo-3": "marketing",
-        "Paragrafo-8": "",
-        "Paragrafo-9": "",
-        "Paragrafo-10": "",
-        "Paragrafo-11": "",
-        "Paragrafo-12": ""
-    },
-
-    "Parceiro": {
-        "Titulo":"Conheça nossos clientes parceiros",
-        "Descricao":"Escolher a Fastplay significa optar por uma agência de marketing e comunicação",
-        "Descricao2":"comprometida em alavancar o sucesso de sua marca em uma escala global."
+        "Paragrafo-9": "Os benefícios do marketing são uma verdadeira revolução ",
+        "Paragrafo-10": "para o seu negócio. Desde o aumento da visibilidade e",
+        "Paragrafo-11": "conversões até a criação de uma identidade de marca",
+        "Paragrafo-12": "sólida e a obtenção de dados estratégicos para",
+        "Paragrafo-13": "impulsionar o sucesso do seu negócio",
+        "Transformar":"SAIBA MAIS!"
     },
     "Vendasmaiores": {
         "Titulo":"Por quê você deve escolher",
@@ -40,5 +36,234 @@
         "Descricao3":"que falta para",
         "Descricao4":"impulsionar o sucesso",
         "Descricao5":"da sua empresa."
+    },
+    "Envioemail": {
+        "Alert":"Preencha todos os campos.",
+        "Titulo":"Solicite Nossos",
+        "Titulo1":" Serviços",
+        "Paragrafo":"Complete todos os campos do formulário para",
+        "Paragrafo1":"assegurar um envio integral",
+        "Paragrafo2":" e agende sua ",
+        "Paragrafo3":"reunião",
+        "Paragrafo4":" após o preenchimento.",
+        "CampoEnvio":"Digite seu nome",
+        "CampoEnvio1":"Digite seu email",
+        "CampoEnvio2":"Telefone",
+        "CampoEnvio3":"Segmento da empresa",
+        "Mouse":"Área específica de atuação ou mercado",
+        "Mouse1":"em que a empresa opera",
+        "Reuniao":"MARCAR REUNIÃO"
+    },
+
+    "Informacoes": {
+        "Maximizacao":"Maximização do Alcance",
+        "Personalizacao1":"Personalização das",
+        "Personalizacao2":"Estratégias",
+        "Otimizacao1":"Otimizacao de",
+        "Otimizacao2":"Recursos",
+        "Construcao1":"Construção de",
+        "Construcao2":"uma Marca",
+        "Construcao3":"Poderosa"
+    },
+    "Carousel": {
+        "Analise":"Análise de Dados",
+        "Analise1":"Estratégicos",
+        "Reputacao":"Reputação ",
+        "Reputacao1":"Inabalável",
+        "Expansao":"Expansão de ",
+        "Expansao1":"Mercado",
+        "Leads":"Leads Qualificados",
+        "Leads1":"em Clientes Pagantes",
+        "Saiba":"Saiba Mais!",
+
+        "Paragrafo":"O marketing profissional",
+        "Paragrafo-1": "amplia mercados e",
+        "Paragrafo-2": "impulsiona o crescimento",
+        "Paragrafo-3": "empresarial para novos",
+        "Paragrafo-4": "patamares.",
+
+        "Paragrafo1":"O marketing profissional",
+        "Paragrafo1-1":"forja uma reputação sólida", 
+        "Paragrafo1-2":"atraindo e fidelizando",
+        "Paragrafo1-3":"clientes com percepção",
+        "Paragrafo1-4":"positiva no mercado.",
+
+        "Paragrafo2":"Profissionais de marketing",
+        "Paragrafo2-1":"coletam e analisam dados",
+        "Paragrafo2-2":"estratégicos para decisões",
+        "Paragrafo2-3":"informadas e estratégias",
+        "Paragrafo2-4":"eficazes.",
+
+        "Paragrafo3":"Com estratégias eficazes, é",
+        "Paragrafo3-1":"possível converter leads em", 
+        "Paragrafo3-2":"clientes pagantes, resultando", 
+        "Paragrafo3-3":"no aumento da receita e",
+        "Paragrafo3-4":"lucratividade do negócio."
+    },
+    "Potencial":{
+        "Maximize":"Maximize seu Potencial",
+        "Maximize2":"Empresarial com ",
+        "Maximize3":"Fastplay",
+        "Maximize4":"Marketing",
+        "De":"de",
+        "Nacionais":"ESTADOS NACIONAIS",
+        "Internacionais":"ESTADOS INTERNACIONAIS",
+        "Dados":"Dados sobre o crescimento do Marketing Digital",
+        "Dados2":"por todo o mundo.",
+        "Brasil": "BRASIL",
+        "ESTADOS UNIDOS":"ESTADOS UNIDOS"
+    },
+    "Servicos": {
+        "Potencialize":"Potencialize",
+        "Potencialize2":"seu Sucesso Online",
+        "Potencialize3":"Descubra Nossos Serviços de Elite: Alcance, Engaje e",
+        "Potencialize4":"Conquiste o seu Público no Mundo Digital.",
+        "Trafego":"Trafégo Pago",
+        "Estrategia":"Estratégias de ",
+        "Estrategia2":"Venda e ",
+        "Estrategia3":"Marketing",
+        "Desenvolvimento":"Desenvolvimento",
+        "Desenvolvimento2":"de Sites e",
+        "Desenvolvimento3":"Aplicativos",
+        "Treinamento":"Treinamento de",
+        "Treinamento2":"Representante",
+        "Contrate":"CONTRATE NOSSA EQUIPE",
+        "Gestao":"Gestão de",
+        "Gestao2":"Dados ",
+        "Gestao3":"Estratégicos",
+        "Gestaors":"Gestão de",
+        "Gestaors2":"Redes Sociais",
+        "Profissional":"Profissional de",
+        "Profissional2":"branding e social",
+        "Profissional3":"media",
+        "Marketing":"Marketing para",
+        "Marketing2":"E-commerce",
+
+        "cardback1":"Aumento do tráfego",
+        "cardback1-2":"qualificado para o site,",
+        "cardback1-3":"conversões mais altas;",
+        "cardback1-4":"alcance de público-alvo",
+        "cardback1-5":"especifico,",
+        "cardback1-6":"maximização do ROI",
+
+        
+        "cardback2":"Aumento das taxas de",
+        "cardback2-2":"conversão,",
+        "cardback2-3":"crescimento da base",
+        "cardback2-4":"de clientes,",
+        "cardback2-5":"diferenciação da",
+        "cardback2-6":"concorrência,",
+        "cardback2-7":"maximização do ROI",
+
+
+        "cardback3":"Sites e aplicativos",
+        "cardback3-2":"profissionais,",
+        "cardback3-3":"experiência do usuário",
+        "cardback3-4":"aprimorada,",
+        "cardback3-5":"acessibilidade em",
+        "cardback3-6":"dispositivos móveis",
+        "cardback3-7":"maior conversão",
+
+
+        "cardback4":"Equipes de vendas",
+        "cardback4-2":"mais componentes,",
+        "cardback4-3":"aumento nas vendas,",
+        "cardback4-4":"abordagem de vendas ",
+        "cardback4-5":"consistente, melhoria",
+        "cardback4-6":"do atendimento ao",
+        "cardback4-7":"cliente",
+
+
+        "cardback5":"Análise de dados de",
+        "cardback5-2":"mercado, insights",
+        "cardback5-3":"valiosos, tomada de",
+        "cardback5-4":"decisões informadas,",
+        "cardback5-5":"vantagem competitiva",
+
+
+        "cardback6":"Engajamento da",
+        "cardback6-2":"audiência, criação de",
+        "cardback6-3":"uma presença online",
+        "cardback6-4":"solida, construção de",
+        "cardback6-5":"relacionamentos com",
+        "cardback6-6":"clientes, aumento da",
+        "cardback6-7":"visibilidade da marca.",
+
+
+        "cardback7":"Desenvolvimento de",
+        "cardback7-2":"uma identidade de",
+        "cardback7-3":"marca única,",
+        "cardback7-4":"gerenciamento de",
+        "cardback7-5":"redes sociais, eficaz,",
+        "cardback7-6":"construção de",
+        "cardback7-7":"relacionamentos com",
+        "cardback7-8":"clientes",
+
+
+        "cardback8":"Aumento das vendas",
+        "cardback8-2":"online, otimização de",
+        "cardback8-3":"páginas de produtos,",
+        "cardback8-4":"estratégias",
+        "cardback8-5":"promocionais eficazes,",
+        "cardback8-6":"expansão do",
+        "cardback8-7":"e-commerce"
+        
+    },
+    "Footer": {
+        "Jornada":"Sua Jornada de Sucesso",
+        "Jornada2":"Começa Aqui",
+        "ServicosTitulo":"SERVIÇOS",
+        "Servicos":"TRAFEGO PAGO",
+        "Servicos2":"GESTÃO DE REDES",
+        "Servicos3":"MARKENTING PARA E-COMMERCE",
+        "Servicos4":"ESTRATÉGIAs",
+        "OutrosTitulo":"OUTROS",
+        "Outros":"PERGUNTAS FREQUENTES",
+        "Outros2":"SOBRE NÓS",
+        "Outros3":"TORNE-SE UM COLABORADOR",
+        "Breve":"EM BREVE",
+        "Breve2":"nas lojas oficiais",
+        "Mobile":"Sua Jornada de Sucesso",
+        "Mobile1":"Começa Aqui!"
+    },
+    "Saibamais": {
+    "Home":"Inicio",
+    "Titulo":"Perda de Visibilidade Online:",
+    "Paragrafo": "Sem um marketing eficaz, a empresa pode",
+    "Paragrafo1": "passar despercebida no mundo digital,",
+    "Paragrafo2": "resultando em uma falta de visibilidade",
+    "Paragrafo3": "online, o que pode levar a uma perda",
+    "Paragrafo4": "significativa de potenciais clientes."},
+
+    "Saibamais1": {
+    "Titulo": "Baixa Conversão de Leads",
+    "Paragrafo": "A falta de estratégias de marketing",
+    "Paragrafo1": "profissionais pode resultar em baixas taxas de",
+    "Paragrafo2": "conversão de leads em clientes pagantes, ",
+    "Paragrafo3": "prejudicando a receita da empresa."
+    },
+
+    "Saibamais2": {
+        "Titulo": "Concorrência Superior",
+        "Paragrafo": "Empresas concorrentes que investem em",
+        "Paragrafo1": "marketing de alta qualidade podem ganhar",
+        "Paragrafo2": "uma vantagem competitiva significativa,",
+        "Paragrafo3": "atraindo mais clientes e aumentando sua",
+        "Paragrafo4": "participação de mercado."
+    },
+    "Saibamais3": {
+        "Titulo": "Identidade Visual Fraca",
+        "Paragrafo": "A falta de branding e identidade visual coesa",
+        "Paragrafo1": "pode prejudicar o reconhecimento da marca e",
+        "Paragrafo2": "a percepção dos consumidores."
+    },
+    "Saibamais4": {
+        "Titulo": "Perda de Dados Estratégicos",
+        "Paragrafo": "A ausência de uma análise de dados",
+        "Paragrafo1": "estratégica pode resultar na perda de insights",
+        "Paragrafo2": "valiosos sobre o mercado, concorrência e",
+        "Paragrafo3": "preferências dos clientes."
     }
+    
+
 }

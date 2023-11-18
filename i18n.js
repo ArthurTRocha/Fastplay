@@ -2,11 +2,15 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend'; // Importe o backend
 
+
+const userLanguage = navigator.language || navigator.userLanguage;
+
 i18n
     .use(Backend) // Use o backend
     .use(initReactI18next)
     .init({
-        fallbackLng: 'pt', // Idioma padrão
+        
+        fallbackLng: '', // Idioma padrão
         debug: true,
         interpolation: {
             escapeValue: false,
@@ -22,6 +26,7 @@ i18n
         react: {
             useSuspense: true, // Desativar o uso de Suspense para carregamento de traduções
         },
+        lng: userLanguage, // Define o idioma inicial com base no idioma do navegador
     });
 
 export default i18n;

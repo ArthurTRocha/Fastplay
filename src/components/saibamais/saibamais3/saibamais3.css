@@ -1,0 +1,42 @@
+.saibaMais3 {
+    position: relative;
+    background-color: #fff;
+    height: 100vh;
+}
+.seta2 img {
+    height: 100%;
+    width: 100%;
+}
+.seta2 {
+    height: 30vh;
+    width: 25vw;
+    position: absolute;
+    bottom: 87vh
+   
+}
+.retangulo2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.retangulo2 {
+    height: 70vh;
+    width: 40vw;
+    position: absolute;
+    bottom: 0vh;
+}
+.terceiroRetangulo h1 {
+    color: #FF3900;
+    font-size: 8vh;
+    position: absolute;
+    top: 5vh;
+    right: 5vw;
+}
+.terceiroRetangulo p {
+    color: #000;
+    font-size: 3.5vh;
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+    text-align: right;
+}

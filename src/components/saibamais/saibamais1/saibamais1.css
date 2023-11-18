@@ -1,0 +1,47 @@
+.saibaMais1 {
+    background-color: #FF0000;
+    height: 100vh;
+    position: relative;
+}
+.inicioRetangulo {
+    background-color: #fff;
+    border-radius: 1vh;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+}
+.inicioRetangulo a {
+    text-decoration: none;
+
+}
+.inicioRetangulo h5 {
+    font-size: 4vh;
+    color: #000;
+}
+.computadorRetangulo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.computadorRetangulo {
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    top: 35vh;
+    left: 5vw;
+}
+.textosPrimeirapagina p{
+    color: #fff;
+    font-size: 3.5vh;
+    position: absolute;
+    top: 25vh;
+    right: 5vw;
+    text-align: right;
+}
+.textosPrimeirapagina h1 {
+    color: #000;
+    font-size: 8vh;
+    position: absolute;
+    top: 7vh;
+    right: 5vw;
+}

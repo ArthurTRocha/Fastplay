@@ -1,0 +1,354 @@
+.servicosMobile {
+    background-image: url("../../../assets/image/fumaca.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10vh;
+}
+.servico1Mobile {
+    background-image: url("../../../assets/image/fumaca.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.card1SuperiorMobile,
+.card2SuperiorMobile,
+.card3SuperiorMobile,
+.card4SuperiorMobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.card1SuperiorMobile h3,
+.card2SuperiorMobile h3,
+.card3SuperiorMobile h3,
+.card4SuperiorMobile h3 {
+    margin-top: 14vh;
+}
+
+.cardInferiorMobile,
+.cardSuperiorMobile  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    grid-gap: 8vh;
+    max-width: 100%;
+    text-align: center;
+    perspective: 100vw;
+}
+.card1InferiorMobile,
+.card2InferiorMobile,
+.card3InferiorMobile,
+.card4InferiorMobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.card1InferiorMobile h3,
+.card2InferiorMobile h3,
+.card3InferiorMobile h3,
+.card4InferiorMobile h3  {
+    margin-top: 14vh;
+}
+
+.servicosMobile h1 {
+    font-size: 4.8vh;
+    color: #ffffff;
+    margin-left: 2vw;
+    text-align: center;
+}
+.servicosMobile p {
+    color: #fff;
+    font-size: 2.7vh;
+    margin-left: 2vw;
+    text-align: center;
+    margin-top: 5vh;
+}
+.servicosMobile span {
+    color: #FF3900;
+    font-size: 4.8vh;
+}
+.cardSuperiorMobile h3,
+.cardInferiorMobile h3{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card1SuperiorMobile, 
+.card2SuperiorMobile,
+.card3SuperiorMobile,
+.card4SuperiorMobile{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 30vh;
+    width: 30vh;
+    border-radius: 4vh;
+    position: relative;
+    top: 15vh;
+}
+
+.card1InferiorMobile, 
+.card2InferiorMobile,
+.card3InferiorMobile,
+.card4InferiorMobile{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 30vh;
+    width: 30vh;
+    border-radius: 4vh;
+    position: relative;
+    top: 30vh;
+
+}
+
+.iconecardsuperiorMobile,
+.iconecardsuperior1Mobile,
+.iconecardsuperior2Mobile,
+.iconecardsuperior3Mobile{
+    background-color: #FF3900;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 3vh;
+}
+
+
+
+.iconecardInferiorMobile,
+.iconecardInferior1Mobile,
+.iconecardInferior2Mobile,
+.iconecardInferior3Mobile{
+    background-color: #FF3900;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 3vh;
+}
+
+.iconecardInferiorMobile,
+.iconecardInferior2Mobile{
+    bottom: 32vh;
+}
+.iconecardInferior3Mobile,
+.iconecardInferior1Mobile{
+    top: 8vh;
+}
+
+.iconecardsuperiorMobile{
+    bottom: 29vh;
+
+}
+.iconecardsuperior2Mobile{
+    bottom: 33vh;
+}
+.iconecardsuperior3Mobile,
+.iconecardsuperior1Mobile{
+    top: 7vh;
+}
+
+.botaotracoMobile {
+    position: relative;
+    top: 30vh;
+    z-index: 10;
+}
+.btnContrate1Mobile{
+    background: linear-gradient(90deg, #FF3900 67.26%, rgba(255, 255, 255, 0) 100%);
+    max-width: 100%;
+    height: 0.7vh;
+    width: 50%;
+    position:absolute;
+    right: 0vw;
+}
+.btnContrate2Mobile {
+background: linear-gradient(270deg, #FF3900 67.26%, rgba(255, 255, 255, 0) 100%);
+max-width: 100%;
+height: 0.7vh;
+width: 50%;
+}
+.btnContrateMobile {
+    position: absolute;
+    top: -3.7vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btnContrateMobile button {
+    font-size: 2.5vh;
+    background-color: #000;
+    border-radius: 3vh;
+    border: 0.3vh solid #FF3900; 
+    font-weight: bold;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    padding: 1vh 3vh;
+}
+.btnContrateMobile button:hover{
+    transform: scale(1.2);
+}
+.card1SuperiorMobile, 
+.card2SuperiorMobile,
+.card3SuperiorMobile,
+.card4SuperiorMobile,
+.card1InferiorMobile, 
+.card2InferiorMobile,
+.card3InferiorMobile,
+.card4InferiorMobile {
+    width: 90%; 
+    max-width: 100%; 
+    margin: 0 auto;
+   
+}
+.cardservicoimagemMobile img {
+    height: 100%;
+    width: 100%;
+}
+.cardservicoimagem1Mobile img{
+    height: 100%;
+    width: 100%;
+}
+.cardservicoimagemMobile {
+    height: 10vh;
+    width: 10vh;
+}
+
+.iconecardsuperiorMobile,
+.iconecardsuperior1Mobile,
+.iconecardsuperior2Mobile,
+.iconecardsuperior3Mobile,
+.iconecardInferiorMobile,
+.iconecardInferior1Mobile,
+.iconecardInferior2Mobile,
+.iconecardInferior3Mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.card1SuperiorMobile,
+.card2SuperiorMobile,
+.card3SuperiorMobile,
+.card4SuperiorMobile,
+.card1InferiorMobile,
+.card2InferiorMobile,
+.card3InferiorMobile,
+.card4InferiorMobile {
+    transition: transform 1500ms;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    
+}
+
+.card3SuperiorMobile:hover,
+.card4SuperiorMobile:hover,
+.card1InferiorMobile:hover,
+.card2InferiorMobile:hover,
+.card3InferiorMobile:hover,
+.card4InferiorMobile:hover,
+.card2SuperiorMobile:hover,
+.card1SuperiorMobile:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+
+}
+
+.card3SuperiorbackMobile,
+.card4SuperiorbackMobile,
+.card1InferiorbackMobile,
+.card2InferiorbackMobile,
+.card3InferiorbackMobile,
+.card4InferiorbackMobile,
+.card1SuperiorbackMobile,
+.card2SuperiorbackMobile {
+
+    background-color: #892a10;
+    border: solid 0.5px #fff;
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    border-radius: 4vh;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: absolute;
+
+}
+
+.card1SuperiorbackMobile p,
+.card3SuperiorbackMobile p,
+.card1InferiorbackMobile p,
+.card3InferiorbackMobile p {
+    margin-top: 10vh;
+    font-size: 3vh;
+}
+
+.card2SuperiorbackMobile p,
+.card4SuperiorbackMobile p,
+.card2InferiorbackMobile p,
+.card4InferiorbackMobile p {
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+.iconecardsuperior1Mobile,
+.iconecardsuperior2Mobile,
+.iconecardsuperior3Mobile,
+.iconecardsuperiorMobile,
+.iconecardInferiorMobile,
+.iconecardInferior1Mobile,
+.iconecardInferior2Mobile,
+.iconecardInferior3Mobile{
+    transition: transform 1500ms;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+}
+
+.cardservicoimagemMobile {
+    transition: transform 1500ms;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+}
+
+.cardservicoimagembackMobile {
+    background-color: rgba(0, 0, 0, 0.64);
+    height: 100%;
+    width: 100%;
+    border-radius: 4vh;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: absolute;
+    
+}
+
+.cardservicoimagembackMobile img{
+    height: 10vh;
+    margin-top: 2.5vh;
+}
+
+
+
+
+.cardservicoimagemback2Mobile{
+    background-color: rgba(0, 0, 0, 0.64);
+    height: 100%;
+    width: 100%;
+    border-radius: 4vh;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: absolute;
+    
+}
+.card1SuperiorbackMobile p,
+.card2SuperiorbackMobile p,
+.card3SuperiorbackMobile p,
+.card4SuperiorbackMobile p,
+.card1InferiorbackMobile p,
+.card2InferiorbackMobile p, 
+.card3InferiorbackMobile p,
+.card4InferiorbackMobile p{
+    font-size: 2vh;
+}
+.cardInferiorMobile {
+    margin-top: 20vh;
+}

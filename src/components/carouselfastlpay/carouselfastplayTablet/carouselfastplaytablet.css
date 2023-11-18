@@ -1,0 +1,51 @@
+/* Estilo para a versão Tablet */
+.carouselMarketingPositionTablet {
+  margin-top: 9vh;
+  max-width: 100%;
+  margin-bottom: 10vh;
+  position: relative;
+}
+
+.posicaoh3epTablet h3 {
+  color: #FF3900;
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 6vh;
+}
+
+.posicaoh3epTablet p {
+  margin-top: 5vh;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.textCarouselTablet {
+  margin-left: 1vw;
+}
+
+.clickTablet img {
+  height: 100%;
+  width: 100%;
+}
+
+.posicaoClick {
+  position: relative;
+}
+
+.clickTablet {
+  height: 8vh;
+  width: 7vh;
+  position: absolute;
+  top: -3vh;
+  left: 50%;
+}
+
+.imagemCarouselfastplayTablet img {
+  height: 70%;
+  width: 70%;
+  margin-left: 15vw;
+}
+
+/* Adicione mais estilos conforme necessário para a versão Tablet */

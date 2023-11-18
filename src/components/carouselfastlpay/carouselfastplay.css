@@ -1,0 +1,35 @@
+
+.Carouselfastplay {
+  margin-top: 9vh;
+  max-width: 100%;
+  margin-bottom: 10vh;
+}
+.posicaoh3ep h3 {
+  color: #FF3900;
+  font-size: 4vh;
+}
+.posicaoh3ep p{
+  margin-top: 5vh;
+  color: #fff;
+  font-size: 2.5vh;
+}
+.imagemCarouselfastplay {
+  display: flex;
+}
+.imagemCarouselfastplay img{
+  height: 40vh;
+  width: 30vh;
+}
+.textCarousel{
+  margin-left: 1vw;
+}
+.mouse img {
+  height: 100%;
+  width: 100%;
+}
+.mouse {
+  height: 10vh;
+  width: 8vh;
+  position: absolute;
+  left: 50%;
+}

@@ -17,21 +17,19 @@ import i18n from 'i18next';
 function Header() {
   const { t } = useTranslation();
 
-
-
-  const [selectedLanguage, setSelectedLanguage] = useState("pt-BR"); // Estado para controlar o idioma selecionado
+  const [selectedLanguage, setSelectedLanguage] = useState("en"); // Estado para controlar o idioma selecionado
   const [content, setContent] = useState([selectedLanguage]);
 
   const customStyles = {
     // Estilos personalizados para o Select
     control: (provided, state) => ({
       ...provided,
-      border: '1px solid #304269', // Tamanho da borda fixo em pixels
+      border: '1px solid #000',
       borderRadius: '0.5vw',
       cursor: 'pointer',
-      backgroundColor: 'transparent',
+      backgroundColor: '#fff',
       fontWeight: 'bold',
-      color: '#304269',
+      color: '#000',
       transition: 'background-color 0.3s ease-in-out',
       marginRight: '0.5vw',
       padding: '0 !important',
@@ -69,7 +67,8 @@ function Header() {
   };
 
   const handleLanguageChange = (language) => {
-    i18n.changeLanguage(language); // Atualize o idioma com o novo idioma selecionado
+    i18n.changeLanguage(language);
+    setSelectedLanguage(language);
   };
 
   const languages = [
@@ -118,20 +117,21 @@ function Header() {
   ];
 
   return (
-    <div className="Header">
+    <div className="Header" id="Header">
       <img className='logo' src={logo} alt="Fastplay" />
 
 
       <div className="todasopcoes">
         <div className="opcoes">
+        <div className="opcoes4">
+            <a href="/home">{t("Saibamais.Home")}</a>
+          </div>
           <a href="">{t('Header.Servicos')}</a>
           <div />
           <div className="opcoes2">
             <a href="">{t('Header.Contato')}</a>
           </div>
-          <div className="opcoes3">
-            <a href="">{t('Header.Sobre nos')}</a>
-          </div>
+          
         </div>
         <div className="SelectLanguage">
           <Select

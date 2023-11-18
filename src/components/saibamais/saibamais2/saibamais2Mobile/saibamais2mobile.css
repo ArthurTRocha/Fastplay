@@ -1,0 +1,36 @@
+.saibaMais2Mobile {
+    background-color: #000;
+    height: 100vh;
+    position: relative;
+}
+.seta1Mobile img {
+    height: 100%;
+    width: 100%;
+}
+.seta1Mobile {
+    height: 20vh;
+    width: 30vh;
+    position: absolute;
+    bottom: 78vh;
+    right: 1vw;
+}
+.dinheiroRetanguloMobile img {
+    height: 100%;
+    width: 100%;
+}
+.segundoRetanguloMobile h1 {
+    color: #FF3900;
+}
+.segundoRetanguloMobile p {
+    color: #fff;
+    margin-top: 5vh;
+}
+.dinheiroRetanguloMobile {
+    height: 40vh;
+    width: auto;
+    margin-top: 10vh;
+}
+.posicaoSaibamais2Mobile {
+    position: absolute;
+    top: 10vh;
+}

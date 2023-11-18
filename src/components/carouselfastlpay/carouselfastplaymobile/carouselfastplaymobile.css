@@ -1,0 +1,44 @@
+.CarouselfastplayMobile {
+  margin-top: 9vh;
+  max-width: 100%;
+  margin-bottom: 10vh;
+  position: relative;
+}
+
+.posicaoh3epMobile h3 {
+  color: #FF3900;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.posicaoh3epMobile p {
+  margin-top: 5vh;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textCarouselMobile {
+  margin-left: 1vw;
+}
+
+.clickMobile img {
+  height: 100%;
+  width: 100%;
+}
+.posicaoClick {
+  position: relative;
+}
+.clickMobile {
+  height: 8vh;
+  width: 7vh;
+  position: absolute;
+  top: -3vh;
+  left: 50%;
+}
+.imagemCarouselfastplayMobile img {
+height: 70%;
+width: 70%;
+margin-left: 15vw;
+
+}

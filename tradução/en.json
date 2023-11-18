@@ -2,42 +2,257 @@
     "Header": {
         "Servicos": "Services",
         "Contato": "Contact",
-        "Sobre nos": "About us"
+        "Sobre nos": "About Us"
     },
-    
     "EmpresasSM": {
-        "Titulo": "Companies without",
-        "Titulo-1": "Marketing",
-        "Paragrafo": "This can seriously compromise",
-        "Paragrafo-1": "the growth and success you",
-        "Paragrafo-2": "aim for. Without effective marketing, a",
-        "Paragrafo-3": "company can go unnoticed in the",
-        "Paragrafo-4": "digital world, resulting in a",
-        "Paragrafo-5": "lack of online visibility, which can",
-        "Paragrafo-6": "lead to a significant loss of",
-        "Paragrafo-7": "potential customers.",
-    
-        "Titulo-2": "Benefits of having a marketing",
-        "Titulo-3": "team",
-        "Paragrafo-8": "",
-        "Paragrafo-9": "",
-        "Paragrafo-10": "",
-        "Paragrafo-11": ""
-    },
-    
-    "Parceiro": {
-        "Titulo": "Meet our partner clients",
-        "Descricao": "Choosing Fastplay means choosing a marketing and communication agency",
-        "Descricao2": "committed to leveraging the success of your brand on a global scale."
+        "Titulo": "Is your Company",
+        "Titulo-1": "without Marketing?",
+        "Paragrafo": "The lack of effective marketing can harm",
+        "Paragrafo-1": "the desired growth and success, as the lack of",
+        "Paragrafo-2": "online visibility can result in the loss of",
+        "Paragrafo-3": "potential customers and opportunities.",
+        "Paragrafo-4": "Click on ",
+        "Paragrafo-5": "Learn More",
+        "Paragrafo-6": " to discover the",
+        "Paragrafo-7": "consequences of not having marketing in your",
+        "Paragrafo-8": "company",
+        "Titulo-2": "Benefits of having a",
+        "Titulo-3": "marketing team",
+        "Paragrafo-9": "The benefits of marketing are a true revolution",
+        "Paragrafo-10": "for your business. From increased visibility and",
+        "Paragrafo-11": "conversions to the creation of a strong brand identity",
+        "Paragrafo-12": "and obtaining strategic data to",
+        "Paragrafo-13": "drive your business's success",
+        "Transformar": "LEARN MORE!"
     },
     "Vendasmaiores": {
-        "Titulo":"Por quê você deve escolher",
-        "Titulo2":"a FastPlay Marketing para o",
-        "Titulo3":"seu negócio?",
+        "Titulo": "Why you should choose",
+        "Titulo2": "FastPlay Marketing for your",
+        "Titulo3": "business?",
         "Descricao": "Discover how FastPlay Marketing can be the",
         "Descricao2": "key piece",
         "Descricao3": "missing to",
-        "Descricao4": "boost the success",
-        "Descricao5": "of your company."
+        "Descricao4": "boost success",
+        "Descricao5": "for your company."
+    },
+    "Envioemail": {
+        "Alert": "Fill in all fields.",
+        "Titulo": "Request Our",
+        "Titulo1": " Services",
+        "Paragrafo": "Complete all form fields to",
+        "Paragrafo1": "ensure a complete submission ",
+        "Paragrafo2": "and schedule your",
+        "Paragrafo3": "meeting ",
+        "Paragrafo4": "after filling out.",
+        "CampoEnvio": "Enter your name",
+        "CampoEnvio1": "Enter your email",
+        "CampoEnvio2": "Phone",
+        "CampoEnvio3": "Company segment",
+        "Mouse": "Specific area of expertise or market",
+        "Mouse1": " in which the company operates",
+        "Reuniao": "SCHEDULE MEETING"
+    },
+    "Informacoes": {
+        "Maximizacao": "Maximization of Reach",
+        "Personalizacao1": "Customization of",
+        "Personalizacao2": "Strategies",
+        "Otimizacao1": "Optimization of",
+        "Otimizacao2": "Resources",
+        "Construcao1": "Building a",
+        "Construcao2": "Powerful Brand"
+    },
+    "Carousel": {
+        "Analise": "Data Analysis",
+        "Analise1": "Strategic",
+        "Reputacao": "Reputation ",
+        "Reputacao1": "Unshakable",
+        "Expansao": "Market Expansion",
+        "Expansao1": "Expansion",
+        "Leads": "Qualified Leads",
+        "Leads1": "into Paying Customers",
+        "Saiba": "Learn More!",
+        "Paragrafo": "Professional marketing",
+        "Paragrafo-1": "expands markets and",
+        "Paragrafo-2": "drives business growth to new",
+        "Paragrafo-3": "heights.",
+        "Paragrafo-4": "",
+        "Paragrafo1": "Professional marketing",
+        "Paragrafo1-1": "forges a solid reputation",
+        "Paragrafo1-2": "attracting and retaining",
+        "Paragrafo1-3": "customers with positive",
+        "Paragrafo1-4": "market perception.",
+        "Paragrafo2": "Marketing professionals",
+        "Paragrafo2-1": "collect and analyze strategic",
+        "Paragrafo2-2": "data for informed decisions",
+        "Paragrafo2-3": "and effective strategies.",
+        "Paragrafo2-4": "",
+        "Paragrafo3": "With effective strategies, it is",
+        "Paragrafo3-1": "possible to convert leads into",
+        "Paragrafo3-2": "paying customers, resulting in",
+        "Paragrafo3-3": "increased revenue and",
+        "Paragrafo3-4": "business profitability."
+    },
+    "Potencial": {
+        "Maximize": "Maximize your Business Potential",
+        "Maximize2": "with",
+        "Maximize3": "Fastplay",
+        "Maximize4": "Marketing",
+        "De": "of",
+        "Nacionais": "NATIONAL STATES",
+        "Internacionais": "INTERNATIONAL STATES",
+        "Dados": "Data on the growth of Digital Marketing",
+        "Dados2": "worldwide.",
+        "Brasil": "BRAZIL",
+        "ESTADOS UNIDOS": "UNITED STATES"
+    },
+    "Servicos": {
+        "Potencialize": "Empower",
+        "Potencialize2": "your Online Success",
+        "Potencialize3": "Discover Our Elite Services: Reach, Engage, and",
+        "Potencialize4": "Conquer Your Audience in the Digital World.",
+        "Trafego": "Paid Traffic",
+        "Estrategia": "Sales and Marketing",
+        "Estrategia2": "Strategies",
+        "Estrategia3": "Marketing",
+        "Desenvolvimento": "Development of",
+        "Desenvolvimento2": "Websites and",
+        "Desenvolvimento3": "Applications",
+        "Treinamento": "Representative",
+        "Treinamento2": "Training",
+        "Contrate": "HIRE OUR TEAM",
+        "Gestao": "Strategic Data",
+        "Gestao2": "Management",
+        "Gestao3": "Social Media",
+        "Gestaors": "Social Media",
+        "Gestaors2": "Management",
+        "Profissional": "Professional",
+        "Profissional2": "branding and social",
+        "Profissional3": "media",
+        "Marketing": "E-commerce",
+        "Marketing2": "Marketing",
+ 
+
+        "cardback1": "Increased traffic",
+        "cardback1-2": "qualified for the website,",
+        "cardback1-3": "higher conversions;",
+        "cardback1-4": "target audience reach",
+        "cardback1-5": "specific,",
+        "cardback1-6": "maximization of ROI",
+
+
+        "cardback2": "Increase in conversion rates,",
+        "cardback2-2": "customer base growth,",
+        "cardback2-3": "differentiation from",
+        "cardback2-4": "competition,",
+        "cardback2-5": "effective competition,",
+        "cardback2-6": "maximization of ROI",
+        "cardback2-7": "",
+
+
+        
+"cardback3": "Professional websites",
+"cardback3-2": "and applications, enhanced user",
+"cardback3-3": "experience, improved ",
+"cardback3-4": "accessibility on mobile",
+"cardback3-5": "devices, higher conversion",
+        "cardback3-6": "",
+        "cardback3-7": "",
+
+
+        "cardback4": "Sales teams with more components,",
+        "cardback4-2": "increase in sales,",
+        "cardback4-3": "consistent sales approach,",
+        "cardback4-4": "improved customer service",
+        "cardback4-5": "",
+        "cardback4-6": "",
+        "cardback4-7": "",
+
+
+        
+"cardback5": "Market data analysis,",
+"cardback5-2": "valuable insights,",
+"cardback5-3": "informed decision-making,",
+"cardback5-4": "data-driven decisions,",
+"cardback5-5": "competition advantage",
+
+
+        "cardback6": "Audience engagement, building",
+        "cardback6-2": "a solid online presence,",
+        "cardback6-3": "building relationships with",
+        "cardback6-4": "customers, increasing",
+        "cardback6-5": "brand visibility.",
+        "cardback6-6": "",
+        "cardback6-7": "",
+
+
+        "cardback7": "Development of a",
+        "cardback7-2": "unique brand identity,",
+        "cardback7-3": "effective social media management,",
+        "cardback7-4": "building relationships with",
+        "cardback7-5": "customers",
+        "cardback7-6": "",
+        "cardback7-7": "",
+        "cardback7-8": "",
+
+
+        "cardback8": "Increase in online sales, optimization",
+        "cardback8-2": "of product pages,",
+        "cardback8-3": "effective promotional strategies,",
+        "cardback8-4": "expansion of",
+        "cardback8-5": "e-commerce"
+
+
+    },
+    "Footer": {
+        "Jornada": "Your Journey to Success",
+        "Jornada2": "Begins Here",
+        "ServicosTitulo": "SERVICES",
+        "Servicos": "PAID TRAFFIC",
+        "Servicos2": "SOCIAL MEDIA MANAGEMENT",
+        "Servicos3": "E-COMMERCE MARKETING",
+        "Servicos4": "STRATEGIES",
+        "OutrosTitulo": "OTHERS",
+        "Outros": "FAQ",
+        "Outros2": "ABOUT US",
+        "Outros3": "BECOME A COLLABORATOR",
+        "Breve": "COMING SOON",
+        "Breve2": "to official stores"
+    },
+    "Saibamais": {
+        "Home": "Home",
+        "Titulo": "Loss of Online Visibility:",
+        "Paragrafo": "Without effective marketing, the company can",
+        "Paragrafo1": "go unnoticed in the digital world,",
+        "Paragrafo2": "resulting in a lack of visibility",
+        "Paragrafo3": "online, which can lead to a loss",
+        "Paragrafo4": "significant potential customers."
+    },
+    "Saibamais1": {
+        "Titulo": "Low Lead Conversion",
+        "Paragrafo": "The lack of professional marketing strategies",
+        "Paragrafo1": "can result in low conversion rates of",
+        "Paragrafo2": "leads into paying customers,",
+        "Paragrafo3": "harming the company's revenue."
+    },
+    "Saibamais2": {
+        "Titulo": "Superior Competition",
+        "Paragrafo": "Competing companies that invest in",
+        "Paragrafo1": "high-quality marketing can gain",
+        "Paragrafo2": "a significant competitive advantage,",
+        "Paragrafo3": "attracting more customers and increasing their",
+        "Paragrafo4": "market share."
+    },
+    "Saibamais3": {
+        "Titulo": "Weak Visual Identity",
+        "Paragrafo": "Lack of cohesive branding and visual identity",
+        "Paragrafo1": "can harm brand recognition and",
+        "Paragrafo2": "consumer perception."
+    },
+    "Saibamais4": {
+        "Titulo": "Loss of Strategic Data",
+        "Paragrafo": "The absence of strategic data analysis",
+        "Paragrafo1": "can result in the loss of valuable insights",
+        "Paragrafo2": "about the market, competition, and",
+        "Paragrafo3": "customer preferences."
     }
 }

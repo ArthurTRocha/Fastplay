@@ -1,0 +1,39 @@
+.saibaMais4Mobile {
+    background-color: #FF3900;
+    position: relative;
+    height: 100vh;
+}
+.seta3Mobile img {
+    height: 100%;
+    width: 100%;
+}
+.seta3Mobile {
+    height: 20vh;
+    width: 30vh;
+    position: absolute;
+    bottom: 90vh;
+    right: 1vw;
+}
+.quartoRetanguloMobile p {
+    color: #fff;
+    margin-top: 5vh;
+}
+.quartoRetanguloMobile h1 {
+    text-align: center;
+}
+.quartoRetanguloMobile {
+    position: absolute;
+    top: 10vh;
+}
+.mulherSaibamais4Mobile img {
+    height: 100%;
+    width: 100%;
+}
+.mulherSaibamais4Mobile {
+    height: 40vh;
+    width: 50vh;
+    position: absolute;
+    top: 45vh;
+    left: 50%;
+    transform: translateX(-50%);
+}

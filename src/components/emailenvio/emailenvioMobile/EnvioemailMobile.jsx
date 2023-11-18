@@ -1,0 +1,137 @@
+import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
+import "./envioemailmobile.css"
+import { useTranslation } from 'react-i18next';
+import Imagembotao from "../../../assets/image/setabotao.png"
+import Setacima from "../../../assets/image/setacima.png"
+
+
+
+function EnvioemailMobile() {
+  const { t } = useTranslation();
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [telefone, setTelefone] = useState('');
+  const [segmento, setSegmento] = useState('');
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    if (name === "" || email === "" || telefone === "" || segmento === "") {
+      alert(Envioemail.Alert);
+      return;
+    }
+
+    const templateParams = {
+      to_name: name,
+      from_atuacao: segmento,
+      to_telefone: telefone,
+      to_email: email
+    }
+
+    emailjs.send("service_kbj244q", "template_2skgiw7", templateParams, "AS-EReiZl_JcDfw--")
+      .then(response => {
+        console.log('E-mail enviado com sucesso!', response);
+        setName('');
+        setEmail('');
+        setSegmento('');
+        setTelefone('');
+      })
+      .catch(error => {
+        console.error('Erro ao enviar e-mail:', error);
+        alert('Erro ao enviar e-mail. Por favor, tente novamente.');
+      });
+  }
+  const [mostrarMensagem, setMostrarMensagem] = useState(false);
+
+  return (
+    <div className="envioEmailMobile" id="envioEmailMobile">
+      <div className="posicaoElementosEmailMobile">
+      <div className="titulosoliciteMobile">
+        <h1>{t("Envioemail.Titulo")}<span>{t("Envioemail.Titulo1")}</span></h1>
+        {`\n`}
+        <p>{t("Envioemail.Paragrafo")}
+        {t("Envioemail.Paragrafo1")}<span>{t("Envioemail.Paragrafo2")}
+        {t("Envioemail.Paragrafo3")}</span>{t("Envioemail.Paragrafo4")}</p>
+        </div>
+        {`\n`}
+        <div className="setassMobile">
+      <div className="setacimaMobile">
+          <img src={Setacima} alt="" />
+        </div></div>
+      
+
+      <form className="FormularioEnvioEmailsMobile" onSubmit={sendEmail}>
+      <div className="nomeSolicitadoMobile">
+        <input
+          className="inputsMobile"
+          type="text"
+          placeholder={t("Envioemail.CampoEnvio")}
+          onChange={(e) => setName(e.target.value)}
+          value={name}
+        />
+      </div>
+
+      <div className="emailSolicitadoMobile">
+        <input
+          className="inputsMobile"
+          type="email" 
+          placeholder={t("Envioemail.CampoEnvio1")}
+          onChange={(e) => setEmail(e.target.value)}
+          value={email}
+        />
+      </div>
+
+<div className="telefoneSegmentoMobile">
+      <div className="telefoneSolicitadoMobile">
+      <input
+    className="input2Mobile"
+    type="tel" 
+    placeholder={t("Envioemail.CampoEnvio2")}
+    onChange={(e) => {
+      const value = e.target.value.replace(/\D/g, '');
+      setTelefone(value);
+    }}
+    value={telefone}
+    pattern="[0-9]*"  
+    inputMode="numeric" 
+  />
+      </div>
+
+      <div className="segmentoSolicitadoMobile">
+        <input
+          className="input1Mobile"
+          type="text"
+          placeholder={t("Envioemail.CampoEnvio3")}
+          onChange={(e) => setSegmento(e.target.value)}
+          value={segmento}
+        />
+       <div className="questionMobile" onMouseOver={() => setMostrarMensagem(true)} onMouseOut={() => setMostrarMensagem(false)}>
+        <div className="question?Mobile">?</div>
+        {mostrarMensagem && (
+        <div className="mensagemAoPassarMouseMobile">
+          <p>{t("Envioemail.Mouse")}{`\n`}
+          {t("Envioemail.Mouse1")}</p>
+        </div>
+      )}
+      </div>        
+      </div>
+      </div>
+      <div className="imagemReuniaoMobile">
+        <img src={Imagembotao} alt="" />
+      <input className="MarcaReuniaoMobile" type="submit" value={t("Envioemail.Reuniao")} />
+      </div>
+      </form>
+      <div className="colorBlack">
+      </div>
+      </div>
+
+      
+
+    
+    </div>
+  );
+}
+
+export default EnvioemailMobile;

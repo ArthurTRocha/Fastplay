@@ -1,18 +1,116 @@
-html, body {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
     margin: 0;
     padding: 0;
 }
-
 .home {
 background-color: #000;
-overflow: hidden;
-position: relative;
+white-space: pre-line;
 }
 
 
-@media (max-width: 949px) {
-   
 
+.headerMobilee {
+    display: none;
+}
+.empresasSMMobilee {
+    display: none;
+}
+.informacoesMobilee {
+    display: none;
+}
+.vendasMaioresMobilee {
+    display: none;
+}
+.potencialmobilee {
+    display: none;
+}
+.servicosMobilee{
+    display: none;
+}
+.envioemailMobilee {
+    display: none;
+}
+.footermobilee {
+    display: none;
+}
+.footerTablett {
+    display: none;
+}
 
+@media (max-width: 750px) {
+.headerMobilee{
+    display: block;
+}
+.headerr {
+    display: none;
+}
+.empresasSMM {
+    display: none;
+}
+.empresasSMMobilee {
+    display: block;
+}
+.informacoess {
+    display: none;
+}
+.informacoesMobilee {
+    display: block;
+}
+.vendasMaioress {
+    display: none;
+}
+.vendasMaioresMobilee {
+    display: block;
+}
+.potenciall {
+    display: none;
+}
+.potencialmobilee {
+    display: block;
+}
+.servicoss {
+    display: none;
+}
+.servicosMobilee {
+    display: block;
+}
+.envioemaill {
+    display: none;
+}
+.envioemailMobilee {
+    display: block;
+}
+.footerr {
+    display: none;
+}
+.footermobilee {
+    display: block;
+}
+.footerTablett {
+    display: none;
+}
+}
 
+@media (min-width: 751px) and (max-width: 1000px) {
+    .footerTablett{
+    display: block;
+}
+.footermobilee {
+    display: none;
+}
+.footerr {
+    display: none;
+}
 }

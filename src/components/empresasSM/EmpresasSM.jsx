@@ -10,6 +10,7 @@ import { useTranslation } from 'react-i18next';
 import homem from "../../assets/image/homemcadeira.png"
 import alvo from "../../assets/image/alvo.png"
 import sombra from "../../assets/image/sombra.png"
+import { Link } from 'react-router-dom';
 
 
 
@@ -17,24 +18,34 @@ import sombra from "../../assets/image/sombra.png"
 function EmpresasSM() {
   const { t } = useTranslation();
 
+  const handleClick = () => {
+    history.push('/saibamais');
+  };
     return(
         <div className="EmpresasSM">
-            <div className="TextosEmpresasSM">
-            <h1>
-            {t("EmpresasSM.Titulo")} <br />
-            {t("EmpresasSM.Titulo-1")}
-            </h1>
-            <p>
-            {t("EmpresasSM.Paragrafo")}<br /> 
-            {t("EmpresasSM.Paragrafo-1")}<br />
-            {t("EmpresasSM.Paragrafo-2")}<br />
-            {t("EmpresasSM.Paragrafo-3")}<br />
-            {t("EmpresasSM.Paragrafo-4")}<br />
-            {t("EmpresasSM.Paragrafo-5")}<br />
-            {t("EmpresasSM.Paragrafo-6")}<br />
+           <div className="TextosEmpresasSM">
+        <h1>{t("EmpresasSM.Titulo")}{`\n`}{t("EmpresasSM.Titulo-1")}</h1>
+        <p>
+            {t("EmpresasSM.Paragrafo")}
+            {`\n`}
+            {t("EmpresasSM.Paragrafo-1")}
+            {`\n`}
+            {t("EmpresasSM.Paragrafo-2")}
+            {`\n`}
+            {t("EmpresasSM.Paragrafo-3")}
+            {`\n\n`}
+            {t("EmpresasSM.Paragrafo-4")}
+            <span>{t("EmpresasSM.Paragrafo-5")}</span>
+            {t("EmpresasSM.Paragrafo-6")}
+            {`\n`}
             {t("EmpresasSM.Paragrafo-7")}
+            {`\n`}
+            {t("EmpresasSM.Paragrafo-8")}
             </p>
-            <button className='button-qtme'>QUERO TRANSFORMAR MINHA EMPRESA!</button>
+            {`\n`}
+            <Link to="/saibamais">
+  <button className='button-qtme'>{t("EmpresasSM.Transformar")}</button>
+</Link>
             </div>
 
             <div className="redessociais">
@@ -60,14 +71,14 @@ function EmpresasSM() {
      </div>
      
         <h1>
-        {t("EmpresasSM.Titulo-2")}<br />
-        {t("EmpresasSM.Titulo-3")}
+        {t("EmpresasSM.Titulo-2")}{`\n`}  {t("EmpresasSM.Titulo-3")}
         </h1>
-        <p>Os benefícios do marketing são uma verdadeira revolução <br />
-         para o seu negócio. Desde o aumento da visibilidade e <br /> 
-         conversões até a criação de uma identidade de marca <br />
-         sólida e a obtenção de dados estratégicos para <br />
-         impulsionar o sucesso do seu negócio</p>
+        <p>
+        {t("EmpresasSM.Paragrafo-9")} {`\n`} 
+        {t("EmpresasSM.Paragrafo-10")} {`\n`}
+        {t("EmpresasSM.Paragrafo-11")} {`\n`}
+        {t("EmpresasSM.Paragrafo-12")} {`\n`}
+        {t("EmpresasSM.Paragrafo-13")}</p>
       </div>
 
 

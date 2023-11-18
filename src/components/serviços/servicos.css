@@ -1,0 +1,404 @@
+.servicos {
+    background-image: url("../../assets/image/fumaca.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10vh;
+}
+.servico1 {
+    background-image: url("../../assets/image/fumaca.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.cardSuperior {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 1vh;
+    max-width: 100%;
+    text-align: center;
+    height: 80vh;
+    perspective: 100vw;
+}
+.card1Superior,
+.card2Superior,
+.card3Superior,
+.card4Superior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.card1Superior h3,
+.card2Superior h3,
+.card3Superior h3,
+.card4Superior h3 {
+    margin-top: 14vh;
+}
+
+.cardInferior {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 8vh;
+    max-width: 100%;
+    text-align: center;
+    perspective: 100vw;
+}
+.card1Inferior,
+.card2Inferior,
+.card3Inferior,
+.card4Inferior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.card1Inferior h3,
+.card2Inferior h3 {
+    margin-top: 12vh;
+}
+.card3Inferior h3,
+.card4Inferior h3 {
+    margin-top: 14vh;
+}
+
+.servicos h1 {
+    font-size: 8vh;
+    color: #ffffff;
+    margin-left: 2vw;
+}
+.servicos p {
+    color: #fff;
+    font-size: 3.5vh;
+    margin-left: 2vw;
+}
+.servicos span {
+    color: #FF3900;
+    font-size: 8vh;
+}
+.cardSuperior h3,
+.cardInferior h3{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card1Superior, 
+.card2Superior,
+.card3Superior,
+.card4Superior{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 40vh;
+    width: 40vh;
+    border-radius: 4vh;
+    position: relative;
+    top: 15vh;
+}
+
+.card1Inferior, 
+.card2Inferior,
+.card3Inferior,
+.card4Inferior{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 40vh;
+    width: 40vh;
+    border-radius: 4vh;
+    position: relative;
+    top: 30vh;
+
+}
+
+.iconecardsuperior,
+.iconecardsuperior1,
+.iconecardsuperior2,
+.iconecardsuperior3{
+    background-color: #FF3900;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 3vh;
+}
+
+
+
+.iconecardInferior,
+.iconecardInferior1,
+.iconecardInferior2,
+.iconecardInferior3{
+    background-color: #FF3900;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 3vh;
+}
+
+.iconecardInferior,
+.iconecardInferior2{
+    bottom: 32vh;
+}
+.iconecardInferior3,
+.iconecardInferior1{
+    top: 8vh;
+}
+
+.iconecardsuperior{
+    bottom: 29vh;
+
+}
+.iconecardsuperior2{
+    bottom: 33vh;
+}
+.iconecardsuperior3,
+.iconecardsuperior1{
+    top: 7vh;
+}
+
+.botaotraco {
+    position: relative;
+}
+.btnContrate1{
+    background: linear-gradient(90deg, #FF3900 67.26%, rgba(255, 255, 255, 0) 100%);
+    max-width: 100%;
+    height: 0.7vh;
+    width: 50%;
+    position:absolute;
+    right: 0vw;
+}
+.btnContrate2 {
+background: linear-gradient(270deg, #FF3900 67.26%, rgba(255, 255, 255, 0) 100%);
+max-width: 100%;
+height: 0.7vh;
+width: 50%;
+}
+.btnContrate {
+    position: absolute;
+    top: -3.5vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btnContrate button {
+    font-size: 4.5vh;
+    background-color: #000;
+    border-radius: 3vh;
+    border: 0.3vh solid #FF3900; 
+    font-weight: bold;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    padding: 1vh 3vh;
+}
+.btnContrate button:hover{
+    transform: scale(1.2);
+}
+.card1Superior, 
+.card2Superior,
+.card3Superior,
+.card4Superior,
+.card1Inferior, 
+.card2Inferior,
+.card3Inferior,
+.card4Inferior {
+    width: 90%; 
+    max-width: 100%; 
+    margin: 0 auto;
+   
+}
+.cardservicoimagem img {
+    height: 100%;
+    width: 100%;
+}
+.cardservicoimagem1 img{
+    height: 100%;
+    width: 100%;
+}
+.cardservicoimagem {
+    height: 10vh;
+    width: 10vh;
+}
+
+.iconecardsuperior,
+.iconecardsuperior1,
+.iconecardsuperior2,
+.iconecardsuperior3,
+.iconecardInferior,
+.iconecardInferior1,
+.iconecardInferior2,
+.iconecardInferior3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.card1Superior,
+.card2Superior,
+.card3Superior,
+.card4Superior,
+.card1Inferior,
+.card2Inferior,
+.card3Inferior,
+.card4Inferior {
+    transition: transform 1500ms;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    
+}
+
+.card3Superior:hover,
+.card4Superior:hover,
+.card1Inferior:hover,
+.card2Inferior:hover,
+.card3Inferior:hover,
+.card4Inferior:hover,
+.card2Superior:hover,
+.card1Superior:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+
+}
+
+.card3Superiorback,
+.card4Superiorback,
+.card1Inferiorback,
+.card2Inferiorback,
+.card3Inferiorback,
+.card4Inferiorback,
+.card1Superiorback,
+.card2Superiorback {
+
+    background-color: #892a10;
+    border: solid 0.5px #fff;
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    border-radius: 4vh;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: absolute;
+
+}
+
+.card1Superiorback p,
+.card3Superiorback p,
+.card1Inferiorback p,
+.card3Inferiorback p {
+    margin-top: 10vh;
+    font-size: 3vh;
+}
+
+.card2Superiorback p,
+.card4Superiorback p,
+.card2Inferiorback p,
+.card4Inferiorback p {
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+.iconecardsuperior1,
+.iconecardsuperior2,
+.iconecardsuperior3,
+.iconecardsuperior,
+.iconecardInferior,
+.iconecardInferior1,
+.iconecardInferior2,
+.iconecardInferior3{
+    transition: transform 1500ms;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+}
+
+.cardservicoimagem {
+    transition: transform 1500ms;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+}
+
+.cardservicoimagemback {
+    background-color: rgba(0, 0, 0, 0.64);
+    height: 100%;
+    width: 100%;
+    border-radius: 4vh;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: absolute;
+    
+}
+
+.cardservicoimagemback img{
+    height: 10vh;
+    margin-top: 2.5vh;
+}
+
+.TextoBack,
+.TextoBack2,
+.TextoBack3,
+.TextoBack4,
+.TextoBack5 {
+    margin-top: 8vh;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.25vh;
+    margin-right: 1.5vw;
+}
+
+
+.TextoBack6,
+.TextoBack7,
+.TextoBack8{
+    margin-top: 8vh;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.25vh;
+
+}
+
+
+.TextoBack p,
+.TextoBack2 p,
+.TextoBack3 p,
+.TextoBack4 p,
+.TextoBack5 p,
+.TextoBack6 p,
+.TextoBack7 p,
+.TextoBack8 p {
+    margin-right: 5vw;
+    font-size: 0.5vh;
+
+}
+
+
+
+.cardservicoimagemback2{
+    background-color: rgba(0, 0, 0, 0.64);
+    height: 100%;
+    width: 100%;
+    border-radius: 4vh;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: absolute;
+    
+}
+
+
+
+
+@media (max-width: 1000px) { 
+    .cardSuperior {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-gap: 1vh;
+        max-width: 100%;
+        text-align: center;
+        height: 80vh;
+        perspective: 100vw;
+    }
+    .cardInferior {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-gap: 8vh;
+        max-width: 100%;
+        text-align: center;
+        perspective: 100vw;
+    }
+}
