@@ -224,7 +224,9 @@
         "Breve":"EM BREVE",
         "Breve2":"nas lojas oficiais",
         "Mobile":"Sua Jornada de Sucesso",
-        "Mobile1":"Começa Aqui!"
+        "Mobile1":"Começa Aqui!",
+        "Tablet": "SERVIÇOS",
+        "Tablet1": "OUTROS"
     },
     "Saibamais": {
     "Home":"Inicio",

@@ -271,7 +271,6 @@ width: 50%;
     transform: rotateY(180deg);
     backface-visibility: hidden;
     position: absolute;
-
 }
 
 .card1SuperiorbackMobile p,
@@ -351,4 +350,27 @@ width: 50%;
 }
 .cardInferiorMobile {
     margin-top: 20vh;
+}
+.card1SuperiorbackMobile,
+.card2SuperiorbackMobile,
+.card3SuperiorbackMobile,
+.card4SuperiorbackMobile,
+.card1InferiorbackMobile,
+.card2InferiorbackMobile, 
+.card3InferiorbackMobile,
+.card4InferiorbackMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
+
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 250px) {
+    .cardSuperiorMobile {
+        display: none;
+    }
 }

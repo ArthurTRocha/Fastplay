@@ -104,13 +104,25 @@ white-space: pre-line;
 }
 
 @media (min-width: 751px) and (max-width: 1000px) {
+    .footerr {
+        display: none;
+    }
+    .footermobilee {
+        display: block;
+    }
+    .footerTablett {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1279px) {
     .footerTablett{
-    display: block;
-}
-.footermobilee {
-    display: none;
-}
-.footerr {
-    display: none;
-}
+        display: block;
+    }
+    .footermobilee {
+        display: none;
+    }
+    .footerr {
+        display: none;
+    }
 }

@@ -17,13 +17,13 @@ function Carouselfastplay() {
 
   const settings = {
     dots: true,
-    arrows: false,
     infinite: true,
+    arrows: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-
   };
+  
 
   const images = [
     {

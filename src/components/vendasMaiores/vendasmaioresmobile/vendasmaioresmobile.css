@@ -52,4 +52,12 @@
         color: #FF3900;
         text-align: center;
     }
+    .vendasmaiores-celularMobile {
+        top: 30vh;
+    }
+}
+@media (min-width: 641px) {
+    .vendasmaiores-celularMobile {
+        top: 25vh;
+    }
 }

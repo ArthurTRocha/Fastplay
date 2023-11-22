@@ -149,7 +149,7 @@ function Servicos() {
                                 {t("Servicos.cardback6-4")}{`\n`}
                                 {t("Servicos.cardback6-5")} {`\n`}
                                 {t("Servicos.cardback6-6")}{`\n`}
-                                {t("Servicos.cardback6-")}</p>
+                                {t("Servicos.cardback6-7")}</p>
                                     </div>
                         <div className="iconecardInferior1">
                             <div className="cardservicoimagem"><img src={GR} alt="" /></div>
@@ -162,14 +162,13 @@ function Servicos() {
                         {t("Servicos.Profissional2")} {`\n`}
                         {t("Servicos.Profissional3")}</h3>
                         <div className="card3Inferiorback">
-                                <p className="TextoBack7">Desenvolvimento de{`\n`}
-                                uma identidade de {`\n`}
-                                marca única,{`\n`}
-                                gerenciamento de{`\n`}
-                                redes sociais, eficaz,{`\n`}
-                                construção de{`\n`}
-                                relacionamentos com{`\n`}
-                                clientes</p>
+                                <p className="TextoBack7">{t("Servicos.cardback7")}{`\n`}
+                                {t("Servicos.cardback7-2")}{`\n`}
+                                {t("Servicos.cardback7-3")}{`\n`}
+                                {t("Servicos.cardback7-4")}{`\n`}
+                                {t("Servicos.cardback7-5")} {`\n`}
+                                {t("Servicos.cardback7-6")}{`\n`}
+                                {t("Servicos.cardback7-7")}</p>
                                     </div>
                         <div className="iconecardInferior2">
                             <div className="cardservicoimagem"><img src={SM} alt="" /></div>
@@ -181,13 +180,13 @@ function Servicos() {
                     <div className="card4Inferior"><h3>{t("Servicos.Marketing")} {`\n`}
                         {t("Servicos.Marketing2")}</h3>
                         <div className="card4Inferiorback">
-                                <p className="TextoBack8">Aumento das vendas{`\n`}
-                                online, otimização de{`\n`}
-                                páginas de produtos, {`\n`}
-                                estratégias {`\n`}
-                                promocionais eficazes, {`\n`}
-                                expansão do {`\n`}
-                                e-commerce</p>
+                                <p className="TextoBack8">{t("Servicos.cardback8")}{`\n`}
+                                {t("Servicos.cardback8-2")}{`\n`}
+                                {t("Servicos.cardback8-3")}{`\n`}
+                                {t("Servicos.cardback8-4")}{`\n`}
+                                {t("Servicos.cardback8-5")} {`\n`}
+                                {t("Servicos.cardback8-6")}{`\n`}
+                                {t("Servicos.cardback8-7")}</p>
                                     </div>
                         <div className="iconecardInferior3">
                             <div className="cardservicoimagem"><img src={MG} alt="" /></div>

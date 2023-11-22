@@ -173,5 +173,14 @@
     }
     .QrcodePai {
         display: none;
+    }   
+}
+@media (min-width: 1000px) { 
+    .setacima {
+        height: 45vh;
+        width: 43vh;
+        position: absolute;
+        left: 54.1vw;
+        bottom: 6vh;
     }
 }

@@ -35,8 +35,7 @@
     gap: 12vh;
     position: absolute;
     bottom: 15.5vh;
-    left: 20vw;
-
+    left: 18vw;
 }
 
 .descriacaoseta1Mobile span {
@@ -168,6 +167,8 @@
 
 
 
+/*RESPONSIVIDADE*/
+
 @media (min-width: 540px) {
     .posicaoMapaMobile {
         position: absolute;
@@ -177,3 +178,55 @@
 }
 
 
+
+@media (min-width: 600px) {
+    .posicaoMapaMobile {
+        position: absolute;
+        top: 4vh;
+        right: 15vw;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 359px) {
+    .descriacaoseta1Mobile,
+    .imagemSetaMobile {
+      display: none;
+    }
+    .tracoMobile {
+        background-color: #FF3900;
+        height: 0.3vh;
+        width: 75vw;
+    }
+    .ano2022Mobile,
+    .ano2023Mobile {
+        background-color: #fff;
+        height: 28vh;
+        border-top-right-radius: 3vh;
+        border-top-left-radius: 3vh;
+        margin: 0 1vh;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .ano2022Mobile {
+        top: 21vh;
+        left: 10vw;
+        width: 25vw;
+    }
+
+    .ano2023Mobile {
+        top: 14vh;
+        left: 45vw;
+        height: 35vh;
+        width: 25vw;
+    }
+    .setaAnossMobile {
+        left: 15vw;
+    }
+    }
