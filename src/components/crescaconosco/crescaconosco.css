@@ -1,0 +1,25 @@
+.textoscrescaConosco h1 {
+    text-align: right;
+    margin-right: 5vw;
+    color: #FF3900;
+    font-size: 7vh;
+}
+.textoscrescaConosco p {
+    text-align: right;
+    margin-right: 5vw;
+    color: #000;
+    white-space: pre;
+    font-size: 4vh;
+    margin-top: 5vh;
+}
+.imagemCrescaConoscoPai {
+    position: relative;
+}
+.imagemCrescaConosco img{
+    height: 100%;
+    width: 100%;
+}
+.imagemCrescaConosco{
+    height: 70vh;
+    width: 50vw;
+}

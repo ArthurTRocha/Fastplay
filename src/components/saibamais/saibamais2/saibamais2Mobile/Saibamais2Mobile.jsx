@@ -2,7 +2,7 @@ import React from "react";
 import "./saibamais2mobile.css"; 
 import { useTranslation } from 'react-i18next';
 import Dinheiro from "../../../../assets/image/Dinheiro.png";
-import Seta1 from "../../../../assets/image/Seta1.png";
+import newSeta from "../../../../assets/image/newSeta.png";
 
 function Saibamais2Mobile() {
   const { t } = useTranslation();
@@ -11,7 +11,7 @@ function Saibamais2Mobile() {
     <div className="saibaMais2Mobile">
       <div className="posicaoSaibamais2Mobile">
       <div className="seta1Mobile"> 
-        <img src={Seta1} alt="" />
+        <img src={newSeta} alt="" />
       </div>
       <div className="segundoRetanguloMobile"> 
         <h1>{t("Saibamais1.Titulo")}</h1>

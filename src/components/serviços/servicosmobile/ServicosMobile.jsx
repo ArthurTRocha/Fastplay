@@ -13,10 +13,10 @@ import MG from "../../../assets/image/marketingpecommerce.png"
 function Servicos() {
 
 
-    function scrollToContato() {
-        const envioEmailMobile = document.getElementById('envioEmailMobile');
-        if (envioEmailMobile) {
-            envioEmailMobile.scrollIntoView({ behavior: 'smooth' });
+    function scrollToentreContatoMobile() {
+        const envioentreContatoMobile = document.getElementById('entreContatoMobile');
+        if (entreContatoMobile) {
+            entreContatoMobile.scrollIntoView({ behavior: 'smooth' });
         }
     }
 
@@ -27,7 +27,7 @@ function Servicos() {
         <div className="servico01Mobile">
 
 
-            <div className="servicosMobile">
+            <div className="servicosMobile" id="servicosMobile">
                 <h1>{t("Servicos.Potencialize")} <span>{t("Servicos.Potencialize2")}</span></h1>
                 <p>{t("Servicos.Potencialize3")} {`\n`}
                     {t("Servicos.Potencialize4")}</p>
@@ -111,7 +111,7 @@ function Servicos() {
             <div className="botaotracoMobile">
                 <div className="btnContrate1Mobile"></div>
                 <div className="btnContrate2Mobile"> </div>
-                <div className="btnContrateMobile"><button onClick={scrollToContato}>{t("Servicos.Contrate")}</button></div></div>
+                <div className="btnContrateMobile"><button onClick={scrollToentreContatoMobile}>{t("Servicos.Contrate")}</button></div></div>
 
 
 
@@ -189,9 +189,7 @@ function Servicos() {
                                 {t("Servicos.cardback8-2")}{`\n`}
                                 {t("Servicos.cardback8-3")}{`\n`}
                                 {t("Servicos.cardback8-4")}{`\n`}
-                                {t("Servicos.cardback8-5")} {`\n`}
-                                {t("Servicos.cardback8-6")}{`\n`}
-                                {t("Servicos.cardback8-7")}</p>
+                                {t("Servicos.cardback8-5")}</p>
                                     </div>
                         <div className="iconecardInferior3Mobile">
                             <div className="cardservicoimagemMobile"><img src={MG} alt="" /></div>

@@ -12,9 +12,11 @@ import FooterMobile from "../components/footer/footermobile/FooterMobile"
 
 function SaibamaisMobile(){
 const { t } = useTranslation();
+window.scrollTo(0, 0);
+
 
     return (
-        <div className="saibaMais">
+        <div className="saibaMaisMobile">
             <HeaderMobile/>
             <Saibamais1Mobile/>
             <Saibamais2Mobile/>

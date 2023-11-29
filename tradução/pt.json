@@ -17,6 +17,9 @@
         "Paragrafo-6": " para descobrir as ",
         "Paragrafo-7": "consequências de não ter um marketing em sua ",
         "Paragrafo-8": "empresa",
+        
+
+
 
         "Titulo-2": "Benefícios de ter uma equipe de ",
         "Titulo-3": "marketing",
@@ -28,8 +31,8 @@
         "Transformar":"SAIBA MAIS!"
     },
     "Vendasmaiores": {
-        "Titulo":"Por quê você deve escolher",
-        "Titulo2":"a FastPlay Marketing para o",
+        "Titulo":"Por quê você deve escolher ",
+        "Titulo2":"a FastPlay Marketing para o ",
         "Titulo3":"seu negócio?",
         "Descricao":"Descubra como a FastPlay Marketing pode ser a",
         "Descricao2":"peça-chave",
@@ -62,42 +65,41 @@
         "Otimizacao1":"Otimizacao de",
         "Otimizacao2":"Recursos",
         "Construcao1":"Construção de",
-        "Construcao2":"uma Marca",
-        "Construcao3":"Poderosa"
+        "Construcao2":"uma Marca Poderosa"
     },
     "Carousel": {
-        "Analise":"Análise de Dados",
+        "Analise":"Análise de Dados ",
         "Analise1":"Estratégicos",
         "Reputacao":"Reputação ",
         "Reputacao1":"Inabalável",
         "Expansao":"Expansão de ",
         "Expansao1":"Mercado",
-        "Leads":"Leads Qualificados",
+        "Leads":"Leads Qualificados ",
         "Leads1":"em Clientes Pagantes",
         "Saiba":"Saiba Mais!",
 
         "Paragrafo":"O marketing profissional",
-        "Paragrafo-1": "amplia mercados e",
-        "Paragrafo-2": "impulsiona o crescimento",
-        "Paragrafo-3": "empresarial para novos",
+        "Paragrafo-1": "amplia mercados e ",
+        "Paragrafo-2": "impulsiona o crescimento ",
+        "Paragrafo-3": "empresarial para novos ",
         "Paragrafo-4": "patamares.",
 
-        "Paragrafo1":"O marketing profissional",
-        "Paragrafo1-1":"forja uma reputação sólida", 
-        "Paragrafo1-2":"atraindo e fidelizando",
-        "Paragrafo1-3":"clientes com percepção",
+        "Paragrafo1":"O marketing profissional ",
+        "Paragrafo1-1":"forja uma reputação sólida ", 
+        "Paragrafo1-2":"atraindo e fidelizando ",
+        "Paragrafo1-3":"clientes com percepção ",
         "Paragrafo1-4":"positiva no mercado.",
 
-        "Paragrafo2":"Profissionais de marketing",
-        "Paragrafo2-1":"coletam e analisam dados",
-        "Paragrafo2-2":"estratégicos para decisões",
-        "Paragrafo2-3":"informadas e estratégias",
+        "Paragrafo2":"Profissionais de marketing ",
+        "Paragrafo2-1":"coletam e analisam dados ",
+        "Paragrafo2-2":"estratégicos para decisões ",
+        "Paragrafo2-3":"informadas e estratégias ",
         "Paragrafo2-4":"eficazes.",
 
-        "Paragrafo3":"Com estratégias eficazes, é",
-        "Paragrafo3-1":"possível converter leads em", 
-        "Paragrafo3-2":"clientes pagantes, resultando", 
-        "Paragrafo3-3":"no aumento da receita e",
+        "Paragrafo3":"Com estratégias eficazes, é ",
+        "Paragrafo3-1":"possível converter leads em ", 
+        "Paragrafo3-2":"clientes pagantes, resultando ", 
+        "Paragrafo3-3":"no aumento da receita e ",
         "Paragrafo3-4":"lucratividade do negócio."
     },
     "Potencial":{
@@ -196,18 +198,14 @@
         "cardback7-4":"gerenciamento de",
         "cardback7-5":"redes sociais, eficaz,",
         "cardback7-6":"construção de",
-        "cardback7-7":"relacionamentos com",
-        "cardback7-8":"clientes",
+        "cardback7-7":"relacionamentos com clientes",
 
 
         "cardback8":"Aumento das vendas",
         "cardback8-2":"online, otimização de",
         "cardback8-3":"páginas de produtos,",
         "cardback8-4":"estratégias",
-        "cardback8-5":"promocionais eficazes,",
-        "cardback8-6":"expansão do",
-        "cardback8-7":"e-commerce"
-        
+        "cardback8-5":"promocionais eficazes, expansão do e-commerce"
     },
     "Footer": {
         "Jornada":"Sua Jornada de Sucesso",
@@ -221,6 +219,7 @@
         "Outros":"PERGUNTAS FREQUENTES",
         "Outros2":"SOBRE NÓS",
         "Outros3":"TORNE-SE UM COLABORADOR",
+        "Outros4":"Sobre Nós",
         "Breve":"EM BREVE",
         "Breve2":"nas lojas oficiais",
         "Mobile":"Sua Jornada de Sucesso",
@@ -265,7 +264,62 @@
         "Paragrafo1": "estratégica pode resultar na perda de insights",
         "Paragrafo2": "valiosos sobre o mercado, concorrência e",
         "Paragrafo3": "preferências dos clientes."
+    },
+    "Cadastro": {
+        "Titulo" : "Queremos ouvir mais",
+        "Titulo-1" : "sobre seus objetivos e desafios"
+    },
+    "CadastroMobile":{
+        "objetivo1":"Queremos ouvir mais",
+        "objetivo2":"sobre seus objetivos e desafios",
+        "alcance1":"Alcance novos patamares para o seu",
+        "alcance2":"negócio! Nossa agência de marketing está",
+        "alcance3":"aqui para criar estratégias personalizadas",
+        "alcance4":"que impulsionarão sua presença online e",
+        "alcance5":"atrairão clientes qualificados",
+        "cresca1":"Cresça conosco",
+        "cresca2":"Não espere mais para expandir seus",
+        "cresca3":"horizontes comerciais,junte-se a nós e cresça",
+        "cresca4":"exponencialmente. Estamos prontos para",
+        "cresca5":"conduzir sua empresa ao próximo nível de",
+        "cresca6":"sucesso!"
+
+    },
+    "Contato":{
+        "Titulo" :"Entre em contato",
+        "Titulo-1" :"com nossa ",
+        "Titulo-2":"equipe",
+
+        "Paragrafo":"Maximize ",
+        "Paragrafo-1":"sua presença online com estratégias",
+        "Paragrafo-2":" personalizadas criadas por nossa equipe de ",
+        "Paragrafo-3":"especialistas ",
+        "Paragrafo-4":"em marketing",
+        "Paragrafo-5":"Clique no ",
+        "Paragrafo-6":"botão",
+        "Paragrafo-7":" para ",
+        "Paragrafo-8":"contratar ",
+        "Paragrafo-9":"nossa equipe"
+
+    },
+    "Conosco": {
+        "Titulo":"Trabalhe Conosco",
+        "Paragrafo": "Junte-se à nossa equipe e trilhe o caminho para uma carreira gratificante na vanguarda do marketing digital. Estamos ansiosos para receber mentes brilhantes e talentosas para se unirem à nossa missão de transformar desafios em sucessos.",
+        "Titulo1": "Cadastro",
+        "Paragrafo1": "Cadastre-se em nosso site para integrar a equipe de marketing, ter acesso a oportunidades exclusivas de crescimento e participar de iniciativas inovadoras. Junte-se a nós para fazer parte de uma equipe dedicada ao sucesso e à inovação no marketing!",
+        "Dados": "Dados Pessoais",
+        "Nascimento": "Data Nascimento",
+        "Nacionalidade" :"Nacionalidade",
+        "Disponiveis" : "Cargos Disponíveis",
+        "Linkedin": "Perfil Linkedin",
+        "Selecione": "Selecione",
+        "Cadastrar" : "Cadastrar",
+        "Contato" : "Contato"
+    
     }
+
+
+
     
 
 }

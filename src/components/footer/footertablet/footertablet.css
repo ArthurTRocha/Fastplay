@@ -19,7 +19,8 @@
     transform: translateX(-50%);
     height: 28vh;
     width: 28vh;
-    border-radius: 50vh;
+    border-top-right-radius: 50vh;
+    border-top-left-radius: 50vh;
     background-color: #000;
 }
 .redessociaisfooterTablet {
@@ -31,7 +32,7 @@
     width: 50vw;
     position: absolute;
     bottom: 0vh;
-    left: 58%;
+    left: 50%;
     transform: translateX(-50%);
     gap: 2vw; 
     z-index: 10;
@@ -74,32 +75,34 @@
 .setafooterTablet img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .setafooterTablet {
-    height: 12vh;
-    width: 5.5vw;
+    height: auto;
+    width: 7vh;
     position: absolute;
-    left: 6vw;
+    left: 7.5vw;
     top: 1vh;
 }
 .titulo2FooterTablet {
     position: absolute;
     right: 0vw;
     text-align: right;
+    z-index: 10;
 }
 .titulo2FooterTablet a {
     text-decoration: none;
     color: #fff;
-    font-size: 3.5vh;
+    font-size: 3vh;
 }
 .titulo1FooterTablet p {
     text-decoration: none;
     color: #fff;
-    font-size: 3.5vh;
+    font-size: 3vh;
 }
 .titulo2FooterTablet,
 .titulo1FooterTablet {
-    margin-top: 13vh;
+    margin-top: 18vh;
     margin-left: 3vh;
     margin-right: 3vh;
 }

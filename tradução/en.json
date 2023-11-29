@@ -62,7 +62,7 @@
         "Construcao2": "Powerful Brand"
     },
     "Carousel": {
-        "Analise": "Data Analysis",
+        "Analise": "Data Analysis ",
         "Analise1": "Strategic",
         "Reputacao": "Reputation ",
         "Reputacao1": "Unshakable",
@@ -71,19 +71,19 @@
         "Leads": "Qualified Leads",
         "Leads1": "into Paying Customers",
         "Saiba": "Learn More!",
-        "Paragrafo": "Professional marketing",
-        "Paragrafo-1": "expands markets and",
-        "Paragrafo-2": "drives business growth to new",
+        "Paragrafo": "Professional marketing ",
+        "Paragrafo-1": "expands markets and ",
+        "Paragrafo-2": "drives business growth to new ",
         "Paragrafo-3": "heights.",
         "Paragrafo-4": "",
-        "Paragrafo1": "Professional marketing",
-        "Paragrafo1-1": "forges a solid reputation",
-        "Paragrafo1-2": "attracting and retaining",
-        "Paragrafo1-3": "customers with positive",
+        "Paragrafo1": "Professional marketing ",
+        "Paragrafo1-1": "forges a solid reputation ",
+        "Paragrafo1-2": "attracting and retaining ",
+        "Paragrafo1-3": "customers with positive ",
         "Paragrafo1-4": "market perception.",
-        "Paragrafo2": "Marketing professionals",
-        "Paragrafo2-1": "collect and analyze strategic",
-        "Paragrafo2-2": "data for informed decisions",
+        "Paragrafo2": "Marketing professionals ",
+        "Paragrafo2-1": "collect and analyze strategic ",
+        "Paragrafo2-2": "data for informed decisions ",
         "Paragrafo2-3": "and effective strategies.",
         "Paragrafo2-4": "",
         "Paragrafo3": "With effective strategies, it is",
@@ -130,16 +130,12 @@
         "Profissional3": "media",
         "Marketing": "E-commerce",
         "Marketing2": "Marketing",
- 
-
         "cardback1": "Increased traffic",
         "cardback1-2": "qualified for the website,",
         "cardback1-3": "higher conversions;",
         "cardback1-4": "target audience reach",
         "cardback1-5": "specific,",
         "cardback1-6": "maximization of ROI",
-
-
         "cardback2": "Increase in conversion rates,",
         "cardback2-2": "customer base growth,",
         "cardback2-3": "differentiation from",
@@ -147,18 +143,13 @@
         "cardback2-5": "effective competition,",
         "cardback2-6": "maximization of ROI",
         "cardback2-7": "",
-
-
-        
-"cardback3": "Professional websites",
-"cardback3-2": "and applications, enhanced user",
-"cardback3-3": "experience, improved ",
-"cardback3-4": "accessibility on mobile",
-"cardback3-5": "devices, higher conversion",
+        "cardback3": "Professional websites",
+        "cardback3-2": "and applications, enhanced user",
+        "cardback3-3": "experience, improved ",
+        "cardback3-4": "accessibility on mobile",
+        "cardback3-5": "devices, higher conversion",
         "cardback3-6": "",
         "cardback3-7": "",
-
-
         "cardback4": "Sales teams with more components,",
         "cardback4-2": "increase in sales,",
         "cardback4-3": "consistent sales approach,",
@@ -166,16 +157,11 @@
         "cardback4-5": "",
         "cardback4-6": "",
         "cardback4-7": "",
-
-
-        
-"cardback5": "Market data analysis,",
-"cardback5-2": "valuable insights,",
-"cardback5-3": "informed decision-making,",
-"cardback5-4": "data-driven decisions,",
-"cardback5-5": "competition advantage",
-
-
+        "cardback5": "Market data analysis,",
+        "cardback5-2": "valuable insights,",
+        "cardback5-3": "informed decision-making,",
+        "cardback5-4": "data-driven decisions,",
+        "cardback5-5": "competition advantage",
         "cardback6": "Audience engagement, building",
         "cardback6-2": "a solid online presence,",
         "cardback6-3": "building relationships with",
@@ -183,8 +169,6 @@
         "cardback6-5": "brand visibility.",
         "cardback6-6": "",
         "cardback6-7": "",
-
-
         "cardback7": "Development of a",
         "cardback7-2": "unique brand identity,",
         "cardback7-3": "effective social media management,",
@@ -193,15 +177,11 @@
         "cardback7-6": "",
         "cardback7-7": "",
         "cardback7-8": "",
-
-
         "cardback8": "Increase in online sales, optimization",
         "cardback8-2": "of product pages,",
         "cardback8-3": "effective promotional strategies,",
         "cardback8-4": "expansion of",
         "cardback8-5": "e-commerce"
-
-
     },
     "Footer": {
         "Jornada": "Your Journey to Success",
@@ -215,8 +195,13 @@
         "Outros": "FAQ",
         "Outros2": "ABOUT US",
         "Outros3": "BECOME A COLLABORATOR",
+        "Outros4": "About Us",
         "Breve": "COMING SOON",
-        "Breve2": "to official stores"
+        "Breve2": "to official stores",
+        "Mobile": "Your Journey to Success",
+        "Mobile1": "Begins Here!",
+        "Tablet": "SERVICES",
+        "Tablet1": "OTHER"
     },
     "Saibamais": {
         "Home": "Home",
@@ -254,5 +239,58 @@
         "Paragrafo1": "can result in the loss of valuable insights",
         "Paragrafo2": "about the market, competition, and",
         "Paragrafo3": "customer preferences."
+    },
+    "CadastroMobile": {
+        "objetivo1": "We want to hear more",
+        "objetivo2": "about your goals and challenges.",
+        "alcance1": "Reach new heights for your",
+        "alcance2": " business! Our marketing agency is",
+        "alcance3": "here to create customized strategies",
+        "alcance4": "that will boost your online presence and",
+        "alcance5": "attract qualified customers.",
+        "cresca1": "Grow with us",
+        "cresca2": "Don't wait any longer to expand your",
+        "cresca3": "business horizons, join us and grow",
+        "cresca4": "exponentially. We are ready to",
+        "cresca5": "take your company to the next level of",
+        "cresca6": "success!"
+    },
+    "Contato": {
+        "Titulo": "Get in touch",
+        "Titulo-1": "with our",
+        "Titulo-2": "team",
+    
+        "Paragrafo": "Maximize",
+        "Paragrafo-1": "your online presence with personalized",
+        "Paragrafo-2": "strategies created by our team of",
+        "Paragrafo-3": "experts",
+        "Paragrafo-4": "in marketing",
+        "Paragrafo-5": "Click on the",
+        "Paragrafo-6": "button",
+        "Paragrafo-7": "to",
+        "Paragrafo-8": "hire",
+        "Paragrafo-9": "our team"
+    },
+    "Conosco": {
+        "Titulo": "Work With Us",
+        "Paragrafo": "Join our team and chart the path to a rewarding career at the forefront of digital marketing. We look forward to welcoming bright and talented minds to join our mission of turning challenges into successes.",
+        "Titulo1": "Registration",
+        "Paragrafo1": "Register on our website to join the marketing team, gain access to exclusive growth opportunities, and participate in innovative initiatives. Join us to be part of a team dedicated to success and innovation in marketing!",
+        "Dados": "Personal Data",
+        "Nascimento": "Date of Birth",
+        "Nacionalidade": "Nationality",
+        "Disponiveis": "Available Positions",
+        "Linkedin": "Linkedin Profile",
+        "Selecione": "Select",
+        "Cadastrar": "Sign Up",
+        "Contato": "Contact"
+
+
+
+
+
+
     }
+    
+    
 }

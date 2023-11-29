@@ -37,9 +37,16 @@
   left: 50%;
 }
 .imagemCarouselfastplayMobile img {
-height: 70%;
-width: 70%;
-margin-left: 15vw;
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+.imagemCarouselfastplayMobile {
+  height: auto;
+  width: 35vh;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 
 }
 
@@ -47,5 +54,23 @@ margin-left: 15vw;
   .clickMobile {
     position: absolute;
     top: 0.8vh;
+  }
+}
+
+@media (min-width: 768px) { 
+  .imagemCarouselfastplayMobile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .imagemCarouselfastplayMobile {
+    height: auto;
+    width: 45vh;
+  }
+  .textCarouselMobile h3 {
+    font-size: 6vh;
+  }
+  .textCarouselMobile p {
+    font-size: 4vh;
   }
 }

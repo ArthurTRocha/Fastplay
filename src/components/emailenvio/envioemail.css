@@ -2,6 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #000;
+    height: 100vh;
+  }
+  .titulosolicite {
+    margin-top: 8vh;
+    white-space: pre;
+
   }
 .titulosolicite h1{
     color: #fff;
@@ -132,25 +139,14 @@
 .setacima img{
     height: 100%;
     width: 100%;
-}
-.setabaixo img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    transform: scaleX(-1);
 }
 .setacima {
-    height: 50vh;
-    width: 46.5vh;
+    height: 20vh;
+    width: 15vw;
     position: absolute;
-    right: -24.5vw;
-    bottom: -6vh;
-}
-.setabaixo {
-    height: 31vh;
-    width: 47vh;
-    position: absolute;
-    top: 31.8vh;
-    right: 52.5vw;
+    left: 58vw;
+    bottom: 24vh;
 }
 .FormularioEnvioEmails .inputs {
     margin-bottom: 2vh; 
@@ -159,28 +155,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3vh;
 }
 
 
 
 @media (max-width: 1000px) { 
-    .setacima {
-        height: 50vh;
-        width: 46.5vh;
-        position: absolute;
-        right: 0.5vw;
-        bottom: 6vh;
-    }
     .QrcodePai {
         display: none;
     }   
 }
 @media (min-width: 1000px) { 
-    .setacima {
-        height: 45vh;
-        width: 43vh;
-        position: absolute;
-        left: 54.1vw;
-        bottom: 6vh;
-    }
+ 
 }

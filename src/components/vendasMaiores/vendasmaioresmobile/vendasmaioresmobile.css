@@ -61,3 +61,12 @@
         top: 25vh;
     }
 }
+
+@media (min-width: 768px) {
+    .vendasmaiores-celularMobile {
+        top: 17vh;
+    }
+    .textosvendasmaioresMobile p {
+        margin-left: 2vw;
+    }
+}

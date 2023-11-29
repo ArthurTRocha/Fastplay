@@ -13,10 +13,10 @@ import MG from "../../assets/image/marketingpecommerce.png"
 function Servicos() {
 
 
-    function scrollToContato() {
-        const envioEmail = document.getElementById('envioEmail');
-        if (envioEmail) {
-            envioEmail.scrollIntoView({ behavior: 'smooth' });
+    function scrollToentreContato() {
+        const entreContato = document.getElementById('entreContato');
+        if (entreContato) {
+            entreContato.scrollIntoView({ behavior: 'smooth' });
         }
     }
 
@@ -27,7 +27,7 @@ function Servicos() {
         <div className="servico01">
 
 
-            <div className="servicos">
+            <div className="servicos" id="servicos">
                 <h1>{t("Servicos.Potencialize")} <span>{t("Servicos.Potencialize2")}</span></h1>
                 <p>{t("Servicos.Potencialize3")} {`\n`}
                     {t("Servicos.Potencialize4")}</p>
@@ -112,7 +112,7 @@ function Servicos() {
             <div className="botaotraco">
                 <div className="btnContrate1"></div>
                 <div className="btnContrate2"> </div>
-                <div className="btnContrate"><button onClick={scrollToContato}>{t("Servicos.Contrate")}</button></div></div>
+                <div className="btnContrate"><button onClick={scrollToentreContato}>{t("Servicos.Contrate")}</button></div></div>
 
 
 
@@ -184,9 +184,7 @@ function Servicos() {
                                 {t("Servicos.cardback8-2")}{`\n`}
                                 {t("Servicos.cardback8-3")}{`\n`}
                                 {t("Servicos.cardback8-4")}{`\n`}
-                                {t("Servicos.cardback8-5")} {`\n`}
-                                {t("Servicos.cardback8-6")}{`\n`}
-                                {t("Servicos.cardback8-7")}</p>
+                                {t("Servicos.cardback8-5")}</p>
                                     </div>
                         <div className="iconecardInferior3">
                             <div className="cardservicoimagem"><img src={MG} alt="" /></div>

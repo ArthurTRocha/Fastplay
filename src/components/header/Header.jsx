@@ -2,6 +2,7 @@ import React from 'react';
 import Select from 'react-select';
 import { useRef, useEffect, useState } from "react";
 import logo from "../../assets/image/logo.png"
+import LogoEN from "../../assets/image/FastplayMKT.png"
 import "./header.css"
 import brasil from "../../assets/image/brazil.png"
 import usd from "../../assets/image/united-states-of-america.png"
@@ -12,13 +13,34 @@ import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
 
 
-
-
 function Header() {
+  
+
   const { t } = useTranslation();
 
   const [selectedLanguage, setSelectedLanguage] = useState("en"); // Estado para controlar o idioma selecionado
   const [content, setContent] = useState([selectedLanguage]);
+
+  const getImageForLanguage = () => {
+    const currentLanguage = i18n.language;
+
+    switch (currentLanguage) {
+        case 'en':
+            return LogoEN;
+        case 'es':
+            return LogoEN;
+        case 'it':
+            return LogoEN;
+        case 'fr':
+            return LogoEN;
+        case 'pt':
+            return logo;
+        default:
+            return logo;
+    }
+};
+
+const imageSrc = getImageForLanguage();
 
   const customStyles = {
     // Estilos personalizados para o Select
@@ -54,10 +76,6 @@ function Header() {
     }),
   };
   
-
-
-
-
   const flagToLanguage = {
     brasil: 'pt',
     usd: 'en',
@@ -67,9 +85,30 @@ function Header() {
   };
 
   const handleLanguageChange = (language) => {
+    const test = language;
+
+    if(test == "pt") {
+        fireEventEmailChange('pt');
+    } else {
+        fireEventEmailChange('else');
+    }
+
+    localStorage.setItem('selectedLanguage', language);
     i18n.changeLanguage(language);
     setSelectedLanguage(language);
+    
   };
+
+  const fireEventEmailChange = (event) => {
+    const selectedValue = event;
+    document.dispatchEvent(new CustomEvent('languageChanged', { detail: selectedValue }));
+  };
+
+  // useEffect(() => {
+  //   const language = localStorage.getItem('selectedLanguage')
+  //   fireEventEmailChange(language);
+     
+  // }, []);
 
   const languages = [
     {
@@ -116,20 +155,46 @@ function Header() {
     },
   ];
 
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem('selectedLanguage');
+    if (savedLanguage) {
+      i18n.changeLanguage(savedLanguage);
+      setSelectedLanguage(savedLanguage);
+    }
+  }, []);
+
+
+  function scrollToservicos() {
+    const servicos = document.getElementById('servicos');
+    if (servicos) {
+      servicos.scrollIntoView({ behavior: 'smooth' });
+    }
+}
+
+function scrollToentreContato() {
+  const entreContato = document.getElementById('entreContato');
+  if (entreContato) {
+    entreContato.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
   return (
     <div className="Header" id="Header">
-      <img className='logo' src={logo} alt="Fastplay" />
-
+      <a href="/home">
+        <img className='logo' src={imageSrc} alt="Fastplay" />
+      </a>
 
       <div className="todasopcoes">
         <div className="opcoes">
         <div className="opcoes4">
             <a href="/home">{t("Saibamais.Home")}</a>
           </div>
-          <a href="">{t('Header.Servicos')}</a>
+
+          <a href="#" onClick={scrollToservicos}>{t('Header.Servicos')}</a>
           <div />
+    
           <div className="opcoes2">
-            <a href="">{t('Header.Contato')}</a>
+            <a href="#" onClick={scrollToentreContato}>{t('Header.Contato')}</a>
           </div>
           
         </div>
@@ -143,7 +208,7 @@ function Header() {
             onChange={(selectedOption) => {
               const newLanguage = flagToLanguage[selectedOption.value];
               setSelectedLanguage(newLanguage);
-              handleLanguageChange(newLanguage);
+              // handleLanguageChange(newLanguage);
             }}
             components={{
               IndicatorSeparator: () => null,

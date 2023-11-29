@@ -1,5 +1,5 @@
 .saibaMais1Mobile {
-    background-color: #FF0000;
+    background-color: #fff;
     position: relative;
     height: 100vh;
 }
@@ -7,7 +7,7 @@
     text-align: center;
 }
 .textosPrimeirapaginaMobile p{
-    color: #fff;
+    color: #000;
     text-align: left;
     margin-top: 5vh;
 }

@@ -19,7 +19,9 @@ function Carouselfastplay() {
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 500,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 800,
     slidesToShow: 3,
     slidesToScroll: 1,
   };

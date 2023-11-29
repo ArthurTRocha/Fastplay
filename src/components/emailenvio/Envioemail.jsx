@@ -1,50 +1,82 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from '@emailjs/browser';
 import "./envioemail.css"
 import { useTranslation } from 'react-i18next';
 import QRcode from "../../assets/image/QRcode.png"
 import Imagembotao from "../../assets/image/setabotao.png"
-import Setabaixo from "../../assets/image/setabaixo.png"
-import Setacima from "../../assets/image/setacima.png"
-
-
-
+import Setacima from "../../assets/image/seta2.png"
+import i18n from 'i18next';
+  
 function Envioemail() {
+
+
+  
+
   const { t } = useTranslation();
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [telefone, setTelefone] = useState('');
   const [segmento, setSegmento] = useState('');
+  const [toEmail, setToEmail] = useState('');
+  const [service, setService] = useState('');
 
-  function sendEmail(e) {
-    e.preventDefault();
-
-    if (name === "" || email === "" || telefone === "" || segmento === "") {
-      alert(Envioemail.Alert);
-      return;
+  const setServiceForEmail = (selectedLanguage) => {
+    if (selectedLanguage === 'pt') {
+      setToEmail('contato@fastplaycomunicacao.com.br');
+      setService('service_rzdde39');
+    } else {
+      setToEmail('contact@fastplaymarketing.com');
+      setService('service_kbj244q');
     }
+  };
 
-    const templateParams = {
-      to_name: name,
-      from_atuacao: segmento,
-      to_telefone: telefone,
-      to_email: email
-    }
+  const listenToEventLanguageChange = () => {
+    const selectedLanguage = i18n.language;  // Obtenha a linguagem diretamente de i18n
+    setServiceForEmail(selectedLanguage);
+  };
 
-    emailjs.send("service_kbj244q", "template_2skgiw7", templateParams, "AS-EReiZl_JcDfw--")
-      .then(response => {
-        console.log('E-mail enviado com sucesso!', response);
-        setName('');
-        setEmail('');
-        setSegmento('');
-        setTelefone('');
-      })
-      .catch(error => {
-        console.error('Erro ao enviar e-mail:', error);
-        alert('Erro ao enviar e-mail. Por favor, tente novamente.');
-      });
-  }
+  useEffect(() => {
+    listenToEventLanguageChange();  // Chame a função uma vez no início para configurar o estado inicial
+
+    // Adicione um ouvinte de evento para detectar mudanças de linguagem
+    i18n.on('languageChanged', listenToEventLanguageChange);
+
+    // Limpe o ouvinte de evento quando o componente é desmontado
+    return () => {
+      i18n.off('languageChanged', listenToEventLanguageChange);
+    };
+  }, []); 
+
+const sendEmail = () => {
+  // Configurar os parâmetros necessários para o envio do e-mail
+  const emailParams = {
+    from_name: name,
+    from_email: email,
+    from_telefone: telefone,
+    from_atuacao: segmento,
+    to_email: toEmail,
+    to_name: 'Fastplay',
+    service: service,
+  };
+
+  console.log(emailParams);
+
+  emailjs.send(service, 'template_2skgiw7', emailParams, '4njy-sPPY6dW49lvl')
+    .then((response) => {
+      console.log(emailParams);
+      console.log('E-mail enviado com sucesso!', response);
+      setName('');
+      setEmail('');
+      setSegmento('');
+      setTelefone('');
+    })
+    .catch((error) => {
+      console.error('Erro ao enviar e-mail:', error);
+    });
+};
+
+
   const [mostrarMensagem, setMostrarMensagem] = useState(false);
 
   return (
@@ -59,15 +91,12 @@ function Envioemail() {
         </div>
         {`\n`}
         <div className="setass">
-      <div className="setabaixo">
-        <img src={Setabaixo} alt="" />
-      </div>
       <div className="setacima">
           <img src={Setacima} alt="" />
         </div></div>
       
 
-      <form className="FormularioEnvioEmails" onSubmit={sendEmail}>
+      <div className="FormularioEnvioEmails">
       <div className="nomeSolicitado">
         <input
           className="inputs"
@@ -124,13 +153,12 @@ function Envioemail() {
       </div>        
       <div className="imagemReuniao">
         <img src={Imagembotao} alt="" />
-      <input className="MarcaReuniao" type="submit" value={t("Envioemail.Reuniao")} /></div>
-      </form>
+      <input onClick={sendEmail} className="MarcaReuniao" type="submit" value={t("Envioemail.Reuniao")} /></div>
+      </div>
       </div>
       <div className="QrcodePai">
       <div className="Qrcode"><img src={QRcode} alt="" /></div></div>
 
-    
     </div>
   );
 }

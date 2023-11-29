@@ -1,0 +1,47 @@
+.TrabalheConosco2 {
+    position: relative;
+    margin-top: 3vh;
+}
+.textosTC h1 {
+    color: #ff3900;
+    font-size: 5.5vh;
+}
+.textosTC p {
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+.textosTC {
+    max-width: 35vw;
+    margin-left: 5vw;
+}
+.textosTC_1 {
+    max-width: 90%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.textosTC_1 h1 {
+    color: #ff3900;
+    font-size: 5.5vh;
+}
+.textosTC_1 p {
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+.textosTC_1Pai {
+    position: relative;
+}
+.imagemSetamarromTC img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.imagemSetamarromTC {
+    height: 20vh;
+    width: 32vh;
+    position: absolute;
+    right: 5vw;
+    top: 8vh;
+}
+

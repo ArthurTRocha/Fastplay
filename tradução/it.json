@@ -143,8 +143,13 @@
       "Outros": "DOMANDE FREQUENTI",
       "Outros2": "CHI SIAMO",
       "Outros3": "DIVENTA UN COLLABORATORE",
+      "Outros4":"Chi Siamo",
       "Breve": "PRESTO DISPONIBILE",
-      "Breve2": "nei negozi ufficiali"
+      "Breve2": "nei negozi ufficiali",
+        "Mobile":"Il Tuo Viaggio di Successo",
+        "Mobile1":"Inizia Qui!",
+        "Tablet": "SERVIZI",
+        "Tablet1": "ALTRO"
   },
   "Saibamais": {
       "Home": "Inizio",
@@ -181,5 +186,61 @@
       "Paragrafo1": "strategica può portare alla perdita di preziose intuizioni",
       "Paragrafo2": "sul mercato, la concorrenza e",
       "Paragrafo3": "le preferenze dei clienti."
-  }
+  },
+  "CadastroMobile":{
+    "objetivo1": "Vogliamo sapere di più",
+"objetivo2": "dei tuoi obiettivi e sfide.",
+"alcance1": "Raggiungi nuove vette per la tua",
+"alcance2": "azienda! La nostra agenzia di marketing è qui",
+"alcance3": "per creare strategie personalizzate",
+"alcance4": "che aumenteranno la tua presenza online e",
+"alcance5": "attrarranno clienti qualificati.",
+"cresca1": "Cresci con noi",
+"cresca2": "Non aspettare oltre per espandere i tuoi",
+"cresca3": "orizzonti commerciali, unisciti a noi e cresci",
+"cresca4": "in modo esponenziale. Siamo pronti",
+"cresca5": "a portare la tua azienda al prossimo livello di",
+"cresca6": "successo."
+
+},
+"Contato": {
+    "Titulo": "Entra in contatto",
+    "Titulo-1": "con il nostro",
+    "Titulo-2": "team",
+
+    "Paragrafo": "Massimizza",
+    "Paragrafo-1": "la tua presenza online con strategie",
+    "Paragrafo-2": "personalizzate create dal nostro team di",
+    "Paragrafo-3": "esperti",
+    "Paragrafo-4": "nel marketing",
+    "Paragrafo-5": "Clicca sul",
+    "Paragrafo-6": "pulsante",
+    "Paragrafo-7": "per",
+    "Paragrafo-8": "assumere",
+    "Paragrafo-9": "il nostro team"
+},
+"Conosco": {
+    "Titulo": "Lavora con noi",
+    "Paragrafo": "Unisciti alla nostra squadra e percorri la strada verso una carriera gratificante all'avanguardia del marketing digitale. Non vediamo l'ora di accogliere menti brillanti e talentuose per unirsi alla nostra missione di trasformare le sfide in successi.",
+    "Titulo1": "Registrazione",
+    "Paragrafo1": "Registrati sul nostro sito per far parte del team di marketing, avere accesso a opportunità esclusive di crescita e partecipare a iniziative innovative. Unisciti a noi per far parte di un team dedicato al successo e all'innovazione nel marketing!",  
+    "Dados": "Dati Personali",
+    "Nascimento": "Data di Nascita",
+    "Nacionalidade": "Nazionalità",
+    "Disponiveis": "Posizioni Disponibili",
+    "Linkedin": "Profilo Linkedin",
+    "Selecione": "Seleziona",
+    "Cadastrar": "Iscriviti",
+    "Contato": "Contatto"
+
+
+
+
+
+
+
+}
+
+
+
 }

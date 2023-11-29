@@ -23,10 +23,9 @@
     margin-top: 1vh;
     margin-left: 1.5vw;
     height: 10vh;
-    width: 7vw;
-    max-height: 10vh;
-    max-width: 7vw;
+    width: 7.2vw;
     min-height: 10vh;
+    object-fit: cover;
 }
 .bandeira {
     height: 3vh;
@@ -82,4 +81,16 @@
        height: 8vh;
        width: 18vw;
    }
+}
+
+@media (min-width: 1000px) and (max-width: 1279px) { 
+    .bandeira {
+        width: 2vh;
+        height: auto;
+    }
+    .logo {
+       width: auto;
+       height: 6vh;
+    }
+    
 }

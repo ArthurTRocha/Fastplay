@@ -1,0 +1,53 @@
+.obejetivos {
+    height: 100vh;
+}
+.textosObejtivos {
+    white-space: pre;
+    margin-top: 5vh;
+}
+.textosObejtivos h1 {
+    text-align: left;
+    margin-left: 5vw;
+    font-size: 7vh;
+}
+.textosObejtivos p{
+    margin-top: 5vh;
+    text-align: left;
+    margin-left: 5vw;
+    font-size: 4vh;
+}
+.imagemObjetivos img {
+    height: 100%;
+    width: 100%;
+}
+.imagemObjetivosPai {
+    position: relative;
+}
+.imagemObjetivos {
+    height: 70vh;
+    width: 70vh;
+    position: absolute;
+    right: 0vw;
+    bottom: -37vh;
+}
+.setamarromPai {
+    position: relative;
+}
+.setamarrom img {
+    height: 100%;
+    width: 100%;
+}
+.setamarrom {
+    height: 20vh;
+    width: 20vh;
+    position: absolute;
+    top: 30vh;
+    z-index: 10;
+}
+.tracoObjetivo {
+    height: 0.5vh;
+    background: linear-gradient(270deg, #FF3900 36.2%, #000000 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: relative;
+    top: 39.5vh;
+}

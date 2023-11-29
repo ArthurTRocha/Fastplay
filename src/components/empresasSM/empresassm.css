@@ -112,6 +112,8 @@ color: #fff;
     padding: 1vh 3vh; 
     height: 8vh;
     width: 40vw;
+    z-index: 100;
+    position: absolute;
 
 }
 .button-qtme:hover {
@@ -119,7 +121,32 @@ color: #fff;
 }
 
 
-
-
-
-
+@media (min-width: 1000px) and (max-width: 1279px) { 
+    .imagemhomem {
+        object-fit: cover;
+        height: 60vh;
+        width: auto;
+        margin-top: 3vh;
+    }
+    .TextosEmpresasSM {
+        max-width: 58%;
+    }
+    .TextosEmpresasSM h1 {
+        font-size: 5vh;
+    }
+    .TextosEmpresasSM p {
+        font-size: 2.8vh;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+    .TextosEmpresasSM2 h1 {
+        font-size: 5vh;
+    }
+    .TextosEmpresasSM2 p {
+        font-size: 2.8vh;
+        margin-top: 5vh;
+    }
+    .alvo-sombra {
+        top: 90vh;
+    }
+}

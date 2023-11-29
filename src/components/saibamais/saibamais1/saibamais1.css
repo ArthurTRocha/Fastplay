@@ -1,5 +1,5 @@
 .saibaMais1 {
-    background-color: #FF0000;
+    background-color: #fff;
     height: 100vh;
     position: relative;
 }
@@ -31,12 +31,14 @@
     left: 5vw;
 }
 .textosPrimeirapagina p{
-    color: #fff;
-    font-size: 3.5vh;
+    color: #000;
+    font-size: 4.5vh;
     position: absolute;
     top: 25vh;
     right: 5vw;
     text-align: right;
+    white-space: pre-line;
+
 }
 .textosPrimeirapagina h1 {
     color: #000;

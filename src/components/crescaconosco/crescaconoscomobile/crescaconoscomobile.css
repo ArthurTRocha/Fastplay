@@ -1,0 +1,19 @@
+.imagemCrescaConoscoMobile img {
+    height: 100%;
+    width: 100%;
+}
+.crescaConoscoMobile {
+    margin-top: 18vh;
+}
+.imagemCrescaConoscoMobile {
+    margin-top: 7vh;
+}
+.textoscrescaConoscoMobile p {
+    margin-top: 5vh;
+}
+
+@media (min-width: 700px) {
+    .textoscrescaConoscoMobile {
+        margin-left: 3vw;
+    }
+ }

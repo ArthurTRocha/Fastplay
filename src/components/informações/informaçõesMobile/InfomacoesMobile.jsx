@@ -16,7 +16,7 @@ function InformacoesMobile() {
     { image: Alcance, text: t("Informacoes.Maximizacao") },
     { image: Estrategias, text: `${t("Informacoes.Personalizacao1")} \n ${t("Informacoes.Personalizacao2")}` },
     { image: Otimizacao, text: `${t("Informacoes.Otimizacao1")} \n ${t("Informacoes.Otimizacao2")}` },
-    { image: ConstrucaoMarca, text: `${t("Informacoes.Construcao1")} \n ${t("Informacoes.Construcao2")} \n ${t("Informacoes.Construcao3")}` },
+    { image: ConstrucaoMarca, text: `${t("Informacoes.Construcao1")} \n ${t("Informacoes.Construcao2")}` },
   ];
   
 

@@ -49,21 +49,23 @@ font-size: 2.2vh;
 .PlayStore img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 
 }
 .AppStore img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 
 }
 .PlayStore{
-    height: 8vh;
+    height: auto;
     width: 12vw;
     max-height: 100%;
 }
 .AppStore {
     margin-top: 1vh;
-    height: 8vh;
+    height: auto;
     width: 12vw;
     max-height: 100%;
 }

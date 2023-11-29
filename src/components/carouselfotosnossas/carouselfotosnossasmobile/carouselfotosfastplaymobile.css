@@ -1,0 +1,21 @@
+.carouselFotosFastplayMobile {
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+.carouselFotosMobile img,
+.carouselFotos1Mobile img,
+.carouselFotos2Mobile img,
+.carouselFotos3Mobile img,
+.carouselFotos4Mobile img   {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.carouselFotosMobile,
+.carouselFotos1Mobile,
+.carouselFotos2Mobile,
+.carouselFotos3Mobile,
+.carouselFotos4Mobile {
+    height: 60vh;
+    width: auto;
+}

@@ -1,0 +1,62 @@
+.dataNascimento_NacionalidadeMobile {
+    display: flex;
+}
+.inputsTCMobile {
+    margin-top: 14vh;
+}
+.inputTC_1Mobile {
+    background-color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 2vh;
+    max-height: auto;
+    color: #fff;
+    height: 7vh;
+    width: 43vw;
+    margin-top: 2vh;
+    margin-right: 2vw;
+}
+.inputTC_11Mobile {
+    background-color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 2vh;
+    max-height: auto;
+    color: #fff;
+    height: 7vh;
+    width: 90vw;
+}
+.textosInputsTCMobile,
+.textosInputsTC_1Mobile,
+.textosInputsTC_2Mobile {
+    display: flex;
+    margin-top: 3vh;
+}
+.iconeInputsTCMobile {
+    font-size: 5.5vh;
+    color: #ff3900;
+}
+.telefone_PerfilMobile {
+    display: flex;
+}
+.cadastrarTCMobile img {
+    object-fit: cover;
+    width: 15vw;
+    height: auto;
+}
+.cadastrarTCMobile {
+    text-decoration: none;
+    border: none;
+    border-radius: 2vh;
+    background-color: #ff3900;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    font-size: 2vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}

@@ -2,6 +2,7 @@ import "../styles/home.css"
 import React from 'react';
 
 
+
 {/*IMPORTS PAGINAS*/}
 import Header from "../components/header/Header";
 import EmpresasSM from "../components/EmpresasSM/EmpresasSM";
@@ -10,28 +11,22 @@ import Informacoes from "../components/informações/Informacoes";
 import Potencial from "../components/potencialempresarial/Potencial";
 import Servicos from "../components/serviços/Servicos";
 import Footer from "../components/footer/Footer";
-import Envioemail from '../components/emailenvio/Envioemail';
+import Entrecontato from '../components/entrecontato/Entrecontato.jsx';
 import HeaderMobile from "../components/header/headermobile/HeaderMobile"
 import EmpresasSMMobile from "../components/empresasSM/empresasSMMobile/EmpresasSMMobile";
 import InformacoesMobile from "../components/informações/informaçõesMobile/InfomacoesMobile";
 import VendasMaioresMobile from "../components/vendasMaiores/vendasmaioresmobile/VendasMaioresMobile";
 import PotencialMobile from "../components/potencialempresarial/potencialMobile/PotencialMobile";
 import ServicosMobile from "../components/serviços/servicosmobile/ServicosMobile";
-import EnvioemailMobile from '../components/emailenvio/emailenvioMobile/EnvioemailMobile';
+import EntrecontatoMobile from '../components/entrecontato/entrecontatoMobile/EntrecontatoMobile.jsx';
 import FooterMobile from '../components/footer/footermobile/FooterMobile';
 import FooterTablet from '../components/footer/footertablet/FooterTablet';
 
 
 
-
-
-
 function Home() {
   
-        
-      
- 
-  
+
   return (
     <div className="home">
       <div className="headerMobilee"><HeaderMobile/></div>
@@ -54,8 +49,8 @@ function Home() {
           <div className="servicosMobilee"><ServicosMobile/></div>
 
 
-          <div className="envioemaill"><Envioemail/></div>
-         <div className="envioemailMobilee"><EnvioemailMobile/></div>
+          <div className="entrecontatoo"><Entrecontato/></div>
+         <div className="entrecontatoMobilee"><EntrecontatoMobile/></div>
 
 
          <div className="footerr"><Footer/></div>

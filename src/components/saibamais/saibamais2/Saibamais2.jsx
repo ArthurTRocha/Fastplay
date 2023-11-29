@@ -2,14 +2,14 @@ import React from "react";
 import "./saibamais2.css"
 import { useTranslation } from 'react-i18next';
 import Dinheiro from "../../../assets/image/Dinheiro.png"
-import Seta1 from "../../../assets/image/Seta1.png"
+import newSeta from "../../../assets/image/newSeta.png"
 function Saibamais2(){
     const { t } = useTranslation();
     
         return (
             <div className="saibaMais2">
                 <div className="seta1">
-                    <img src={Seta1} alt="" />
+                    <img src={newSeta} alt="" />
                 </div>
                 <div className="segundoRetangulo">
                     <h1>{t("Saibamais1.Titulo")}</h1>

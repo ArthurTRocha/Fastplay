@@ -59,7 +59,7 @@ function Informacoes() {
         <div className="imagemconstrutucao">
           <img src={imagemConstrucaoMarca} alt="" />
           <div className="imagemconstrutucaotexto">
-            {t("Informacoes.Construcao1")} {`\n`} {t("Informacoes.Construcao2")} {`\n`} {t("Informacoes.Construcao3")}
+            {t("Informacoes.Construcao1")} {`\n`} {t("Informacoes.Construcao2")}
           </div>
         </div>
 

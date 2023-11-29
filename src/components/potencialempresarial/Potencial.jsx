@@ -23,11 +23,11 @@ function Potencial() {
 
                 <div className="anos">
                 <div className="ano2022"><p>2022</p></div>
-                <div class="iconesPotencial">
-                <div class="traco"><p>75%</p></div>
-                <div class="traco"><p>50%</p></div>
-                <div class="traco"><p>25%</p></div>
-                <div class="traco"><p>0%</p></div>
+                <div className="iconesPotencial">
+                <div className="traco"><p>75%</p></div>
+                <div className="traco"><p>50%</p></div>
+                <div className="traco"><p>25%</p></div>
+                <div className="traco"><p>0%</p></div>
                 </div>
                 <div className="setaAnoss">
                 <img className="setaAnos" src={Setaa} alt="Seta" /></div>

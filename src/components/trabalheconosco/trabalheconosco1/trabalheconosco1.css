@@ -1,0 +1,107 @@
+.TrabalheConosco1 {
+    height: 150vh;
+}
+.dataNascimento_Nacionalidade {
+    display: flex;
+}
+.inputsTC {
+    position: relative;
+    margin-left: 5vw;
+    top: 10vh;
+}
+.inputsTrabalheConosco {
+    position: absolute;
+    top: 20vh;
+}
+.imagemsetaTC img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.imagemsetaTC {
+    height: auto;
+    width: 10vw;
+    position: absolute;
+    right: 3vw;
+}
+.inputTC_1 {
+    background-color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 2vh;
+    max-height: auto;
+    color: #fff;
+    height: 7vh;
+    width: 20vw;
+}
+.inputTC_11 {
+    background-color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 2vh;
+    max-height: auto;
+    color: #fff;
+    height: 7vh;
+    width: 50vw;
+    margin-top: 5vh;
+}
+.textosInputsTC,
+.textosInputsTC_1,
+.textosInputsTC_2 {
+    display: flex;
+}
+.iconeInputsTC {
+    font-size: 5.5vh;
+    color: #ff3900;
+    margin-left: 1vw;
+}
+.telefone_Perfil {
+    display: flex;
+}
+.cadastrarTC img {
+    margin-right: 1vw;
+}
+.cadastrarTC {
+    text-decoration: none;
+    border: none;
+    border-radius: 2vh;
+    background-color: #ff3900;
+    color: #fff;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    font-size: 3vh;
+    font-weight: bold;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    cursor: pointer;
+    position: relative;
+    left: 65%;
+}
+.nomesInputTC {
+    margin-top: 3vh;
+}
+.nacionalidade {
+    margin-left: 0.5vw;
+}
+.dataNascimento_Nacionalidade {
+    margin-top: 3vh;
+}
+.inputsTC-2 {
+    margin-top: 5vh;
+}
+.telefone_Perfil {
+    margin-top: 3vh;
+}
+.perfilTC {
+    margin-left: 0.5vw;
+}
+.inputsTC-3 {
+    margin-top: 5vh;
+}
+.cargosDisponiveisTC {
+    margin-top: 3vh;
+}
+.cadastrarTC {
+    margin-top: 5vh;
+}

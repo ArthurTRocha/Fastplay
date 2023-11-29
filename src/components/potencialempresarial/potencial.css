@@ -163,3 +163,9 @@ position: relative;
 
 
 /*RESPONSIVIDADE*/
+
+@media (min-width: 768px) { 
+    .descriacaoseta1Mobile {
+        margin-left: 5vw;
+    }
+}

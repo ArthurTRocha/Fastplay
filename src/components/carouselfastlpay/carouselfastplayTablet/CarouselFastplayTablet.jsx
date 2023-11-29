@@ -18,7 +18,7 @@ function CarouselfastplayTablet() {
     infinite: true,
     arrows: false,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
 

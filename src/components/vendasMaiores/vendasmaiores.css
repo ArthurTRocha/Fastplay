@@ -23,6 +23,7 @@
     font-size: 3vh;
     color: #fff;
     white-space: pre-line;
+    margin-top: 3vh;
 
 }
 .vendasmaiores-texto0 {
@@ -139,12 +140,15 @@ p{
 }
 
 
-@media (max-width: 1000px) { 
+@media (min-width: 1000px) and (max-width: 1279px) { 
 
 .Carouselfastplay {
     display: none;
 }
 .carouselFTablet {
     display: block;
+}
+.vendasmaiores-celular img {
+    display: none;
 }
 }

@@ -1,0 +1,43 @@
+.TrabalheConosco2Mobile {
+    position: relative;
+    top: 10vh;
+}
+.textosTCMobile h1 {
+    color: #ff3900;
+    font-size: 3.5vh;
+    text-align: left;
+}
+.textosTCMobile p { 
+    font-size: 2vh;
+    margin-top: 3vh;
+    text-align: left;
+}
+.textosTCMobile {
+    max-width: 90%;
+    margin-left: 3vw;
+}
+.textosTC_1Mobile {
+    margin-left: 2vw;
+}
+.textosTC_1Mobile h1 {
+    color: #ff3900;
+    font-size: 5vh;
+}
+.textosTC_1Mobile p {
+    font-size: 2vh;
+    margin-top: 5vh;
+}
+.textosTC_1PaiMobile {
+    position: relative;
+}
+.imagemSetamarromTCMobile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.imagemSetamarromTCMobile {
+    height: auto;
+    width: 8vh;
+    position: absolute;
+    right: 5vw;
+}

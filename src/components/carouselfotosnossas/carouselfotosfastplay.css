@@ -1,0 +1,21 @@
+.carouselFotosFastplay {
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+.carouselFotos img,
+.carouselFotos1 img,
+.carouselFotos2 img,
+.carouselFotos3 img,
+.carouselFotos4 img  {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.carouselFotos,
+.carouselFotos1,
+.carouselFotos2,
+.carouselFotos3,
+.carouselFotos4 {
+    height: 60vh;
+    width: auto;
+}

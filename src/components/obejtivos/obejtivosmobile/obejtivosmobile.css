@@ -1,0 +1,32 @@
+.obejetivosMobile {
+    white-space: pre-line;
+
+}
+.imagemObjetivosMobile img {
+    height: 40vh;
+    width: 40vh;
+}
+.setamarromPaiMobile {
+    position: relative;
+}
+.setamarromMobile img {
+    height: 15vh;
+    width: 15vh;
+}
+.setamarromMobile {
+    position: absolute;
+    top: 0vh;
+}
+.textosObejtivosMobile p {
+    margin-top: 5vh;
+}
+
+
+
+@media (min-width: 600px) { 
+    .textosObejtivosMobile {
+        margin-top: 3vh;
+        margin-left: 3vw;
+    }
+}
+
