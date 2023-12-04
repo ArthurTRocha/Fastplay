@@ -30,10 +30,12 @@
     height: 15vh;
     width: 40vw;
 }
+.bandeiraMobile img {
+    object-fit: cover;
+}
 .bandeiraMobile {
-    height: 3vh;
-    margin: 0;
-    padding: 0;
+    height: auto;
+    width: 6vw;
 }
 .menu-icon {
     margin-left: 4vw;

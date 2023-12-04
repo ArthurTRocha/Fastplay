@@ -1,0 +1,14 @@
+.sign-in,
+.sign-out {
+    border: none;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    padding: 2vh 2vh 2vh 2vh;
+    cursor: pointer;
+    border-radius: 2vh;
+    background-color: #ff3900;
+    font-size: 2vh;
+    color: #fff;
+    font-weight: bold;
+}

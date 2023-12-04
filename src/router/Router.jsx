@@ -7,6 +7,7 @@ import Cadastro from "../pages/Cadastro.jsx";
 import CadastroMobile from "../pages/CadastroMobile.jsx";
 import TrabalheConoscoMobile from "../pages/TrabalheConoscoMobile.jsx";
 import TrabalheConosco from "../pages/TrabalheConosco.jsx";
+import Teste from "../pages/Teste.jsx"
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/SaibamaisMobile" element={<SaibamaisMobile />}/>
         <Route path="/Cadastro" element={<Cadastro />}/>
         <Route path="/CadastroMobile" element={<CadastroMobile />}/>
+        <Route path="/teste" element={<Teste />}/>
         <Route path="/TrabalheConoscoMobile" element={<TrabalheConoscoMobile />}/>
         <Route path="/TrabalheConosco" element={<TrabalheConosco />}/>
       </Routes>

@@ -153,11 +153,12 @@ const sendEmail = () => {
       </div>        
       <div className="imagemReuniao">
         <img src={Imagembotao} alt="" />
-      <input onClick={sendEmail} className="MarcaReuniao" type="submit" value={t("Envioemail.Reuniao")} /></div>
+      <input onClick={sendEmail} className="MarcaReuniao" type="submit" value={t("Envioemail.Reuniao")} />
       </div>
       </div>
-      <div className="QrcodePai">
-      <div className="Qrcode"><img src={QRcode} alt="" /></div></div>
+      </div>
+      {/* <div className="QrcodePai">
+      <div className="Qrcode"><img src={QRcode} alt="" /></div></div> */}
 
     </div>
   );

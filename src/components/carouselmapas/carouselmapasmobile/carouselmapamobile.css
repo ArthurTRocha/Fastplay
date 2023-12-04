@@ -7,16 +7,19 @@
     position: relative;
 }
 .setaPaisMobile img {
-    height: 80%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .setaPaisMobile {
     position: absolute;
     top: 15vh;
-    right: -5vw;
+    right: 0vw;
+    padding: 0;
 }
 .setaPaisMobile button {
-    height: 5vh;
+    height: auto;
+    width: 12vw;
     background: none;
     border: none; 
     outline: none; 
@@ -65,5 +68,6 @@
     .slideCarouselMobile {
         height: 40vh;
     }
+    
 
 }

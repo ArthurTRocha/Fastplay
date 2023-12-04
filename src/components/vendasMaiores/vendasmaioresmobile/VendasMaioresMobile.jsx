@@ -22,7 +22,9 @@ function VendasMaioresMobile() {
                 </p>
             </div>
 
+            <div className="carouselFastPlayVendas">
             <CarouselfastplayMobile/>
+            </div>
 
         </div>
     )

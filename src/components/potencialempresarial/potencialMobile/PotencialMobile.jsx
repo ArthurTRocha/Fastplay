@@ -21,11 +21,11 @@ function PotencialMobile() {
             <div className="quadroempresarialMobile">
                 <div className="anosMobile">
                     <div className="ano2022Mobile"><p>2022</p></div>
-                    <div class="iconesPotencialMobile">
-                        <div class="tracoMobile"><p>75%</p></div>
-                        <div class="tracoMobile"><p>50%</p></div>
-                        <div class="tracoMobile"><p>25%</p></div>
-                        <div class="tracoMobile"><p>0%</p></div>
+                    <div className="iconesPotencialMobile">
+                        <div className="tracoMobile"><p>75%</p></div>
+                        <div className="tracoMobile"><p>50%</p></div>
+                        <div className="tracoMobile"><p>25%</p></div>
+                        <div className="tracoMobile"><p>0%</p></div>
                     </div>
                     <div className="setaAnossMobile">
                         <img src={Setaa} alt="Seta" />
