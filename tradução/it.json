@@ -1,179 +1,183 @@
 {
-  "Header": {
-      "Servicos": "Servizi",
-      "Contato": "Contatto",
-      "Sobre nos": "Chi siamo"
-  },
-  "EmpresasSM": {
-      "Titulo": "La tua azienda è",
-      "Titulo-1": "senza marketing?",
-      "Paragrafo": "La mancanza di un marketing efficace può pregiudicare",
-      "Paragrafo-1": "la crescita e il successo desiderati, poiché la mancanza di",
-      "Paragrafo-2": "visibilità online può comportare la perdita di",
-      "Paragrafo-3": "clienti potenziali e opportunità.",
-      "Paragrafo-4": "Clicca su ",
-      "Paragrafo-5": "Scopri di più",
-      "Paragrafo-6": " per scoprire le",
-      "Paragrafo-7": "conseguenze di non avere marketing nella tua",
-      "Paragrafo-8": "azienda",
-      "Titulo-2": "Vantaggi di avere un team di",
-      "Titulo-3": "marketing",
-      "Paragrafo-9": "I vantaggi del marketing sono una vera rivoluzione",
-      "Paragrafo-10": "per la tua attività. Dall'aumento della visibilità e",
-      "Paragrafo-11": "conversioni alla creazione di un'identità di marca solida",
-      "Paragrafo-12": "e all'ottenimento di dati strategici per",
-      "Paragrafo-13": "spingere il successo della tua attività",
-      "Transformar": "SCOPRI DI PIÙ!"
-  },
-  "Vendasmaiores": {
-      "Titulo": "Perché dovresti scegliere",
-      "Titulo2": "FastPlay Marketing per la tua",
-      "Titulo3": "attività?",
-      "Descricao": "Scopri come FastPlay Marketing può essere il",
-      "Descricao2": "tassello chiave",
-      "Descricao3": "che manca per",
-      "Descricao4": "spingere il successo",
-      "Descricao5": "della tua azienda."
-  },
-  "Envioemail": {
-      "Alert": "Compila tutti i campi.",
-      "Titulo": "Richiedi i Nostri",
-      "Titulo1": " Servizi",
-      "Paragrafo": "Completa tutti i campi del modulo per",
-      "Paragrafo1": "assicurare un invio completo",
-      "Paragrafo2": "e prenota il tuo",
-      "Paragrafo3": "incontro",
-      "Paragrafo4": "dopo il completamento.",
-      "CampoEnvio": "Inserisci il tuo nome",
-      "CampoEnvio1": "Inserisci la tua email",
-      "CampoEnvio2": "Telefono",
-      "CampoEnvio3": "Settore dell'azienda",
-      "Mouse": "Area specifica di attività o mercato",
-      "Mouse1": " in cui opera l'azienda",
-      "Reuniao": "PRENOTA INCONTRO"
-  },
-  "Informacoes": {
-      "Maximizacao": "Massimizzazione della Portata",
-      "Personalizacao1": "Personalizzazione delle",
-      "Personalizacao2": "Strategie",
-      "Otimizacao1": "Ottimizzazione delle",
-      "Otimizacao2": "Risorse",
-      "Construcao1": "Costruzione di un",
-      "Construcao2": "Marchio Potente"
-  },
-  "Carousel": {
-      "Analise": "Analisi dei Dati",
-      "Analise1": "Strategici",
-      "Reputacao": "Reputazione ",
-      "Reputacao1": "Inattaccabile",
-      "Expansao": "Espansione del ",
-      "Expansao1": "Mercato",
-      "Leads": "Leads Qualificati",
-      "Leads1": "in Clienti Paganti",
-      "Saiba": "Scopri di più!",
-      "Paragrafo": "Il marketing professionale",
-      "Paragrafo-1": "espande i mercati e",
-      "Paragrafo-2": "stimola la crescita",
-      "Paragrafo-3": "aziendale verso nuovi",
-      "Paragrafo-4": "livelli.",
-      "Paragrafo1": "Il marketing professionale",
-      "Paragrafo1-1": "crea una reputazione solida",
-      "Paragrafo1-2": "attraverso l'attrazione e la fidelizzazione",
-      "Paragrafo1-3": "dei clienti con una percezione",
-      "Paragrafo1-4": "positiva sul mercato.",
-      "Paragrafo2": "I professionisti del marketing",
-      "Paragrafo2-1": "raccolgono e analizzano dati",
-      "Paragrafo2-2": "strategici per decisioni",
-      "Paragrafo2-3": "informate e strategie",
-      "Paragrafo2-4": "efficaci.",
-      "Paragrafo3": "Con strategie efficaci, è",
-      "Paragrafo3-1": "possibile convertire i lead in",
-      "Paragrafo3-2": "clienti paganti, con conseguente",
-      "Paragrafo3-3": "aumento dei ricavi e",
-      "Paragrafo3-4": "profitto aziendale."
-  },
-  "Potencial": {
-      "Maximize": "Massimizza il Tuo Potenziale",
-      "Maximize2": "Aziendale con",
-      "Maximize3": "Fastplay",
-      "Maximize4": "Marketing",
-      "De": "di",
-      "Nacionais": "STATI NAZIONALI",
-      "Internacionais": "STATI INTERNAZIONALI",
-      "Dados": "Dati sulla crescita del Marketing Digitale",
-      "Dados2": "in tutto il mondo.",
-      "Brasil": "BRASILE",
-      "ESTADOS UNIDOS": "STATI UNITI"
-  },
-  "Servicos": {
-      "Potencialize": "Potenzia",
-      "Potencialize2": "il Tuo Successo Online",
-      "Potencialize3": "Scopri i Nostri Servizi d'Elite: Raggiungi, Coinvolgi e",
-      "Potencialize4": "Conquista la tua Audience nel Mondo Digitale.",
-      "Trafego": "Traffico Pagato",
-      "Estrategia": "Strategie di ",
-      "Estrategia2": "Vendita e ",
-      "Estrategia3": "Marketing",
-      "Desenvolvimento": "Sviluppo",
-      "Desenvolvimento2": "di Siti e",
-      "Desenvolvimento3": "Applicazioni",
-      "Treinamento": "Formazione di",
-      "Treinamento2": "Rappresentante",
-      "Contrate": "ASSUMI LA NOSTRA SQUADRA",
-      "Gestao": "Gestione di",
-      "Gestao2": "Dati",
-      "Gestao3": "Strategici",
-      "Gestaors": "Gestione di",
-      "Gestaors2": "Social Media",
-      "Profissional": "Professionista di",
-      "Profissional2": "branding e social",
-      "Profissional3": "media",
-      "Marketing": "Marketing per",
-      "Marketing2": "E-commerce"
-  },
-  "Footer": {
-      "Jornada": "Il Tuo Viaggio di Successo",
-      "Jornada2": "Inizia Qui",
-      "ServicosTitulo": "SERVIZI",
-      "Servicos": "TRAFFICO PAGATO",
-      "Servicos2": "GESTIONE DI RETE",
-      "Servicos3": "MARKETING PER E-COMMERCE",
-      "Servicos4": "STRATEGIE",
-      "OutrosTitulo": "ALTRO",
-      "Outros": "DOMANDE FREQUENTI",
-      "Outros2": "CHI SIAMO",
-      "Outros3": "DIVENTA UN COLLABORATORE",
-      "Outros4":"Chi Siamo",
-      "Breve": "PRESTO DISPONIBILE",
-      "Breve2": "nei negozi ufficiali",
-        "Mobile":"Il Tuo Viaggio di Successo",
-        "Mobile1":"Inizia Qui!",
+    "Header": {
+        "Servicos": "Servizi",
+        "Contato": "Contatto",
+        "Sobre nos": "Chi siamo"
+    },
+    "EmpresasSM": {
+        "Titulo": "La tua azienda è",
+        "Titulo-1": " senza marketing?",
+        "Paragrafo": "La mancanza di marketing efficace può danneggiare la",
+        "Paragrafo-1": "crescita e il successo desiderato, poiché la mancanza di",
+        "Paragrafo-2": "visibilità online può portare alla perdita di",
+        "Paragrafo-3": "potenziali clienti e opportunità.",
+        "Paragrafo-4": "Clicca su ",
+        "Paragrafo-5": "Scopri di più",
+        "Paragrafo-6": " per scoprire le",
+        "Paragrafo-7": "conseguenze di non avere un marketing nella tua",
+        "Paragrafo-8": "azienda",
+        "Titulo-2": "Vantaggi di avere un team di",
+        "Titulo-3": "marketing",
+        "Paragrafo-9": "I vantaggi del marketing sono una vera rivoluzione",
+        "Paragrafo-10": "per il tuo business. Dall'aumento della visibilità e",
+        "Paragrafo-11": "conversioni alla creazione di un'identità di marca",
+        "Paragrafo-12": "solida e all'ottenimento di dati strategici per",
+        "Paragrafo-13": "potenziare il successo del tuo business",
+        "Transformar": "SCOPRI DI PIÙ!"
+    },
+    "Vendasmaiores": {
+        "Titulo": "Perché dovresti scegliere",
+        "Titulo2": "FastPlay Marketing per la tua",
+        "Titulo3": "attività?",
+        "Descricao": "Scopri come FastPlay Marketing può essere il",
+        "Descricao2": "tassello chiave",
+        "Descricao3": "che manca per",
+        "Descricao4": "stimolare il successo",
+        "Descricao5": "della tua azienda."
+    },
+    "Envioemail": {
+        "Alert": "Compila tutti i campi.",
+        "Titulo": "Richiedi i nostri",
+        "Titulo1": "Servizi",
+        "Paragrafo": "Compila tutti i campi del modulo per",
+        "Paragrafo1": "assicurarti una spedizione completa",
+        "Paragrafo2": " e prenota il tuo",
+        "Paragrafo3": "appuntamento",
+        "Paragrafo4": " dopo il completamento.",
+        "CampoEnvio": "Inserisci il tuo nome",
+        "CampoEnvio1": "Inserisci la tua email",
+        "CampoEnvio2": "Telefono",
+        "CampoEnvio3": "Settore dell'azienda",
+        "Mouse": "Area specifica di attività o mercato",
+        "Mouse1": "in cui opera l'azienda",
+        "Reuniao": "PRENOTA UNA RIUNIONE"
+    },
+    "Informacoes": {
+        "Maximizacao": "Massimizzazione della Portata",
+        "Personalizacao1": "Personalizzazione delle",
+        "Personalizacao2": "Strategie",
+        "Otimizacao1": "Ottimizzazione di",
+        "Otimizacao2": "Risorse",
+        "Construcao1": "Costruzione di",
+        "Construcao2": "un Marchio Potente"
+    },
+    "Carousel": {
+        "Analise": "Analisi di Dati ",
+        "Analise1": "Strategici",
+        "Reputacao": "Reputazione ",
+        "Reputacao1": "Inossidabile",
+        "Expansao": "Espansione del ",
+        "Expansao1": "Mercato",
+        "Leads": "Leads Qualificati ",
+        "Leads1": "in Clienti Paganti",
+        "Saiba": "Scopri di più!",
+
+        "Paragrafo": "Il marketing professionale espande i mercati e spinge la crescita aziendale a nuovi livelli.",
+        "Paragrafo1": "Il marketing professionale costruisce una solida reputazione attirando e trattenendo clienti con una percezione positiva sul mercato.",
+        "Paragrafo2": "I professionisti del marketing raccolgono e analizzano dati strategici per decisioni informate e strategie efficaci.",
+        "Paragrafo3": "Con strategie efficaci, è possibile convertire i lead in clienti paganti, portando a un aumento del fatturato e della redditività aziendale."
+
+    },
+    "Potencial": {
+        "Maximize": "Massimizza il Tuo Potenziale",
+        "Maximize2": "Aziendale con ",
+        "Maximize3": "Fastplay",
+        "Maximize4": "Marketing",
+        "De": "di",
+        "Nacionais": "STATI UNITI",
+        "Internacionais": "STATI INTERNAZIONALI",
+        "Dados": "Dati sulle crescenti del Marketing Digitale",
+        "Dados2": "in tutto il mondo.",
+        "Brasil": "BRASILE",
+        "ESTADOS UNIDOS": "STATI UNITI"
+    },
+    "Servicos": {
+        "Potencialize": "Potenzia",
+        "Potencialize2": "il Tuo Successo Online",
+        "Potencialize3": "Scopri i Nostri Servizi d'Elite: Raggiungi, Coinvolgi e",
+        "Potencialize4": "Conquista il Tuo Pubblico nel Mondo Digitale.",
+        "Trafego": "Trafico a Pagamento",
+        "Estrategia": "Strategie di ",
+        "Estrategia2": "Vendita e ",
+        "Estrategia3": "Marketing",
+        "Desenvolvimento": "Sviluppo",
+        "Desenvolvimento2": "di Siti e",
+        "Desenvolvimento3": "Applicazioni",
+        "Treinamento": "Formazione di",
+        "Treinamento2": "Rappresentanti",
+        "Contrate": "ASSUMI LA NOSTRA SQUADRA",
+        "Gestao": "Gestione di",
+        "Gestao2": "Dati ",
+        "Gestao3": "Strategici",
+        "Gestaors": "Gestione di",
+        "Gestaors2": "Social Media",
+        "Profissional": "Professionista di",
+        "Profissional2": "branding e social",
+        "Profissional3": "media",
+        "Marketing": "Marketing per",
+        "Marketing2": "E-commerce",
+        
+        "cardback1": "Aumento del traffico qualificato al sito conversioni più alte raggiungimento di un pubblico target specifico massimizzazione del ritorno sugli investimenti",
+
+        "cardback2": "Aumento dei tassi di conversione, crescita della base clienti, differenziazione dalla concorrenza, massimizzazione del ritorno sugli investimenti",
+        
+        "cardback3": "Siti e applicazioni professionali, miglioramento dell'esperienza utente, accessibilità su dispositivi mobili maggiore conversione",
+        
+        "cardback4": "Team di vendita più competenti aumento delle vendite approccio di vendita coerente miglioramento del servizio clienti",
+        
+        "cardback5": "Analisi dei dati di mercato, informazioni preziose, decisioni informate, vantaggio competitivo",
+        
+        "cardback6": "Coinvolgimento del pubblico, creazione di una solida presenza online, costruzione di relazioni con i clienti, aumento della visibilità del marchio",
+        
+        "cardback7": "Sviluppo di un'identità di marca unica, gestione efficace dei social media, costruzione di relazioni con i clienti",
+        
+        "cardback8": "Aumento delle vendite online, ottimizzazione delle pagine dei prodotti, strategie promozionali efficaci, espansione dell'e-commerce"
+        
+    },
+    "Footer": {
+        "Jornada": "Il tuo Viaggio di Successo Inizia Qui",
+        "ServicosTitulo": "SERVIZI",
+        "Servicos": "TRAFICO A PAGAMENTO",
+        "Servicos2": "GESTIONE DI RETI",
+        "Servicos3": "MARKETING PER L'E-COMMERCE",
+        "Servicos4": "STRATEGIE",
+        "OutrosTitulo": "ALTRO",
+        "Outros": "DOMANDE FREQUENTI",
+        "Outros2": "CHI SIAMO",
+        "Outros3": "DIVENTA UN COLLABORATORE",
+        "Outros4": "Chi Siamo",
+        "Breve": "PRESTO DISPONIBILE",
+        "Breve2": "nei negozi ufficiali",
+        "Mobile": "Il Tuo Viaggio di Successo",
+        "Mobile1": "Inizia Qui!",
         "Tablet": "SERVIZI",
         "Tablet1": "ALTRO"
-  },
-  "Saibamais": {
-      "Home": "Inizio",
-      "Titulo": "Perdita di Visibilità Online:",
-      "Paragrafo": "Senza un marketing efficace, l'azienda può",
-      "Paragrafo1": "passare inosservata nel mondo digitale,",
-      "Paragrafo2": "rischiando una perdita",
-      "Paragrafo3": "significativa di potenziali clienti."
-  },
-  "Saibamais1": {
-      "Titulo": "Bassa Conversione di Leads",
-      "Paragrafo": "La mancanza di strategie di marketing",
-      "Paragrafo1": "professionali può portare a basse",
-      "Paragrafo2": "percentuali di conversione di lead in clienti paganti,",
-      "Paragrafo3": "pregiudicando il reddito aziendale."
-  },
-  "Saibamais2": {
-      "Titulo": "Concorrenza Superiore",
-      "Paragrafo": "Aziende concorrenti che investono in",
-      "Paragrafo1": "marketing di alta qualità possono ottenere",
-      "Paragrafo2": "un vantaggio competitivo significativo,",
-      "Paragrafo3": "attrarre più clienti e aumentare la loro",
-      "Paragrafo4": "quota di mercato."
-  },
+    },
+    "Saibamais": {
+        "Home": "Home",
+        "Titulo": "Perdita di Visibilità Online:",
+        "Paragrafo": "Senza un marketing efficace, l'azienda può",
+        "Paragrafo1": "passare inosservata nel mondo digitale,",
+        "Paragrafo2": "con conseguente mancanza di visibilità",
+        "Paragrafo3": "online, che può portare a una perdita",
+        "Paragrafo4": "significativa di potenziali clienti."
+    },
+    "Saibamais1": {
+        "Titulo": "Bassa Conversione di Leads",
+        "Paragrafo": "La mancanza di strategie di marketing",
+        "Paragrafo1": "professionali può risultare in basse",
+        "Paragrafo2": "tariffe di conversione dei lead in clienti paganti, ",
+        "Paragrafo3": "pregiudicando il reddito dell'azienda."
+    },
+    "Saibamais2": {
+        "Titulo": "Concorrenza Superiore",
+        "Paragrafo": "Le aziende concorrenti che investono in",
+        "Paragrafo1": "marketing di alta qualità possono guadagnare",
+        "Paragrafo2": "un significativo vantaggio competitivo,",
+        "Paragrafo3": "attrarre più clienti e aumentare la loro",
+        "Paragrafo4": "quota di mercato."
+    },
+
   "Saibamais3": {
       "Titulo": "Identità Visiva Debole",
       "Paragrafo": "La mancanza di branding e identità visiva coerente",
@@ -205,22 +209,22 @@
 },
 "Contato": {
     "Titulo": "Entra in contatto",
-    "Titulo-1": "con il nostro",
+    "Titulo-1": "con il nostro ",
     "Titulo-2": "team",
 
-    "Paragrafo": "Massimizza",
+    "Paragrafo": "Massimizza ",
     "Paragrafo-1": "la tua presenza online con strategie",
     "Paragrafo-2": "personalizzate create dal nostro team di",
     "Paragrafo-3": "esperti",
     "Paragrafo-4": "nel marketing",
-    "Paragrafo-5": "Clicca sul",
-    "Paragrafo-6": "pulsante",
+    "Paragrafo-5": "Clicca sul ",
+    "Paragrafo-6": "pulsante ",
     "Paragrafo-7": "per",
-    "Paragrafo-8": "assumere",
+    "Paragrafo-8": "assumere ",
     "Paragrafo-9": "il nostro team"
 },
 "Conosco": {
-    "Titulo": "Lavora con noi",
+    "Titulo": "Lavora con Noi",
     "Paragrafo": "Unisciti alla nostra squadra e percorri la strada verso una carriera gratificante all'avanguardia del marketing digitale. Non vediamo l'ora di accogliere menti brillanti e talentuose per unirsi alla nostra missione di trasformare le sfide in successi.",
     "Titulo1": "Registrazione",
     "Paragrafo1": "Registrati sul nostro sito per far parte del team di marketing, avere accesso a opportunità esclusive di crescita e partecipare a iniziative innovative. Unisciti a noi per far parte di un team dedicato al successo e all'innovazione nel marketing!",  
@@ -231,15 +235,29 @@
     "Linkedin": "Profilo Linkedin",
     "Selecione": "Seleziona",
     "Cadastrar": "Iscriviti",
-    "Contato": "Contatto"
+    "Contato": "Contatto",
+    "Vaga": "Rappresentante",
+    "Vaga1": "Programmatore",
+    "Vaga2": "Stage di Vendite Internazionali",
+    "Vaga3": "Responsabile delle Vendite B2B"
+},
+"Pagina404": {
+    "Mensagem": "Pagina non trovata"
+  },
+  "Feedback": {
+    "Titulo": "Lascia il tuo feedback",
+    "Paragrafo": "Lascia il tuo feedback in modo che possiamo migliorare ulteriormente la tua esperienza. La tua prospettiva è fondamentale per continuare a offrire un servizio eccezionale.",
+    "Button": "Invia",
+    "Obrigado": "Grazie!",
+    "Paragrafo1": "Il modulo è stato inviato con successo.",
+    "Arquivo": "Seleziona un file"
 
-
-
-
-
-
-
+},
+"Endereco": {
+    "enderecos": "44-11 Broadway, Queens, NY 11103, Estados Unidos"
 }
+
+  
 
 
 

@@ -9,10 +9,11 @@ function Saibamais2Mobile() {
 
   return (
     <div className="saibaMais2Mobile">
-      <div className="posicaoSaibamais2Mobile">
-      <div className="seta1Mobile"> 
-        <img src={newSeta} alt="" />
+          <div className="seta1Mobile"> 
+        <img src={newSeta} alt="Seta" />
       </div>
+      <div className="posicaoSaibamais2Mobile">
+  
       <div className="segundoRetanguloMobile"> 
         <h1>{t("Saibamais1.Titulo")}</h1>
         <p>
@@ -23,7 +24,7 @@ function Saibamais2Mobile() {
         </p>
       </div>
       <div className="dinheiroRetanguloMobile"> 
-        <img src={Dinheiro} alt="" />
+        <img src={Dinheiro} alt="Dinheiro" />
       </div>
       </div>
     </div>

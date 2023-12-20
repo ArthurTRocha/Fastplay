@@ -96,7 +96,24 @@ color: #fff;
     margin-bottom: 1.2vh; 
     height:3.5vh;
 }
-
+.iconeeWFIXO {
+    position: fixed;
+    z-index: 100;
+    right: 10px;
+    bottom: 10px;
+    height: auto;
+    width: auto;
+}
+.iconeeHOME {
+    color: #fff;
+    font-size: 6vh;
+    border: #008000;
+    background-color: #008000;
+    border-radius: 4vh;
+}
+.iconeeHOME:hover {
+    transform: scale(1.2);
+}
 
 /*Button*/
 .button-qtme {
@@ -150,3 +167,29 @@ color: #fff;
         top: 90vh;
     }
 }
+
+@media screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) {
+    .TextosEmpresasSM h1 {
+        font-size: 6.5vh;
+    }
+    .TextosEmpresasSM p {
+        margin-top: 3vh;
+        font-size: 2.7vh;
+    }
+    .imagemhomem img {
+        object-fit: cover;
+    }
+    .imagemhomem {
+        height: auto;
+        width: 45vw;
+    }
+    .TextosEmpresasSM2 h1 {
+        font-size: 6.5vh;
+    }
+    .TextosEmpresasSM2 p {
+        font-size: 2.7vh;
+    }
+    .alvo-sombra{
+        top: 88vh;
+    }
+  }

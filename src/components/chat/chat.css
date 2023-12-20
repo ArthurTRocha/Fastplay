@@ -1,0 +1,37 @@
+.chat h1, p {
+    color: #000;
+}
+.chat h1 {
+    font-size: 4vh;
+}
+.abrirChat{
+    border-radius: 50vh;
+    background-color: #ff3900;
+    border: none;
+    cursor: pointer;
+    padding: 0.5vh 1vh 0.5vh 1vh;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    z-index: 99;
+}
+.MdSms {
+    color: #fff;
+    font-size: 5vh;
+}
+.abrirChat:hover {
+    transform: scale(1.05);
+}
+/* .TbTrafficConeOff {
+    font-size: 15vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ff3900;
+    top: 15vh;
+} */

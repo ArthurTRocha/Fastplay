@@ -1,0 +1,130 @@
+.textosFeedback h1 {
+    font-size: 8vh;
+    color: #ff3900;
+    font-weight: bold;
+}
+.textosFeedback p {
+    color: #000;
+    font-size: 4vh;
+}
+.textosFeedback {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5vh;
+}
+.nameemailFeedback input {
+    height: 10vh;
+    width: 25vw;
+    border-radius: 5vh;
+    border: 2px solid #000000;
+    margin-left: 0.5vw;
+}
+.nameemailFeedback {
+    display: flex;
+}
+.inputsFeedback {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center;
+}
+.inputFeedback {
+    height: 20vh;
+    width: 50vw;
+    border-radius: 2vh;
+    border: 2px solid #000000;
+    text-align: left;
+    margin-top: 3vh
+}
+.imagemFeedback img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.imagemFeedback {
+    height: auto;
+    width: 20vw;
+    position: relative;
+    bottom: 27vh;
+    z-index: -1;
+    left: 10vw;
+}
+.setaFeedback img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.setaFeedback {
+    height: auto;
+    width: 7vw;
+    position: absolute;
+    right: 3vw;
+    bottom: 5vh;
+}
+.buttonFeedback button {
+background: #F26101;
+border-radius: 3.5vh;
+font-weight: bold;
+font-size: 4vh;
+text-align: center;
+color: #FFFFFF;
+border: none;
+width: auto;
+height: auto;
+padding: 2vh 4vh 2vh 4vh;
+margin-top: 1vh;
+cursor: pointer;
+}
+.buttonFeedback button:hover {
+    transform: scale(1.08);
+}
+.fileFeedback {
+border: 0.5vh solid #F26101;
+border-radius: 35px;
+font-weight: bold;
+font-size: 3vh;
+line-height: 8vh;
+color: #F26101;
+padding: 0.5vh;
+}
+.fileFeedback input {
+    display: none;
+  }
+
+  @media screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) {
+    .textosFeedback h1 {
+        font-size: 7vh;
+        color: #ff3900;
+        font-weight: bold;
+    }
+    .textosFeedback p {
+        color: #000;
+        font-size: 3vh;
+    }
+    .textosFeedback {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 5vh;
+    }
+.imagemFeedback {
+    height: auto;
+    width: 35vw;
+    position: relative;
+    bottom: 20vh;
+    z-index: -1;
+    left: 3vw;
+}
+  }

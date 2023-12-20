@@ -1,6 +1,7 @@
 import React from "react";
 import './footermobile.css'
 import logo from "../../../assets/image/logo.png"
+import LogoEN from "../../../assets/image/FastplayMKT.png"
 import { BsWhatsapp } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
@@ -10,9 +11,33 @@ import i18n from 'i18next';
 import { TfiEmail } from "react-icons/tfi";
 import { MdTextsms } from "react-icons/md";
 import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
+import { FaMapMarkerAlt } from "react-icons/fa";
+
 
 function FooterMobile() {
     const { t } = useTranslation();
+
+    const getImageForLanguage = () => {
+      const currentLanguage = i18n.language;
+  
+      switch (currentLanguage) {
+          case 'en':
+              return LogoEN;
+          case 'es':
+              return LogoEN;
+          case 'it':
+              return LogoEN;
+          case 'fr':
+              return LogoEN;
+          case 'pt':
+              return logo;
+          default:
+              return logo;
+      }
+  };
+  
+  const imageSrc = getImageForLanguage();
 
     const getSocialMediaLink = (socialMedia) => {
         const selectedLanguage = i18n.language;
@@ -72,13 +97,27 @@ function FooterMobile() {
           : 'sms:+19297264171'
         }
 
+        const getLocalizacaoInLink = () => {
+          const selectedLanguage = i18n.language;
+        
+          const enderecos = {
+            pt: "Rua Santa Juliana, 1375 A, Sete Lagoas, Minas Gerais",
+            en: "44-11 Broadway, Queens, NY 11103, Estados Unidos", // Substitua pelo endereço desejado em inglês
+          };
+        
+          const linkBase = 'https://www.google.com/maps/search/?api=1&query=';
+          const endereco = enderecos[selectedLanguage] || enderecos.en;
+        
+          return linkBase + encodeURIComponent(endereco);
+        };
+
     return (
         <div className="footerMobile">
 
 
            
                 <div className="logofooterMobile">  
-                <img src={logo} alt="" />
+                <img src={imageSrc} alt="Logo" />
             </div>
             <div className="positionFooterMobile">
             <div className="textosfooterMobile">
@@ -93,7 +132,13 @@ function FooterMobile() {
         <a href={getSmsLink()} target="_blank"><MdTextsms className='icone'/></a>
       </div>
       </div>
+      <div className="enderecoFooterPaiMobile">
+      <FaMapMarkerAlt className="enderecoIconeMobile"/>
+      <a className='endereçosFooterMobile' href={getLocalizacaoInLink()} target="_blank" rel="noopener noreferrer">
+      {t("Endereco.enderecos")}</a>
       </div>
+      </div>
+    
         </div>
     )
 }

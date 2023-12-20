@@ -36,7 +36,7 @@ function Carouselmapa() {
         <p>{slides[currentSlide].text}</p>
       </div>
       <div className="setaPais">
-      <button onClick={nextSlide}><img src={SetaPais} alt="" /></button></div>
+      <button onClick={nextSlide}><img src={SetaPais} alt="Seta" /></button></div>
     </div>
   );
 }

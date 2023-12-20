@@ -15,6 +15,7 @@
     text-align: left;
     margin-left: 5vw;
     font-size: 4vh;
+    color: #000000;
 }
 .imagemObjetivos img {
     height: 100%;
@@ -50,4 +51,11 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
     position: relative;
     top: 39.5vh;
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) {
+    .imagemObjetivos {
+        height: 50vh;
+        width: auto;
+    }
 }

@@ -374,3 +374,15 @@ width: 50%;
         display: none;
     }
 }
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .card1SuperiorbackMobile p,
+    .card2SuperiorbackMobile p,
+    .card3SuperiorbackMobile p,
+    .card4SuperiorbackMobile p,
+    .card1InferiorbackMobile p,
+    .card2InferiorbackMobile p, 
+    .card3InferiorbackMobile p,
+    .card4InferiorbackMobile p {
+            font-size: 3.5vh;
+        }
+}

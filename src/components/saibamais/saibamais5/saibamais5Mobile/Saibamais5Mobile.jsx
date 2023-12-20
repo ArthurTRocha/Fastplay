@@ -10,7 +10,7 @@ function Saibamais5Mobile() {
   return (
     <div className="saibaMais5Mobile"> {/* Adicione "Mobile" ao nome da classe */}
       <div className="seta1-1Mobile"> {/* Adicione "Mobile" ao nome da classe */}
-      <img src={Seta1} alt="" />
+      <img src={Seta1} alt="Seta" />
       </div>
       <div className="quintoRetanguloMobile"> {/* Adicione "Mobile" ao nome da classe */}
         <h1>{t("Saibamais4.Titulo")}</h1>
@@ -21,7 +21,7 @@ function Saibamais5Mobile() {
           {t("Saibamais4.Paragrafo3")}
         </p>
         <div className="cadeiraMobile"> {/* Adicione "Mobile" ao nome da classe */}
-          <img src={Cadeira} alt="" />
+          <img src={Cadeira} alt="Cadeira" />
         </div>
       </div>
       <div className="colorBlackk"></div>

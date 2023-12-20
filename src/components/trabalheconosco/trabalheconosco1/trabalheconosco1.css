@@ -28,7 +28,7 @@
     background-color: #000;
     text-decoration: none;
     border: none;
-    border-radius: 2vh;
+    border-radius: 1vh;
     max-height: auto;
     color: #fff;
     height: 7vh;
@@ -38,7 +38,7 @@
     background-color: #000;
     text-decoration: none;
     border: none;
-    border-radius: 2vh;
+    border-radius: 1vh;
     max-height: auto;
     color: #fff;
     height: 7vh;
@@ -60,11 +60,13 @@
 }
 .cadastrarTC img {
     margin-right: 1vw;
+    height: auto;
+    width: 5vw;
 }
 .cadastrarTC {
     text-decoration: none;
     border: none;
-    border-radius: 2vh;
+    border-radius: 1vh;
     background-color: #ff3900;
     color: #fff;
     align-items: center;
@@ -77,6 +79,9 @@
     cursor: pointer;
     position: relative;
     left: 65%;
+}
+.cadastrarTC:hover {
+    transform: scale(1.02);
 }
 .nomesInputTC {
     margin-top: 3vh;

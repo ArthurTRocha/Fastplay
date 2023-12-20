@@ -12,7 +12,7 @@ function VendasMaiores() {
         <div className="vendasmaiores">
 
             <div className="textosvendasmaiores">
-                <div className="vendasmaiores-celular"><img src={celular} alt="" /></div>
+                <div className="vendasmaiores-celular"><img src={celular} alt="Celular" /></div>
                 <h1>
                 {t('Vendasmaiores.Titulo')} {`\n`}
                 {t('Vendasmaiores.Titulo2')} {`\n`}

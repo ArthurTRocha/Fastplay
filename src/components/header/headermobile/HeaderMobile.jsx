@@ -3,6 +3,7 @@ import Select from 'react-select';
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
 import logo from '../../../assets/image/logo.png';
+import LogoEN from "../../../assets/image/FastplayMKT.png"
 import brasil from '../../../assets/image/brazil.png';
 import usd from '../../../assets/image/united-states-of-america.png';
 import france from '../../../assets/image/france.png';
@@ -17,11 +18,12 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 import { MdTextsms } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 function Header() {
   const { t } = useTranslation();
 
-  const [selectedLanguage, setSelectedLanguage] = useState('en');
+  const [selectedLanguage, setSelectedLanguage] = useState('pt');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const customStyles = {
@@ -36,7 +38,7 @@ function Header() {
       transition: 'background-color 0.3s ease-in-out',
       marginRight: '0.5vw',
       padding: '0 !important',
-      height: '1vh',
+      maxHeight: '7vh',
     }),
     option: (provided, state) => ({
       ...provided,
@@ -214,26 +216,71 @@ function scrollToentreContatoMobile() {
       : 'sms:+19297264171'
     }
     
+    // FECHAR O MENU CLICANDO FORA DELE 
+    const menuRef = useRef(null);
+
+    useEffect(() => {
+      const handleOutsideClick = (event) => {
+        if (menuRef.current && !menuRef.current.contains(event.target)) {
+          setIsMenuOpen(false);
+        }
+      };
+  
+      document.addEventListener('click', handleOutsideClick);
+  
+      return () => {
+        document.removeEventListener('click', handleOutsideClick);
+      };
+    }, [menuRef]);
+
+    const getImageForLanguage = () => {
+      const currentLanguage = i18n.language;
+  
+      switch (currentLanguage) {
+          case 'en':
+              return LogoEN;
+          case 'es':
+              return LogoEN;
+          case 'it':
+              return LogoEN;
+          case 'fr':
+              return LogoEN;
+          case 'pt':
+              return logo;
+          default:
+              return logo;
+      }
+  };
+  
+  const imageSrc = getImageForLanguage();
 
   return (
-    <div className="headerMobile" id="Header">
+    <div className="headerMobile" id="Header"  ref={menuRef}>
  
       <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-        <img src={Menu} alt="" />
+        <img src={Menu} alt="Menu" />
       </div>
       {isMenuOpen && (
         <div className="menu-optionsMobile">
           <div className="posicaoMobileOpcoes">
-          <a className='opecoesMobile' href="/home">{t('Saibamais.Home')}</a>
+          <Link className='opecoesMobile' to="/home">{t('Saibamais.Home')}</Link>
           {`\n`}
           <a className='opecoesMobile' href="#" onClick={scrollToservicosMobile}>{t('Header.Servicos')}</a>
           {`\n`}
           <a className='opecoesMobile' href="#" onClick={scrollToentreContatoMobile}>{t('Header.Contato')}</a>
           {`\n`}
-          <a className='opecoesMobile' href="/TrabalheConoscoMobile">{t('Footer.Outros4')}</a>
+          <Link className='opecoesMobile' to="/TrabalheConoscoMobile">{t('Conosco.Titulo')}</Link>
           {`\n`}
-          <img className="logoMobile" src={logo} alt="FastplayMobile" />
-          
+          <Link className='opecoesMobile' to="/cadastromobile">{t('Footer.Outros4')}</Link>
+          {`\n`}
+          <Link className='opecoesMobile' to="/FeedbackMobile">Feedback</Link>
+          <div className="logoHeaderPai">
+          <img className="logoMobile" src={imageSrc} alt="FastplayMobile" />
+          </div>
+
+          <div className="tracoRedeHeaderMobile">
+          <div className="tracodegradeMobile"> 
+      </div>
           <div className="redessociaisMobile">
       <a href={getWhatsAppLink()} target="_blank"><BsWhatsapp className='iconeMobile' /></a>
         <a href={getSocialMediaLink('instagram')} target="_blank"><BsInstagram className='iconeMobile'/></a>
@@ -243,7 +290,6 @@ function scrollToentreContatoMobile() {
         <a href={getEmailLink()} target="_blank"><TfiEmail className='iconeMobile'/></a>
         <a href={getSmsLink()} target="_blank"><MdTextsms className='iconeMobile'/></a>
       </div>
-      <div className="tracodegradeMobile"> 
       </div>
       </div>
         </div>

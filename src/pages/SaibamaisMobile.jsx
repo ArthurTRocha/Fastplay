@@ -7,6 +7,8 @@ import Saibamais3Mobile from "../components/saibamais/saibamais3/saibamais3Mobil
 import Saibamais4Mobile from "../components/saibamais/saibamais4/saibamais4Mobile/Saibamais4Mobile"
 import Saibamais5Mobile from "../components/saibamais/saibamais5/saibamais5Mobile/Saibamais5Mobile"
 import FooterMobile from "../components/footer/footermobile/FooterMobile"
+import FooterTablet from '../components/footer/footertablet/FooterTablet';
+import "../styles/saibamaismobile.css"
 
 
 
@@ -23,7 +25,9 @@ window.scrollTo(0, 0);
             <Saibamais3Mobile/>
             <Saibamais4Mobile/>
             <Saibamais5Mobile/>
-            <FooterMobile/>
+            <div className="footerMobileS"><FooterMobile/></div>
+            <div className="footerTabletS"><FooterTablet/></div>
+            
 
                 
         </div>

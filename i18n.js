@@ -7,7 +7,7 @@ i18n
     .use(Backend)
     .use(initReactI18next)
     .init({
-        fallbackLng: 'en', // Idioma padrão
+        fallbackLng: 'pt', // Idioma padrão
         debug: true,
         interpolation: {
             escapeValue: false,

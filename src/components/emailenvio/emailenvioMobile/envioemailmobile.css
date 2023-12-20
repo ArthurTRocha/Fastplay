@@ -4,6 +4,22 @@
     align-items: center;
     margin-top: 5vh;
     background-color: #000;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 15vh; /* Ajuste conforme necessário */
+        background-color: #000;
+        top: 98%;
+        border-bottom-left-radius: 30vh;
+        border-bottom-right-radius: 30vh;
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+        z-index: 10;
+    }
+  }
+  .titulosoliciteMobile {
+    margin-left: 2vw;
   }
 .titulosoliciteMobile h1{
     color: #fff;
@@ -44,32 +60,21 @@
     background-color: #fff;
     height: 8vh;
     width: 80vw;
-    border-radius: 2.5vh;
+    border-radius: 1vh;
     border: 1px solid #ccc; 
     padding: 0.5rem; 
     box-sizing: border-box; 
-    margin-top: 1vh;
+    margin-bottom: 1vh
 }
 .input1Mobile {
     background-color: #fff;
     height: 8vh;
-    width: 40vw;
-    border-radius: 2.5vh;
+    width: 39vw;
+    border-radius: 1vh;
     margin-left: 1.5vw;
     border: 1px solid #ccc; 
     padding: 0.5rem; 
     box-sizing: border-box;
-    margin-top: 1vh;
-}
-.input2Mobile {
-    background-color: #fff;
-    height: 8vh;
-    width: 40vw;
-    border-radius: 2.5vh;
-    border: 1px solid #ccc; 
-    padding: 0.5rem; 
-    box-sizing: border-box;
-    margin-top: 1vh;
 }
 .telefoneSegmentoMobile {
     display: flex;
@@ -81,6 +86,7 @@
     top: 8.5vh;
     right: 1vw;
     width: 80vw;
+    z-index: 10;
 }
 .mensagemAoPassarMouseMobile p{
     white-space: nowrap;
@@ -89,21 +95,18 @@
     white-space: pre-line;
 
 }
-.QrcodePaiMobile {
-    position: relative;
-}
-
 .imagemReuniaoMobile{
-    position: relative;
-    margin-top: 10vh;
+    margin-top: 3vh;
 }
 .imagemReuniaoMobile img{
-    position: absolute;
-    right: 42vw;
-    bottom: 1vh;
     height: 3vh;
+    object-fit: cover;
+    width: auto;
+    margin-right: 0.5vw;
 }
 .MarcaReuniaoMobile {
+    display: flex;
+    align-items: center;
     font-size: 1.5vh;
     background-color: #C1C1C1;
     border-radius: 2vh;
@@ -113,14 +116,16 @@
     transition: all .3s ease-in-out;
     text-decoration: none;
     cursor: pointer;
-    padding: 1vh 3vh;
-    height: 5vh;
-    width: 50vw;
-    text-align: right;
+    height: auto;
+    padding: 1vh 1vh 1vh 1vh;
+    width: auto;
+    text-align: center;
     border: none;
     cursor: pointer;
     overflow: hidden;
-
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .setassMobile {
     position: relative;
@@ -135,7 +140,7 @@
     width: 10vh;
     position: absolute;
     right: 0%;
-    bottom: 25.5vh;
+    bottom: 29vh;
 }
 .FormularioEnvioEmailsMobile {
     display: flex;
@@ -143,17 +148,7 @@
     align-items: center;
     margin-top: 3vh;
 }
-.colorBlack {
-    position: relative;
-    top: 1vh;
-    background-color: #000;
-    height: 15vh;
-    width: 99.8%;
-    border-bottom-left-radius: 30vh;
-    border-bottom-right-radius: 30vh;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
-    z-index: 10;
-  }
+
   .posicaoElementosEmailMobile {
     height: 80vh;
   }
@@ -164,17 +159,7 @@
   /*RESPONSIVIDADE*/
 
   @media (min-width: 540px) {
-    .colorBlack {
-        position: relative;
-        top: 15vh;
-        background-color: #000;
-        height: 15vh;
-        width: 99.8%;
-        border-bottom-left-radius: 30vh;
-        border-bottom-right-radius: 30vh;
-        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
-        z-index: 10;
-      }
+
       .MarcaReuniaoMobile {
         font-size: 1.5vh;
         background-color: #C1C1C1;
@@ -196,25 +181,13 @@
 }
 
 
-    @media (min-width: 600px) { 
-        .colorBlack {
-            top: 4vh;
-        }
-    }
 
 
 
-    
-@media (min-width: 683px) {
-    .colorBlack {
-        top: 16vh;
-    }
-}
+
+
 
 @media (min-width: 700px) {
-    .colorBlack {
-        top: 10vh;
-    }
     .setacimaMobile {
         bottom: 19vh;
     }

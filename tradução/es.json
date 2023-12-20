@@ -1,163 +1,173 @@
 {
     "Header": {
-        "Servicos": "Servicios",
-        "Contato": "Contacto",
-        "Sobre nos": "Sobre nosotros"
+        "Servicos": "Services",
+        "Contato": "Contact",
+        "Sobre nos": "About Us"
     },
     "EmpresasSM": {
-        "Titulo": "¿Tu empresa está",
-        "Titulo-1": "sin marketing?",
-        "Paragrafo": "La falta de marketing efectivo puede perjudicar ",
-        "Paragrafo-1": "el crecimiento y éxito deseados, ya que la falta de ",
-        "Paragrafo-2": "visibilidad en línea puede resultar en la pérdida de ",
+        "Titulo": "¿Tu empresa carece de ",
+        "Titulo-1": "marketing?",
+        "Paragrafo": "La falta de marketing efectivo puede perjudicar el",
+        "Paragrafo-1": "crecimiento y éxito deseados, ya que la falta de",
+        "Paragrafo-2": "visibilidad en línea puede resultar en la pérdida de",
         "Paragrafo-3": "clientes potenciales y oportunidades.",
         "Paragrafo-4": "Haz clic en ",
-        "Paragrafo-5": "Saber más ",
-        "Paragrafo-6": " para descubrir las ",
-        "Paragrafo-7": "consecuencias de no tener marketing en tu ",
-        "Paragrafo-8": "empresa ",
-        "Titulo-2": "Beneficios de tener un equipo de ",
-        "Titulo-3": "marketing ",
-        "Paragrafo-9": "Los beneficios del marketing son una verdadera revolución ",
-        "Paragrafo-10": "para tu negocio. Desde el aumento de la visibilidad y ",
-        "Paragrafo-11": "conversiones hasta la creación de una identidad de marca sólida ",
-        "Paragrafo-12": "y la obtención de datos estratégicos para ",
-        "Paragrafo-13": "impulsar el éxito de tu negocio ",
-        "Transformar": "¡SABER MÁS! "
+        "Paragrafo-5": "Saber más",
+        "Paragrafo-6": " para descubrir las",
+        "Paragrafo-7": "consecuencias de no tener marketing en tu",
+        "Paragrafo-8": "empresa",
+    
+        "Titulo-2": "Beneficios de tener un equipo de",
+        "Titulo-3": "marketing",
+        "Paragrafo-9": "Los beneficios del marketing son una verdadera revolución",
+        "Paragrafo-10": "para tu negocio. Desde el aumento de la visibilidad y",
+        "Paragrafo-11": "conversiones hasta la creación de una identidad de marca",
+        "Paragrafo-12": "sólida y la obtención de datos estratégicos para",
+        "Paragrafo-13": "impulsar el éxito de tu negocio",
+        "Transformar": "¡SABER MÁS!"
     },
+    
     "Vendasmaiores": {
         "Titulo": "¿Por qué deberías elegir",
         "Titulo2": "FastPlay Marketing para tu",
         "Titulo3": "negocio?",
-        "Descripcion": "Descubre cómo FastPlay Marketing puede ser la",
-        "Descripcion2": "pieza clave",
-        "Descripcion3": "que falta para",
-        "Descripcion4": "impulsar el éxito",
-        "Descripcion5": "de tu empresa."
+        "Descricao": "Descubre cómo FastPlay Marketing puede ser la",
+        "Descricao2": "pieza clave",
+        "Descricao3": "que falta para",
+        "Descricao4": "impulsar el éxito",
+        "Descricao5": "de tu empresa."
     },
+    
     "Envioemail": {
         "Alert": "Completa todos los campos.",
         "Titulo": "Solicita Nuestros",
         "Titulo1": " Servicios",
         "Paragrafo": "Completa todos los campos del formulario para",
         "Paragrafo1": "asegurar un envío integral",
-        "Paragrafo2": "y agenda tu",
+        "Paragrafo2": " y agenda tu ",
         "Paragrafo3": "reunión",
-        "Paragrafo4": "después de completar.",
+        "Paragrafo4": " después de completar.",
         "CampoEnvio": "Ingresa tu nombre",
         "CampoEnvio1": "Ingresa tu correo electrónico",
         "CampoEnvio2": "Teléfono",
         "CampoEnvio3": "Segmento de la empresa",
         "Mouse": "Área específica de actuación o mercado",
-        "Mouse1": " en el que opera la empresa",
-        "Reuniao": "AGENDAR REUNIÓN"
+        "Mouse1": "en el que opera la empresa",
+        "Reuniao": "PROGRAMAR REUNIÓN"
     },
+    
     "Informacoes": {
         "Maximizacao": "Maximización del Alcance",
         "Personalizacao1": "Personalización de las",
         "Personalizacao2": "Estrategias",
         "Otimizacao1": "Optimización de",
         "Otimizacao2": "Recursos",
-        "Construcao1": "Construcción de una",
-        "Construcao2": "Marca Poderosa"
+        "Construcao1": "Construcción de",
+        "Construcao2": "una Marca Poderosa"
     },
+    
     "Carousel": {
         "Analise": "Análisis de Datos",
         "Analise1": "Estratégicos",
-        "Reputacao": "Reputación ",
+        "Reputacao": "Reputación",
         "Reputacao1": "Inquebrantable",
-        "Expansao": "Expansión de ",
+        "Expansao": "Expansión de",
         "Expansao1": "Mercado",
-        "Leads": "Leads Calificados",
+        "Leads": "Leads Cualificados",
         "Leads1": "en Clientes Pagadores",
-        "Saiba": "¡Saber más!",
-        "Paragrafo": "El marketing profesional",
-        "Paragrafo-1": "amplía mercados e",
-        "Paragrafo-2": "impulsa el crecimiento",
-        "Paragrafo-3": "empresarial hacia nuevos",
-        "Paragrafo-4": "niveles.",
-        "Paragrafo1": "El marketing profesional",
-        "Paragrafo1-1": "forja una reputación sólida",
-        "Paragrafo1-2": "atrae y fideliza a",
-        "Paragrafo1-3": "clientes con una percepción",
-        "Paragrafo1-4": "positiva en el mercado.",
-        "Paragrafo2": "Los profesionales del marketing",
-        "Paragrafo2-1": "recopilan y analizan datos",
-        "Paragrafo2-2": "estratégicos para decisiones",
-        "Paragrafo2-3": "informadas y estrategias",
-        "Paragrafo2-4": "eficaces.",
-        "Paragrafo3": "Con estrategias eficaces, es",
-        "Paragrafo3-1": "posible convertir leads en",
-        "Paragrafo3-2": "clientes pagadores, lo que resulta",
-        "Paragrafo3-3": "en un aumento de los ingresos y",
-        "Paragrafo3-4": "la rentabilidad del negocio."
+        "Saiba": "¡Saber Más!",
+    
+        "Paragrafo": "El marketing profesional expande los mercados e impulsa el crecimiento empresarial a nuevas alturas.",
+        "Paragrafo1": "El marketing profesional construye una sólida reputación atrayendo y fidelizando a los clientes con una percepción positiva en el mercado.",
+        "Paragrafo2": "Los profesionales del marketing recopilan y analizan datos estratégicos para decisiones informadas y estrategias efectivas.",
+        "Paragrafo3": "Con estrategias efectivas, es posible convertir clientes potenciales en clientes pagadores, lo que resulta en un aumento de los ingresos y la rentabilidad del negocio."
+
     },
+    
     "Potencial": {
         "Maximize": "Maximiza tu Potencial",
         "Maximize2": "Empresarial con",
         "Maximize3": "Fastplay",
         "Maximize4": "Marketing",
         "De": "de",
-        "Nacionais": "ESTADOS NACIONALES",
-        "Internacionais": "ESTADOS INTERNACIONALES",
-        "Dados": "Datos sobre el crecimiento del Marketing Digital",
+        "Nacionais": "NACIONALES",
+        "Internacionais": "INTERNACIONALES",
+        "Dados": "Datos sobre el crecimiento del marketing digital",
         "Dados2": "en todo el mundo.",
         "Brasil": "BRASIL",
         "ESTADOS UNIDOS": "ESTADOS UNIDOS"
     },
+    
     "Servicos": {
-        "Potencialize": "Potencializa",
-        "Potencialize2": "tu Éxito Online",
-        "Potencialize3": "Descubre Nuestros Servicios de Élite: Alcance, Compromiso y",
-        "Potencialize4": "Conquista a tu Audiencia en el Mundo Digital.",
-        "Trafego": "Tráfico Pagado",
+        "Potencialize": "Optimiza",
+        "Potencialize2": "tu éxito en línea",
+        "Potencialize3": "Descubre nuestros servicios de élite: Alcanza, Conecta y",
+        "Potencialize4": "Conquista a tu audiencia en el mundo digital.",
+        "Trafego": "Tráfico Pago",
         "Estrategia": "Estrategias de",
         "Estrategia2": "Venta y",
         "Estrategia3": "Marketing",
         "Desenvolvimento": "Desarrollo",
         "Desenvolvimento2": "de Sitios y",
         "Desenvolvimento3": "Aplicaciones",
-        "Treinamento": "Entrenamiento de",
-        "Treinamento2": "Representante",
-        "Contrate": "CONTRATA A NUESTRO EQUIPO",
+        "Treinamento": "Formación de",
+        "Treinamento2": "Representantes",
+        "Contrate": "CONTRATA NUESTRO EQUIPO",
         "Gestao": "Gestión de",
         "Gestao2": "Datos",
         "Gestao3": "Estratégicos",
         "Gestaors": "Gestión de",
         "Gestaors2": "Redes Sociales",
         "Profissional": "Profesional de",
-        "Profissional2": "branding y redes",
+        "Profissional2": "marca y redes",
         "Profissional3": "sociales",
         "Marketing": "Marketing para",
-        "Marketing2": "E-commerce"
+        "Marketing2": "Comercio Electrónico",
+    
+        "cardback1": "Aumento del tráfico cualificado al sitio conversiones más altas alcance de audiencia específica maximización del retorno de la inversión",
+
+        "cardback2": "Aumento de las tasas de conversión, crecimiento de la base de clientes, diferenciación de la competencia, maximización del retorno de la inversión",
+        
+        "cardback3": "Sitios y aplicaciones profesionales, mejora de la experiencia del usuario, accesibilidad en dispositivos móviles mayor conversión",
+        
+        "cardback4": "Equipos de ventas más competentes aumento en las ventas enfoque de ventas consistente mejora del servicio al cliente",
+        
+        "cardback5": "Análisis de datos de mercado, conocimientos valiosos, toma de decisiones informada, ventaja competitiva",
+        
+        "cardback6": "Participación de la audiencia, creación de una sólida presencia en línea, construcción de relaciones con los clientes, aumento de la visibilidad de la marca",
+        
+        "cardback7": "Desarrollo de una identidad de marca única, gestión efectiva de redes sociales, construcción de relaciones con los clientes",
+        
+        "cardback8": "Aumento de las ventas en línea, optimización de páginas de productos estrategias promocionales efectivas, expansión del comercio electrónico"
+        
     },
+    
     "Footer": {
-        "Jornada": "Tu Jornada hacia el Éxito",
-        "Jornada2": "Comienza Aquí",
+        "Jornada": "Tu camino hacia el éxito Comienza aquí",
         "ServicosTitulo": "SERVICIOS",
-        "Servicos": "TRÁFICO PAGADO",
+        "Servicos": "TRÁFICO PAGO",
         "Servicos2": "GESTIÓN DE REDES",
         "Servicos3": "MARKETING PARA E-COMMERCE",
         "Servicos4": "ESTRATEGIAS",
         "OutrosTitulo": "OTROS",
         "Outros": "PREGUNTAS FRECUENTES",
         "Outros2": "SOBRE NOSOTROS",
-        "Outros3": "CONVIERTE EN COLABORADOR",
-        "Outros4":"Sobre Nosotros",
+        "Outros3": "CONVERTIRSE EN COLABORADOR",
+        "Outros4": "Sobre Nosotros",
         "Breve": "PRÓXIMAMENTE",
         "Breve2": "en las tiendas oficiales",
-        "Mobile": "Tu Viaje hacia el Éxito",
-        "Mobile1": "¡Comienza Aquí!",
+        "Mobile": "Tu camino hacia el éxito",
+        "Mobile1": "¡comienza aquí!",
         "Tablet": "SERVICIOS",
-        "Tablet1": "OTRO"
-        
+        "Tablet1": "OTROS"
     },
+    
     "Saibamais": {
         "Home": "Inicio",
-        "Titulo": "Pérdida de Visibilidad en Línea:",
-        "Paragrafo": "Sin un marketing eficaz, la empresa puede",
+        "Titulo": "Pérdida de visibilidad en línea:",
+        "Paragrafo": "Sin un marketing efectivo, la empresa puede",
         "Paragrafo1": "pasar desapercibida en el mundo digital,",
-        "Paragrafo2": "lo que puede llevar a una pérdida",
+        "Paragrafo2": "lo que puede resultar en una pérdida",
         "Paragrafo3": "significativa de clientes potenciales."
     },
     "Saibamais1": {
@@ -205,22 +215,22 @@
     },
     "Contato": {
         "Titulo": "Ponte en contacto",
-        "Titulo-1": "con nuestro",
+        "Titulo-1": "con nuestro ",
         "Titulo-2": "equipo",
     
-        "Paragrafo": "Maximiza",
+        "Paragrafo": "Maximiza ",
         "Paragrafo-1": "tu presencia en línea con estrategias",
         "Paragrafo-2": "personalizadas creadas por nuestro equipo de",
         "Paragrafo-3": "expertos",
         "Paragrafo-4": "en marketing",
-        "Paragrafo-5": "Haz clic en el",
-        "Paragrafo-6": "botón",
-        "Paragrafo-7": "para",
-        "Paragrafo-8": "contratar",
+        "Paragrafo-5": "Haz clic en el ",
+        "Paragrafo-6": "botón ",
+        "Paragrafo-7": "para ",
+        "Paragrafo-8": "contratar ",
         "Paragrafo-9": "nuestro equipo"
     },
     "Conosco": {
-        "Titulo": "Trabaja con nosotros",
+        "Titulo": "Trabaja con Nosotros",
         "Paragrafo": "Únete a nuestro equipo y traza el camino hacia una carrera gratificante en la vanguardia del marketing digital. Estamos ansiosos por recibir mentes brillantes y talentosas para unirse a nuestra misión de transformar desafíos en éxitos.",
         "Titulo1": "Registro",
         "Paragrafo1": "Regístrate en nuestro sitio para integrarte al equipo de marketing, tener acceso a oportunidades exclusivas de crecimiento y participar en iniciativas innovadoras. ¡Únete a nosotros para ser parte de un equipo dedicado al éxito y la innovación en el marketing!",           
@@ -231,14 +241,29 @@
         "Linkedin": "Perfil de Linkedin",
         "Selecione": "Seleccionar",
         "Cadastrar": "Registrarse",
-        "Contato": "Contacto"
+        "Contato": "Contacto",   
+        "Vaga": "Representante",
+        "Vaga1": "Programador",
+        "Vaga2": "Práctica en Ventas Internacionales",
+        "Vaga3": "Gerente de Ventas B2B"
+    },
+    "Pagina404": {
+        "Mensagem": "Página no encontrada"
+      },
+      "Feedback": {
+        "Titulo": "Deja tu retroalimentación",
+        "Paragrafo": "Deja tu retroalimentación para que podamos mejorar aún más tu experiencia. Tu perspectiva es fundamental para que podamos seguir ofreciendo un servicio excepcional.",
+        "Button": "Enviar",
+        "Obrigado": "¡Gracias!",
+        "Paragrafo1": "El formulario se ha enviado con éxito.",
+        "Arquivo": "Seleccionar un archivo"
 
-
-
-
-
-
+    },
+    "Endereco": {
+        "enderecos": "44-11 Broadway, Queens, NY 11103, Estados Unidos"
     }
+    
+      
     
     
 }

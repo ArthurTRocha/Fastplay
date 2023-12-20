@@ -11,7 +11,7 @@ function TrabalheConosco2() {
         <div className="TrabalheConosco2">
 
             <div className="imagemSetamarromTC">
-                <img src={setamarrom} alt="" />
+                <img src={setamarrom} alt="Seta" />
             </div>
               <div className="textosTC">
             <h1>{t("Conosco.Titulo")}</h1>

@@ -402,3 +402,18 @@ width: 50%;
         perspective: 100vw;
     }
 }
+@media screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) {
+    .card1Superiorback p,
+    .card3Superiorback p,
+    .card1Inferiorback p,
+    .card3Inferiorback p {
+        font-size: 1.5vh;
+    }
+    
+    .card2Superiorback p,
+    .card4Superiorback p,
+    .card2Inferiorback p,
+    .card4Inferiorback p {
+        font-size: 1.5vh;
+    }
+}

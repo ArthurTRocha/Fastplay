@@ -19,7 +19,7 @@ function Saibamais1Mobile() {
             {t("Saibamais.Paragrafo4")}
           </p>
           <div className="computadorRetanguloMobile"> 
-            <img src={Computador} alt="" />
+            <img src={Computador} alt="Computador" />
           </div>
         </div>
       </div>

@@ -5,86 +5,38 @@ import { useTranslation } from 'react-i18next';
 import Imagembotao from "../../../assets/image/setabotao.png"
 import Setacima from "../../../assets/image/setacima.png"
 import i18n from 'i18next';
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 
 
 function EnvioemailMobile() {
-
-    // useEffect(() => {
-    //   const listenToEventLanguageChange = (event) => {
-    //     const listenedLanguage = event.detail;
-    //     setServiceForEmail(listenedLanguage);
-    //   };
-    //   document.addEventListener('languageChanged', listenToEventLanguageChange);
-  
-    //   // A função de limpeza remove o ouvinte de evento quando o componente é desmontado
-    //   return () => {
-    //     document.removeEventListener('languageChanged', listenToEventLanguageChange);
-    //   };
-    // }, []);
-
   const { t } = useTranslation();
 
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [telefone, setTelefone] = useState('');
-  const [segmento, setSegmento] = useState('');
+
   const [toEmail, setToEmail] = useState('');
-  const [service, setService] = useState('');
-
-  const setServiceForEmail = (selectedLanguage) => {
-    if (selectedLanguage === 'pt') {
-      setToEmail('contato@fastplaycomunicacao.com.br');
-      setService('service_rzdde39');
-    } else {
-      setToEmail('contact@fastplaymarketing.com');
-      setService('service_kbj244q');
-    }
-  };
-
-  const listenToEventLanguageChange = () => {
-    const selectedLanguage = i18n.language;  // Obtenha a linguagem diretamente de i18n
-    setServiceForEmail(selectedLanguage);
-  };
 
   useEffect(() => {
-    listenToEventLanguageChange();  // Chame a função uma vez no início para configurar o estado inicial
+      const setToEmailForLanguage = (language) => {
+          if (language === 'pt') {
+              setToEmail('contato@fastplaycomunicacao.com.br');
+          } else {
+              setToEmail('contact@fastplaymarketing.com'); // Substitua pelo seu outro e-mail
+          }
+      };
 
-    // Adicione um ouvinte de evento para detectar mudanças de linguagem
-    i18n.on('languageChanged', listenToEventLanguageChange);
+      setToEmailForLanguage(i18n.language);
 
-    // Limpe o ouvinte de evento quando o componente é desmontado
-    return () => {
-      i18n.off('languageChanged', listenToEventLanguageChange);
-    };
-  }, []); 
+      const handleLanguageChange = (language) => {
+          setToEmailForLanguage(language);
+      };
 
-const sendEmail = () => {
-  // Configurar os parâmetros necessários para o envio do e-mail
-  const emailParams = {
-    from_name: name,
-    from_email: email,
-    from_telefone: telefone,
-    from_atuacao: segmento,
-    to_email: toEmail,
-    to_name: 'Fastplay',
-    service: service,
-  };
+      i18n.on('languageChanged', handleLanguageChange);
 
-  console.log(emailParams);
+      return () => {
+          i18n.off('languageChanged', handleLanguageChange);
+      };
+  }, []);
 
-  emailjs.send(service, 'template_2skgiw7', emailParams, '4njy-sPPY6dW49lvl')
-    .then((response) => {
-      console.log(emailParams);
-      console.log('E-mail enviado com sucesso!', response);
-      setName('');
-      setEmail('');
-      setSegmento('');
-      setTelefone('');
-    })
-    .catch((error) => {
-      console.error('Erro ao enviar e-mail:', error);
-    });
-};
 
   const [mostrarMensagem, setMostrarMensagem] = useState(false);
 
@@ -101,73 +53,73 @@ const sendEmail = () => {
         {`\n`}
         <div className="setassMobile">
       <div className="setacimaMobile">
-          <img src={Setacima} alt="" />
+          <img src={Setacima} alt="Seta" />
         </div></div>
       
 
       <div className="FormularioEnvioEmailsMobile">
-      <div className="nomeSolicitadoMobile">
-        <input
-          className="inputsMobile"
-          type="text"
-          placeholder={t("Envioemail.CampoEnvio")}
-          onChange={(e) => setName(e.target.value)}
-          value={name}
-        />
-      </div>
+      <form target="_blank" action={`https://formsubmit.co/${toEmail}`} encType="multipart/form-data"  method="POST">
+            <input type="hidden" name="_next" value="https://fastplaycomunicacao.com.br/Obrigado"/> 
+            <input type="hidden" name="_captcha" value="false"/>
 
-      <div className="emailSolicitadoMobile">
-        <input
-          className="inputsMobile"
-          type="email" 
-          placeholder={t("Envioemail.CampoEnvio1")}
-          onChange={(e) => setEmail(e.target.value)}
-          value={email}
-        />
-      </div>
+            
 
-<div className="telefoneSegmentoMobile">
-      <div className="telefoneSolicitadoMobile">
-      <input
-    className="input2Mobile"
-    type="tel" 
-    placeholder={t("Envioemail.CampoEnvio2")}
-    onChange={(e) => {
-      const value = e.target.value.replace(/\D/g, '');
-      setTelefone(value);
-    }}
-    value={telefone}
-    pattern="[0-9]*"  
-    inputMode="numeric" 
-  />
-      </div>
+            <div className="nomeSolicitadoMobile">
+            <input type="text" name="name" 
+            required 
+            placeholder={t("Envioemail.CampoEnvio")}
+            className="inputsMobile"/>
+            </div>
 
-      <div className="segmentoSolicitadoMobile">
-        <input
-          className="input1Mobile"
-          type="text"
-          placeholder={t("Envioemail.CampoEnvio3")}
-          onChange={(e) => setSegmento(e.target.value)}
-          value={segmento}
-        />
-       <div className="questionMobile" onMouseOver={() => setMostrarMensagem(true)} onMouseOut={() => setMostrarMensagem(false)}>
+            <div className="emailSolicitadoMobile">
+            <input type="email" name="email" 
+            placeholder={t("Envioemail.CampoEnvio1")}
+            className="inputsMobile"/>
+            </div>
+
+
+            <div className="telefoneSegmentoMobile">
+            <div className="telefoneSolicitadoMobile">
+
+                <label >
+                <PhoneInput
+                    country={''} // Defina o código do país conforme necessário
+                    placeholder={t("Envioemail.CampoEnvio2")}                
+                    inputStyle={{ width: '39vw', height: '8vh', }}
+                    inputProps={{
+                        name: 'telefone',
+                        required: true,
+                    }}
+                />
+                </label>
+                </div>
+
+                <div className="segmentoSolicitadoMobile">
+                  <input type="text" name="text"  
+                  placeholder={t("Envioemail.CampoEnvio3")}
+                  className="input1Mobile"/>
+                  <div className="questionMobile" onMouseOver={() => setMostrarMensagem(true)} onMouseOut={() => setMostrarMensagem(false)}>
         <div className="question?Mobile">?</div>
         {mostrarMensagem && (
         <div className="mensagemAoPassarMouseMobile">
           <p>{t("Envioemail.Mouse")}{`\n`}{t("Envioemail.Mouse1")}</p>
         </div>
       )}
-      </div>        
-      </div>
-      </div>        
-      <div className="imagemReuniaoMobile">
-        <img src={Imagembotao} alt="" />
-      <input onClick={sendEmail} className="MarcaReuniaoMobile" type="submit" value={t("Envioemail.Reuniao")} /></div>
-      </div>
-      <div className="colorBlack">
       </div>
       </div>
+      </div>
+
+
+      <div className="imagemReuniaoMobile"> 
+    <button className="MarcaReuniaoMobile" type="submit">
+        <img src={Imagembotao} alt="ImagemBotaoMobile" />
+        {t("Envioemail.Reuniao")}
+    </button>
+</div>
+            </form>
+            </div> 
       
+    </div>
     </div>
   );
 }

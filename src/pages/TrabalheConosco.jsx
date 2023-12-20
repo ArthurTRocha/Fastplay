@@ -6,6 +6,8 @@ import Footer from "../components/footer/Footer";
 import FoooterTablet from "../components/footer/footertablet/FooterTablet";
 
 function TrabalheConosco() {
+  window.scrollTo(0, 0);
+
 
     return (
     <div className="trabalheConosco">

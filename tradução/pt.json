@@ -78,29 +78,10 @@
         "Leads1":"em Clientes Pagantes",
         "Saiba":"Saiba Mais!",
 
-        "Paragrafo":"O marketing profissional",
-        "Paragrafo-1": "amplia mercados e ",
-        "Paragrafo-2": "impulsiona o crescimento ",
-        "Paragrafo-3": "empresarial para novos ",
-        "Paragrafo-4": "patamares.",
-
-        "Paragrafo1":"O marketing profissional ",
-        "Paragrafo1-1":"forja uma reputação sólida ", 
-        "Paragrafo1-2":"atraindo e fidelizando ",
-        "Paragrafo1-3":"clientes com percepção ",
-        "Paragrafo1-4":"positiva no mercado.",
-
-        "Paragrafo2":"Profissionais de marketing ",
-        "Paragrafo2-1":"coletam e analisam dados ",
-        "Paragrafo2-2":"estratégicos para decisões ",
-        "Paragrafo2-3":"informadas e estratégias ",
-        "Paragrafo2-4":"eficazes.",
-
-        "Paragrafo3":"Com estratégias eficazes, é ",
-        "Paragrafo3-1":"possível converter leads em ", 
-        "Paragrafo3-2":"clientes pagantes, resultando ", 
-        "Paragrafo3-3":"no aumento da receita e ",
-        "Paragrafo3-4":"lucratividade do negócio."
+        "Paragrafo":"O marketing profissional amplia mercados e impulsiona o crescimento empresarial para novos patamares.",
+        "Paragrafo1":"O marketing profissional forja uma reputação sólida atraindo e fidelizando clientes com percepção positiva no mercado.",
+        "Paragrafo2":"Profissionais de marketing coletam e analisam dados estratégicos para decisões informadas e estratégias eficazes.",
+        "Paragrafo3":"Com estratégias eficazes, é possível converter leads em clientes pagantes, resultando no aumento da receita e lucratividade do negócio."
     },
     "Potencial":{
         "Maximize":"Maximize seu Potencial",
@@ -141,75 +122,31 @@
         "Marketing":"Marketing para",
         "Marketing2":"E-commerce",
 
-        "cardback1":"Aumento do tráfego",
-        "cardback1-2":"qualificado para o site,",
-        "cardback1-3":"conversões mais altas;",
-        "cardback1-4":"alcance de público-alvo",
-        "cardback1-5":"especifico,",
-        "cardback1-6":"maximização do ROI",
+        "cardback1":"Aumento do tráfego qualificado para o site conversões mais altas alcance de público-alvo especifico maximização do ROI",
 
         
-        "cardback2":"Aumento das taxas de",
-        "cardback2-2":"conversão,",
-        "cardback2-3":"crescimento da base",
-        "cardback2-4":"de clientes,",
-        "cardback2-5":"diferenciação da",
-        "cardback2-6":"concorrência,",
-        "cardback2-7":"maximização do ROI",
+        "cardback2":"Aumento das taxas de conversão, crescimento da base de clientes, diferenciação da concorrência, maximização do ROI",
 
 
-        "cardback3":"Sites e aplicativos",
-        "cardback3-2":"profissionais,",
-        "cardback3-3":"experiência do usuário",
-        "cardback3-4":"aprimorada,",
-        "cardback3-5":"acessibilidade em",
-        "cardback3-6":"dispositivos móveis",
-        "cardback3-7":"maior conversão",
+        "cardback3":"Sites e aplicativos, profissionais, experiência do usuário aprimorada, acessibilidade em dispositivos móveis maior conversão",
 
 
-        "cardback4":"Equipes de vendas",
-        "cardback4-2":"mais componentes,",
-        "cardback4-3":"aumento nas vendas,",
-        "cardback4-4":"abordagem de vendas ",
-        "cardback4-5":"consistente, melhoria",
-        "cardback4-6":"do atendimento ao",
-        "cardback4-7":"cliente",
+        "cardback4":"Equipes de vendas mais componentes aumento nas vendas abordagem de vendas consistente, melhoria do atendimento ao cliente",
 
 
-        "cardback5":"Análise de dados de",
-        "cardback5-2":"mercado, insights",
-        "cardback5-3":"valiosos, tomada de",
-        "cardback5-4":"decisões informadas,",
-        "cardback5-5":"vantagem competitiva",
+        "cardback5":"Análise de dados de mercado, insights valiosos, tomada de decisões informadas, vantagem competitiva",
 
 
-        "cardback6":"Engajamento da",
-        "cardback6-2":"audiência, criação de",
-        "cardback6-3":"uma presença online",
-        "cardback6-4":"solida, construção de",
-        "cardback6-5":"relacionamentos com",
-        "cardback6-6":"clientes, aumento da",
-        "cardback6-7":"visibilidade da marca.",
+        "cardback6":"Engajamento da audiência, criação de uma presença online solida, construção de relacionamentos com clientes, aumento da visibilidade da marca.",
 
 
-        "cardback7":"Desenvolvimento de",
-        "cardback7-2":"uma identidade de",
-        "cardback7-3":"marca única,",
-        "cardback7-4":"gerenciamento de",
-        "cardback7-5":"redes sociais, eficaz,",
-        "cardback7-6":"construção de",
-        "cardback7-7":"relacionamentos com clientes",
+        "cardback7":"Desenvolvimento de uma identidade de marca única, gerenciamento de redes sociais, eficaz construção de relacionamentos com clientes",
 
 
-        "cardback8":"Aumento das vendas",
-        "cardback8-2":"online, otimização de",
-        "cardback8-3":"páginas de produtos,",
-        "cardback8-4":"estratégias",
-        "cardback8-5":"promocionais eficazes, expansão do e-commerce"
+        "cardback8":"Aumento das vendas online, otimização de páginas de produto, estratégias promocionais eficazes, expansão do e-commerce"
     },
     "Footer": {
-        "Jornada":"Sua Jornada de Sucesso",
-        "Jornada2":"Começa Aqui",
+        "Jornada":"Sua Jornada de Sucesso Começa Aqui",
         "ServicosTitulo":"SERVIÇOS",
         "Servicos":"TRAFEGO PAGO",
         "Servicos2":"GESTÃO DE REDES",
@@ -314,10 +251,27 @@
         "Linkedin": "Perfil Linkedin",
         "Selecione": "Selecione",
         "Cadastrar" : "Cadastrar",
-        "Contato" : "Contato"
-    
+        "Contato" : "Contato",
+        "Vaga": "Representante",
+        "Vaga1": "Programador",
+        "Vaga2": "Estagio de Vendas do Esterior",
+        "Vaga3": "Gestor de Vendas B2B"
+    },
+    "Pagina404": {
+      "Mensagem": "Não encontramos essa página"
+    },
+    "Feedback": {
+        "Titulo": "Deixe seu feedback",
+        "Paragrafo": "Deixe seu feedback para que possamos aprimorar ainda mais sua experiência. Sua perspectiva é fundamental para continuarmos oferecendo um serviço excepcional.",
+        "Button": "Enviar",
+        "Obrigado": "Obrigado !",
+        "Paragrafo1": "O Formulário foi enviado com sucesso.",
+        "Arquivo": "Selecione um Arquivo"
+    },
+    "Endereco": {
+        "enderecos": "R. Santa Juliana, 1375 A - Braz Filizola"
     }
-
+ 
 
 
     

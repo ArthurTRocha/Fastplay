@@ -24,6 +24,7 @@
 .quintoRetanguloMobile {
     position: absolute;
     top: 13vh;
+    margin-left: 2vw;
 }
 .cadeiraMobile img {
     height: 100%;
@@ -39,7 +40,7 @@
 }
 .colorBlackk {
     position: absolute;
-    top: 100vh;
+    top: 99vh;
     background-color: #000;
     height: 15vh;
     width: 99.8%;

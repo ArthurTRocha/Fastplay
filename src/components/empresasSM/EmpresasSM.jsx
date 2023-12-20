@@ -62,7 +62,7 @@ function EmpresasSM() {
     const selectedLanguage = i18n.language;
     return selectedLanguage === 'pt'
     ? 'https://wa.me/31996013764?text=Olá!%20Gostaria%20de%20saber%20maiores%20informações%20sobre%20os%20seus%20produtos%20e%20serviços%20ou%20gostaria%20de%20agendar%20uma%20reunião%20para%20conhecer%20mais%20sobre%20o%20seu%20trabalho...'
-    : 'https://api.whatsapp.com/send/?phone=13472275049&text=Hello+I+would+like+to+schedule+a+video+conference+to+discuss+marketing.&type=phone_number&app_absent=0';
+    : 'https://api.whatsapp.com/send/?phone=19297264171&text=Hello+I+would+like+to+schedule+a+video+conference+to+discuss+marketing.&type=phone_number&app_absent=0';
     };
 
     const getEmailLink = () => {
@@ -76,7 +76,7 @@ function EmpresasSM() {
       const selectedLanguage = i18n. language;
       return selectedLanguage === 'pt'
       ? 'sms:+5531996013764'
-      : 'sms:+13472275049'
+      : 'sms:+19297264171'
     }
 
     return(
@@ -122,10 +122,10 @@ function EmpresasSM() {
 
         <div className="alvo-sombra">
         <div className="alvo">
-     <img className='alvo' src={alvo} alt="" />
+     <img className='alvo' src={alvo} alt="Alvo" />
      </div>
      <div className="sombra">
-     <img className='sombra' src={sombra} alt="" />
+     <img className='sombra' src={sombra} alt="Sombra" />
      </div>
      </div>
      
@@ -139,6 +139,7 @@ function EmpresasSM() {
         {t("EmpresasSM.Paragrafo-12")} {`\n`}
         {t("EmpresasSM.Paragrafo-13")}</p>
       </div>
+    
 
 
         </div>

@@ -26,7 +26,7 @@ return (
     </div>
     <div className="imagemObjetivosMobilePai">
                 <div className="imagemObjetivosMobile">
-                    <img src={obejetivos} alt="" />
+                    <img src={obejetivos} alt="Objetivos" />
                 </div>
                  </div>
                  <div className="setamarromPaiMobile">

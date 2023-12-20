@@ -35,6 +35,9 @@
     margin-bottom: 5vh;
     cursor: pointer;
 }
+.buttonCadastro button:hover {
+    background-color: #d32e00;
+}
 .setaBotao {
     height: 100%;
     width: 100%;
@@ -72,5 +75,44 @@
     width: 40vh;
     position: absolute;
     left: 0vw;
-    top: -19.5vh;
+    top: -13.8vh;
+}
+.qrCodePai {
+    position: relative;
+}
+.QRcode img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.QRcode {
+    height: auto;
+    width: 15vw;
+    position: absolute;
+    bottom: 1vh;
+    right: 2vw;
+}
+.telefoneQRCodePai {
+    position: relative;
+}
+.telefoneQRCode img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.telefoneQRCode {
+    height: auto;
+    width: 13.5vw;
+    position: absolute;
+    bottom: 22vh;
+    left: 5vw;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1380px) and (orientation: landscape) { 
+    .textosEntrecontato p {
+        text-align: center;
+        color: #fff;
+        font-size: 3.2vh;
+        margin-top: 3vh;
+    }
 }

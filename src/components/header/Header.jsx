@@ -11,6 +11,7 @@ import italy from "../../assets/image/italy.png"
 import spain from "../../assets/image/spain.png"
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -18,7 +19,7 @@ function Header() {
 
   const { t } = useTranslation();
 
-  const [selectedLanguage, setSelectedLanguage] = useState("en"); // Estado para controlar o idioma selecionado
+  const [selectedLanguage, setSelectedLanguage] = useState("pt"); // Estado para controlar o idioma selecionado
   const [content, setContent] = useState([selectedLanguage]);
 
   const getImageForLanguage = () => {
@@ -180,14 +181,14 @@ function scrollToentreContato() {
 
   return (
     <div className="Header" id="Header">
-      <a href="/home">
+      <Link to="/home">
         <img className='logo' src={imageSrc} alt="Fastplay" />
-      </a>
+      </Link>
 
       <div className="todasopcoes">
         <div className="opcoes">
         <div className="opcoes4">
-            <a href="/home">{t("Saibamais.Home")}</a>
+            <Link to="/home">{t("Saibamais.Home")}</Link>
           </div>
 
           <a href="#" onClick={scrollToservicos}>{t('Header.Servicos')}</a>

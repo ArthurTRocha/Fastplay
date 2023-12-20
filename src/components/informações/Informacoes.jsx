@@ -37,19 +37,19 @@ function Informacoes() {
       <div className="InconsInfomacoes">
 
         <div className="imagemalcance">
-          <img src={imagemAlcance} alt="" />
+          <img src={imagemAlcance} alt="ImagemAlcance" />
           <div className='imagemalcancetexto'>{t("Informacoes.Maximizacao")}
           </div>
         </div>
 
         <div className="imagemestrategias">
-          <img src={imagemEstrategias} alt="" />
+          <img src={imagemEstrategias} alt="Estrategias" />
           <div className="imagemestrategiastexto"> {t("Informacoes.Personalizacao1")} {`\n`} {t("Informacoes.Personalizacao2")}
           </div>
         </div>
 
         <div className="imagemotimizacao">
-          <img src={imagemOtimizacao} alt="" />
+          <img src={imagemOtimizacao} alt="Otimização" />
           <div className="imagemotimizacaotexto">
             {t("Informacoes.Otimizacao1")} {`\n`} {t("Informacoes.Otimizacao2")}
 
@@ -57,7 +57,7 @@ function Informacoes() {
         </div>
 
         <div className="imagemconstrutucao">
-          <img src={imagemConstrucaoMarca} alt="" />
+          <img src={imagemConstrucaoMarca} alt="ConstruçãoMarca" />
           <div className="imagemconstrutucaotexto">
             {t("Informacoes.Construcao1")} {`\n`} {t("Informacoes.Construcao2")}
           </div>

@@ -1,9 +1,10 @@
 .informacoes {
    margin-top: 31vh;
    background-color: #1E1E1E;
-   height: 28vh;
+   height: auto;
    margin-bottom: 8vh;
    max-width: 100%;
+   padding-bottom: 1.8vh;
 }
 .informacoes:hover {
     background-color: #FF3900;

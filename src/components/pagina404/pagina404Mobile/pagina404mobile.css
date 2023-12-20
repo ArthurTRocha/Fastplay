@@ -1,0 +1,58 @@
+.imagemTexto404Mobile {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25vh;
+    height: 50vh;
+}
+.imagemTexto404Mobile h3 {
+font-weight: bold;
+font-size: 3vh;
+color: #FF3900;
+}
+.setaCimaPai404Mobile {
+    position: relative;
+}
+.setaCima404Mobile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
+.setaCima404Mobile {
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    right: 2vw;
+    top: 8vh;
+    z-index: 10;
+}
+.image404Mobile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+.image404Mobile {
+    height: auto;
+    width: 40vh;
+    margin: 0;
+}
+.colorBrancaFeedback {
+    position: relative;
+    top: 13vh;
+    background-color: #fff;
+    height: 15vh;
+    width: 99.8%;
+    border-bottom-left-radius: 30vh;
+    border-bottom-right-radius: 30vh;
+    box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.5);
+    z-index: 10;}
+
+
+
+

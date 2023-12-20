@@ -25,7 +25,7 @@ function Crescaconosco () {
 
         <div className="imagemCrescaConoscoPai">
         <div className="imagemCrescaConosco">
-            <img src={crescaconosco} alt="" />
+            <img src={crescaconosco} alt="CresceConosco" />
 
             </div>
             </div>

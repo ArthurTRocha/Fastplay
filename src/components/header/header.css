@@ -22,10 +22,13 @@
 .logo {
     margin-top: 1vh;
     margin-left: 1.5vw;
-    height: 10vh;
-    width: 7.2vw;
+    height: auto;
+    width: 7vw;
     min-height: 10vh;
     object-fit: cover;
+}
+.logo:hover {
+    transform: scale(1.03);
 }
 .bandeira {
     height: 3vh;
@@ -78,8 +81,9 @@
 @media (max-width: 949px) {
 
    .logo {
-       height: 8vh;
+       height: auto;
        width: 18vw;
+       object-fit: cover;
    }
 }
 
@@ -91,6 +95,22 @@
     .logo {
        width: auto;
        height: 6vh;
+       object-fit: cover;
     }
     
+}
+
+/* Estilos para telas de 1366x1024 (tablet) */
+@media screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) {
+    /* Suas regras de estilo aqui */
+    .logo {
+        object-fit: cover;
+        height: auto;
+        width: 11vw;
+    }
+    .bandeira {
+        height: 2.2vh;
+        margin: 0;
+        padding: 0;
+    }
 }

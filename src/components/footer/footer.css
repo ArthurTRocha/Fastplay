@@ -3,10 +3,13 @@
     max-height: 100%;
     max-width: 100%;
     position: relative;
-    z-index: 100;
+    z-index: 90;
 }
 
 /*TEXTO*/
+.textosfooter {
+    max-width: 20vw;
+}
 .textosfooter h1 {
     color: #fff;
     font-size: 3vh;
@@ -32,6 +35,9 @@ display: block;
 color: #fff;
 margin-bottom: 2vh;
 font-size: 2.2vh;
+}
+.meiodireito a:hover {
+    transform: scale(1.01);
 }
 
 
@@ -70,6 +76,7 @@ font-size: 2.2vh;
     max-height: 100%;
 }
 .downloads {
+    margin-top: 2vh;
     position: absolute;
     right: 0vw;
 }
@@ -91,16 +98,20 @@ font-size: 2.2vh;
 .divbuttontopo img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
-.topo01 {position: relative;
-
+.topo01 {
+    position: relative;
 }
 .divbuttontopo {
     width: 10vw;
-    height: 8vh;
+    height: auto;
     position: relative;
     left: 42.5vw;
-    top: 0.2vh;
+    top: 0.3vh;
+}
+.divbuttontopo:hover {
+    transform: scale(1.08);
 }
 .buttontopo {
     border: none;
@@ -135,4 +146,63 @@ font-size: 2.2vh;
 .ladodireito {
     position: absolute;
     right: 4vw;
+}
+.enderecoIcone{
+    color: #fff;
+    font-size: 5vh;
+    margin-right: 1vw;
+}
+.enderecoFooterPai {
+    width: 18vw;
+    margin-top: 2vh;
+    display: flex;
+}
+.endereçosFooter {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+}
+.endereçosFooter:hover {
+    color: #FF3900;
+    transform: scale(1.02); 
+}
+.enderecoIcone:hover {
+    color: #FF3900;
+    transform: scale(1.2); 
+}
+@media screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+    }
+    .ladoesquerdofooter {
+        margin-top: 5vh;
+        position: relative;
+        margin-left: 3vw;
+    }
+    .meioesquerdofooter {
+        margin-top: 6vh;
+        position: relative;
+        left: 5vw;
+    }
+    .meiodireitofooter{
+        margin-top: 6vh;
+        position: relative;
+        left: 5vw;
+    }
+    .ladodireitofooter {
+        margin-top: 5vh;
+        position: relative;
+    }
+    .ladodireito {
+        position: absolute;
+        right: 4vw;
+    }
+    .iconee {
+        font-size: 3vh; 
+    }
+    .logofooter {
+    height: auto;
+    width: 12vw;
+    }
 }

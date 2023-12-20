@@ -14,7 +14,7 @@ function TrabalheConosco2Mobile() {
         
 
             <div className="imagemSetamarromTCMobile">
-                <img src={setamarrom} alt="" />
+                <img src={setamarrom} alt="Seta" />
             </div>
               <div className="textosTCMobile">
             <h1>{t("Conosco.Titulo")}</h1>

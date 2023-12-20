@@ -3,16 +3,19 @@
     max-height: 100%;
     background-color: #FF3900;     
     width: 100vw;
-    height: 7vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-self: center;
     position: relative;
     position: fixed;
     z-index: 1000;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 .SelectLanguageMobile {
-    margin-left: 60vw;
+   position: absolute;
+   right: 8vw;
 }
 .SelectHeaderMobile {
     max-height: 100%;
@@ -22,20 +25,25 @@
 }
   
 /*LOGOS*/
+.logoHeaderPai {
+    position: relative;
+}
 .logoMobile {
     position: absolute;
-    top: 45vh;
+    top: 10vh;
     left: 50%;
     transform: translateX(-50%);
-    height: 15vh;
+    height: auto;
     width: 40vw;
 }
 .bandeiraMobile img {
     object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 .bandeiraMobile {
     height: auto;
-    width: 6vw;
+    max-width: 7.5vw;
 }
 .menu-icon {
     margin-left: 4vw;
@@ -45,11 +53,15 @@
     position: absolute;
     top: 100%; 
     left: 0;
-    height: 80vh;
+    height: 100vh;
+    max-height: 1000vh;
     z-index: 10;
-    width: 59vw;
+    max-width: 80vw;
     border-radius: 2vh;
     white-space: pre-line;
+    padding-right: 3vw;
+    border-right: 1px solid #FF3900;
+    border-bottom: 1px solid #FF3900;
 }
 .opecoesMobile {
     text-decoration: none;
@@ -58,33 +70,77 @@
     font-weight: bold;
     line-height: 2.5; 
     margin-left: 2vw;
-
 }
 .iconeMobile {
     color: #fff;
     font-size: 3vh;
-    margin-left: 1vw;
+    margin-left: 1.2vw;
+}
+.tracoRedeHeaderMobile {
+    position: relative;
 }
 .redessociaisMobile {
     display: flex;
     position: absolute;
-    top: 68vh;
-    margin-left: 5vw;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .posicaoMobileOpcoes {
     position: relative;
 }
+
 .tracodegradeMobile {
     background: linear-gradient(270deg, #FF3900 35.26%, rgba(255, 255, 255, 0) 100%);
     height: 1vh;
+    max-width: 80vw;
     position: relative;
-    top: 30vh;
-
+    top:27vh;
 }
 
 
+@media (min-height: 1000px) { 
+    .logoMobile {
+        position: absolute;
+        top: 5vh;
+        left: 50%;
+        transform: translateX(-50%);
+        height: auto;
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+   .bandeiraMobile {
+    height: auto;
+    width: 6vw;
+   }
+   .logoMobile {
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    width: 11.5vw;
+}
+}
+@media screen and (max-width: 1000) and (orientation: landscape) {
+    .iconeMobile {
+        font-size: 4vh;
+    }
+}
 
-
+@media screen and (min-width: 1000px) and (max-width: 1380px) and (orientation: landscape) {
+    .headerMobile {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    .logoMobile {
+        width: 17vw;
+    }
+    .iconeMobile {
+        margin-left: 0.5vw;
+    }
+}
 
 
 

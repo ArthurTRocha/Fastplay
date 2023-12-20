@@ -11,9 +11,21 @@ import { MdTextsms } from "react-icons/md";
 import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
 import setaTablet from "../../../assets/image/setafooterTablet.png"
+import { Link } from "react-router-dom";
+import { FaMapMarkerAlt } from "react-icons/fa";
+
 
 function FooterTablet() {  
     const { t } = useTranslation();
+
+    const scrollToTop = () => {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+    };
+
+
 
     const getSocialMediaLink = (socialMedia) => {
         const selectedLanguage = i18n.language;
@@ -73,11 +85,25 @@ function FooterTablet() {
             : 'sms:+19297264171'
           }
 
+          const getLocalizacaoInLink = () => {
+            const selectedLanguage = i18n.language;
+          
+            const enderecos = {
+              pt: "Rua Santa Juliana, 1375 A, Sete Lagoas, Minas Gerais",
+              en: "44-11 Broadway, Queens, NY 11103, Estados Unidos", // Substitua pelo endereço desejado em inglês
+            };
+          
+            const linkBase = 'https://www.google.com/maps/search/?api=1&query=';
+            const endereco = enderecos[selectedLanguage] || enderecos.en;
+          
+            return linkBase + encodeURIComponent(endereco);
+          };
+  
     return (
         <div className="footerTablet">  
         
             <div className="logofooterTablet">  
-                <img src={logo} alt="" />
+                <img src={logo} alt="Logo" />
             </div>
 
             <div className="textosfooterTablet">  
@@ -92,9 +118,15 @@ function FooterTablet() {
                   
             <div className="titulo2FooterTablet">
             <h1>{t("Footer.Tablet1")}</h1>{`\n`}
-            <a href="">{t("Footer.Outros")}</a>{`\n`}{`\n`}
-            <a href="/cadastro">{t("Footer.Outros2")}</a>{`\n`}{`\n`}
-            <a href="/trabalheconosco">{t("Footer.Outros3")}</a>
+            {/* <Link href="">{t("Footer.Outros")}</Link>{`\n`}{`\n`} */}
+            <Link to="/Feedback">FEEDBACK</Link>{`\n`}{`\n`}
+            <a href="/Cadastro">{t("Footer.Outros2")}</a>{`\n`}{`\n`}
+            <a href="/trabalheconosco">{t("Footer.Outros3")}</a>{`\n`}{`\n`}
+            <div className="enderecoFooterPaiTablet">
+      <FaMapMarkerAlt className="enderecoIconeTablet"/>
+      <a className='endereçosFooterTablet' href={getLocalizacaoInLink()} target="_blank" rel="noopener noreferrer">
+      {t("Endereco.enderecos")}</a>
+      </div>
 
             </div>
             </div>
@@ -112,8 +144,8 @@ function FooterTablet() {
                     <a href={getSmsLink()} target="_blank"><MdTextsms className='iconeTablet'/></a>
                     </div>
                     <div className="fundoBlackRedesFooterTabletradius">
-                        <div className="setafooterTablet">
-                        <img src={setaTablet} alt="" />
+                        <div className="setafooterTablet" onClick={scrollToTop}>
+                        <img src={setaTablet} alt="Seta" />
                         </div>
                     </div>
                 </div>

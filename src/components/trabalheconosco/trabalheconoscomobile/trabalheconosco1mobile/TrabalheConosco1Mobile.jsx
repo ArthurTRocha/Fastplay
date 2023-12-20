@@ -242,9 +242,11 @@ inputMode="numeric"
     <option value="" disabled defaultValue>
     {t("Conosco.Selecione")}
       </option>
-    <option value="opcao1">Opção 1</option>
-    <option value="opcao2">Opção 2</option>
-    <option value="opcao3">Opção 3</option>
+    <option value="opcao1">{t("Conosco.Vaga")}</option>
+    <option value="opcao2">{t("Conosco.Vaga1")}</option>
+    <option value="opcao3">{t("Conosco.Vaga2")}</option>
+    <option value="opcao4">{t("Conosco.Vaga3")}</option>
+
   </select>
 </div>  
 
@@ -260,7 +262,6 @@ inputMode="numeric"
       <img src={setaBotao} alt="Ícone do botão" />
       {t("Conosco.Cadastrar")}</button>
 </div>
-
         </div>
     )
 }

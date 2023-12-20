@@ -24,7 +24,7 @@ function CrescaconoscoMobile () {
 
         <div className="imagemCrescaConoscoPaiMobile">
         <div className="imagemCrescaConoscoMobile">
-            <img src={crescaconosco} alt="" />
+            <img src={crescaconosco} alt="CrescaConosco" />
 
             </div>
             </div>

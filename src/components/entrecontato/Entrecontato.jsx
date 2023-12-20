@@ -5,6 +5,8 @@ import Setabaixo from "../../assets/image/setabaixo.png"
 import { Link } from "react-router-dom"; 
 import setaBotao from "../../assets/image/setabotao.png"
 import { useTranslation } from 'react-i18next';
+import QrCode from "../../assets/image/QRCODE.png"
+import TelefoneQRCode from "../../assets/image/telefoneQrCode.png"
 
 
 
@@ -17,7 +19,7 @@ function Entrecontato () {
         <div className="entreContato" id="entreContato">
             <div className="setaCimaPai">
             <div className="setaCima">
-                <img src={Setacima} alt="" />
+                <img src={Setacima} alt="Seta" />
             </div>
             </div>
             <div className="textosEntrecontato">
@@ -34,17 +36,27 @@ function Entrecontato () {
                     <button>
                     <img 
                         src={setaBotao} 
-                        alt=""
+                        alt="Cadastro"
                         className="setaBotao" 
                         />
-                        Cadastro
+                        {t("Conosco.Titulo1")}
                       
                     </button>
                    </Link>                  
                     </div>
+                    <div className="qrCodePai">
+                    <div className="QRcode">
+                        <img src={QrCode} alt="QrCode" />
+                    </div>
+                    </div>
+                    <div className="telefoneQRCodePai">
+                    <div className="telefoneQRCode">
+                        <img src={TelefoneQRCode} alt="Telefone QRCode" />
+                    </div>
+                    </div>
                     <div className="setaBaixoPai">
                     <div className="setaBaixo">
-                        <img src={Setabaixo} alt="" />
+                        <img src={Setabaixo} alt="Seta" />
                     </div>
                     </div> 
                     </div>

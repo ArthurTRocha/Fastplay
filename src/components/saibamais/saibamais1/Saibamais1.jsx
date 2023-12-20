@@ -22,7 +22,7 @@ function Saibamais1(){
                             {t("Saibamais.Paragrafo4")} 
                             </p>
                             <div className="computadorRetangulo">
-                                <img src={Computador} alt="" />
+                                <img src={Computador} alt="Computador" />
                             </div>
                             </div>
                             </div>

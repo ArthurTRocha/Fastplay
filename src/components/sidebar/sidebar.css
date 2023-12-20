@@ -1,10 +1,31 @@
 .sidebar  {
     background-color: white; 
-    max-width: 100%;
-    width: 100%;
+    width: 20%;
+    height: 50%;
+    position: fixed;
+    bottom: 55px;
+    left: 10px;
+    z-index: 100;
+    border-radius: 1vh;
   }
   
   .imgChatMessage {
     height: 5vh;
     border-radius: 3vh;
+  }
+  .abrirChatt {
+    border-radius: 50vh;
+    background-color: #ff3900;
+    border: none;
+    cursor: pointer;
+    padding: 0.5vh 1vh 0.5vh 1vh;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    z-index: 150;
   }

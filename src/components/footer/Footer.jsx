@@ -15,11 +15,13 @@ import { useTranslation } from 'react-i18next';
 import { MdTextsms } from "react-icons/md";
 import i18n from 'i18next';
 import { Link } from "react-router-dom";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 
 
 function Footer(){
     const { t } = useTranslation();
+
 
     function scrollToTopo() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -77,6 +79,25 @@ function Footer(){
       const instagramLink = getSocialMediaLink('instagram');
       const facebookLink = getSocialMediaLink('facebook');
       const twitterLink = getSocialMediaLink('twitter');
+
+
+      const getLocalizacaoInLink = () => {
+        const selectedLanguage = i18n.language;
+      
+        const enderecos = {
+          pt: "Fastplay Comunicação",
+          en: "44-11 Broadway, Queens, NY 11103, Estados Unidos", // Substitua pelo endereço desejado em inglês
+        };
+      
+        const linkBasePt = 'https://www.google.com/search?q=';
+        const linkBaseEn = 'https://www.google.com/maps/search/?api=1&query=';
+      
+        const endereco = enderecos[selectedLanguage] || enderecos.en;
+        const linkBase = selectedLanguage === 'pt' ? linkBasePt : linkBaseEn;
+      
+        return linkBase + encodeURIComponent(endereco);
+      };
+      
       
 
 
@@ -116,8 +137,7 @@ function Footer(){
                 <img className="logooFooter" src={imageSrc} alt="Logo" />
             </div>
             <div className="textosfooter">
-                <h1>{t("Footer.Jornada")} {`\n`}
-                {t("Footer.Jornada2")}</h1>
+                <h1>{t("Footer.Jornada")}</h1>
             </div>
             <div className="redessociaisfooter">
             <a href={getWhatsAppLink()} target="_blank"><BsWhatsapp className='iconee'/></a>
@@ -128,7 +148,12 @@ function Footer(){
         <a href={getEmailLink()} target="_blank"><TfiEmail className='iconee'/></a>
         <a href={getSmsLink()} target="_blank"><MdTextsms className='iconee'/></a>
       </div>
-            </div>
+      <div className="enderecoFooterPai">
+      <FaMapMarkerAlt className="enderecoIcone"/>
+      <a className='endereçosFooter' href={getLocalizacaoInLink()} target="_blank" rel="noopener noreferrer">
+      {t("Endereco.enderecos")}</a>
+      </div>
+      </div>
 
 
             <div className="meioesquerdofooter">
@@ -147,9 +172,10 @@ function Footer(){
             <div className="meiodireitofooter">
             <div className="meiodireito">
                     <h1>{t("Footer.OutrosTitulo")}</h1>
-                    <a href="">{t("Footer.Outros")}</a>
+                    <Link to="/Feedback">FEEDBACK</Link>
+                    {/* <a href="">{t("Footer.Outros")}</a> */}
                     <Link to="/cadastro">{t("Footer.Outros2")}</Link>
-                    <a href="/trabalheconosco">{t("Footer.Outros3")}</a>
+                    <Link to="/trabalheconosco">{t("Footer.Outros3")}</Link>
                 </div>
             </div>
 

@@ -31,10 +31,11 @@ function CarouselmapaMobile() {
       <div className="slideCarouselMobile">
         <img src={slides[currentSlide].image} alt={slides[currentSlide].text} />
         <p>{slides[currentSlide].text}</p>
-      </div>
+        </div>
       <div className="setaPaisMobile">
-        <button onClick={nextSlide}><img src={SetaPais} alt="" /></button>
-      </div>
+        <button onClick={nextSlide}><img src={SetaPais} alt="Seta" /></button>
+   
+       </div>
     </div>
   );
 }

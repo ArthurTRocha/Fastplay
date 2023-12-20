@@ -1,6 +1,7 @@
 import "../styles/home.css"
 import React, { useState } from 'react';
-import { MdSms } from "react-icons/md";
+
+
 
 
 
@@ -23,17 +24,15 @@ import ServicosMobile from "../components/serviços/servicosmobile/ServicosMobil
 import EntrecontatoMobile from '../components/entrecontato/entrecontatoMobile/EntrecontatoMobile.jsx';
 import FooterMobile from '../components/footer/footermobile/FooterMobile';
 import FooterTablet from '../components/footer/footertablet/FooterTablet';
-import ChatAoVivo from "../components/chatfastplay/ChatAoVivo.jsx";
-import Sidebar  from "../components/sidebar/Sidebar.jsx";
+
+
 
 
 
 function Home() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  const openSidebar = () => {
-    setIsSidebarOpen(true);
-  };
+
+ 
 
 
   
@@ -59,10 +58,7 @@ function Home() {
          <div className="servicoss"><Servicos/></div>
           <div className="servicosMobilee"><ServicosMobile/></div>
 
-          <div className="menuChatLateral">
-          {isSidebarOpen && <Sidebar onClose={() => setIsSidebarOpen(false)} />}
-          <button onClick={openSidebar}>Abrir Chat Ao Vivo <MdSms /></button>
-          </div> 
+    
 
           <div className="entrecontatoo"><Entrecontato/></div>
          <div className="entrecontatoMobilee"><EntrecontatoMobile/></div>
@@ -71,6 +67,8 @@ function Home() {
          <div className="footerr"><Footer/></div>
           <div className="footermobilee"><FooterMobile/></div>
            <div className="footerTablett"><FooterTablet/></div>
+
+
 
           </div>   
   );

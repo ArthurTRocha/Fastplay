@@ -5,21 +5,17 @@
 }
 .carouselMapasMobile {
     position: relative;
+    display: flex;
 }
 .setaPaisMobile img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
-}
-.setaPaisMobile {
+    height: auto;
+    width: 5vw;
     position: absolute;
-    top: 15vh;
+    top: 50%;
     right: 0vw;
-    padding: 0;
 }
 .setaPaisMobile button {
-    height: auto;
-    width: 12vw;
     background: none;
     border: none; 
     outline: none; 
@@ -28,23 +24,31 @@
 }
 
 .slideCarouselMobile img {
-    height: 90%;
-    width: 90%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media (min-width: 500px) { 
     .slideCarouselMobile img {
         height: 100%;
         width: 100%;
+        object-fit: cover;
     }
     .slideCarouselMobile {
         height: 30vh;
+        width: auto;
     }
     .slideCarouselMobile p {
         color: #fff;
         font-weight: bold;
         text-align: center;
         font-size: 2.5vh;
+    }
+    .carouselMapasMobile {
+        display: flex;
+        align-items: center;
+        justify-self: center;
     }
 
 }
@@ -53,9 +57,16 @@
     .slideCarouselMobile img {
         height: 100%;
         width: 100%;
+        object-fit: cover;
     }
     .slideCarouselMobile {
         height: 35vh;
+        width: auto;
+    }
+    .carouselMapasMobile {
+        display: flex;
+        align-items: center;
+        justify-self: center;
     }
 
 }
@@ -64,10 +75,43 @@
     .slideCarouselMobile img {
         height: 100%;
         width: 100%;
+        object-fit: cover;
     }
     .slideCarouselMobile {
         height: 40vh;
+        width: auto;
+    }
+    .carouselMapasMobile {
+        display: flex;
+        align-items: center;
+        justify-self: center;
     }
     
 
+}
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .slideCarouselMobile img {
+       height: 60vh;
+       width: auto;
+    }
+    .carouselMapasMobile {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+    .setaPaisMobile {
+        position: relative;
+        left: 10vw;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1380px) and (orientation: landscape) {
+    .slideCarouselMobile {
+        height: auto;
+        width: 55vw;
+    }
+    .setaPaisMobile {
+        position: relative;
+        left: 15vw;
+    }
 }

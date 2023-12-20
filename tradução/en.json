@@ -5,7 +5,7 @@
         "Sobre nos": "About Us"
     },
     "EmpresasSM": {
-        "Titulo": "Is your Company",
+        "Titulo": "Is your Company ",
         "Titulo-1": "without Marketing?",
         "Paragrafo": "The lack of effective marketing can harm",
         "Paragrafo-1": "the desired growth and success, as the lack of",
@@ -71,26 +71,14 @@
         "Leads": "Qualified Leads",
         "Leads1": "into Paying Customers",
         "Saiba": "Learn More!",
-        "Paragrafo": "Professional marketing ",
-        "Paragrafo-1": "expands markets and ",
-        "Paragrafo-2": "drives business growth to new ",
-        "Paragrafo-3": "heights.",
-        "Paragrafo-4": "",
-        "Paragrafo1": "Professional marketing ",
-        "Paragrafo1-1": "forges a solid reputation ",
-        "Paragrafo1-2": "attracting and retaining ",
-        "Paragrafo1-3": "customers with positive ",
-        "Paragrafo1-4": "market perception.",
-        "Paragrafo2": "Marketing professionals ",
-        "Paragrafo2-1": "collect and analyze strategic ",
-        "Paragrafo2-2": "data for informed decisions ",
-        "Paragrafo2-3": "and effective strategies.",
-        "Paragrafo2-4": "",
-        "Paragrafo3": "With effective strategies, it is",
-        "Paragrafo3-1": "possible to convert leads into",
-        "Paragrafo3-2": "paying customers, resulting in",
-        "Paragrafo3-3": "increased revenue and",
-        "Paragrafo3-4": "business profitability."
+        "Paragrafo": "Professional marketing expands markets and drives business growth to new heights.",
+
+        "Paragrafo1": "Professional marketing builds a strong reputation by attracting and retaining customers with positive market perception.",
+        
+        "Paragrafo2": "Marketing professionals gather and analyze strategic data for informed decisions and effective strategies.",
+        
+        "Paragrafo3": "With effective strategies, it's possible to convert leads into paying customers, resulting in increased business revenue and profitability."
+        
     },
     "Potencial": {
         "Maximize": "Maximize your Business Potential",
@@ -130,62 +118,26 @@
         "Profissional3": "media",
         "Marketing": "E-commerce",
         "Marketing2": "Marketing",
-        "cardback1": "Increased traffic",
-        "cardback1-2": "qualified for the website,",
-        "cardback1-3": "higher conversions;",
-        "cardback1-4": "target audience reach",
-        "cardback1-5": "specific,",
-        "cardback1-6": "maximization of ROI",
-        "cardback2": "Increase in conversion rates,",
-        "cardback2-2": "customer base growth,",
-        "cardback2-3": "differentiation from",
-        "cardback2-4": "competition,",
-        "cardback2-5": "effective competition,",
-        "cardback2-6": "maximization of ROI",
-        "cardback2-7": "",
-        "cardback3": "Professional websites",
-        "cardback3-2": "and applications, enhanced user",
-        "cardback3-3": "experience, improved ",
-        "cardback3-4": "accessibility on mobile",
-        "cardback3-5": "devices, higher conversion",
-        "cardback3-6": "",
-        "cardback3-7": "",
-        "cardback4": "Sales teams with more components,",
-        "cardback4-2": "increase in sales,",
-        "cardback4-3": "consistent sales approach,",
-        "cardback4-4": "improved customer service",
-        "cardback4-5": "",
-        "cardback4-6": "",
-        "cardback4-7": "",
-        "cardback5": "Market data analysis,",
-        "cardback5-2": "valuable insights,",
-        "cardback5-3": "informed decision-making,",
-        "cardback5-4": "data-driven decisions,",
-        "cardback5-5": "competition advantage",
-        "cardback6": "Audience engagement, building",
-        "cardback6-2": "a solid online presence,",
-        "cardback6-3": "building relationships with",
-        "cardback6-4": "customers, increasing",
-        "cardback6-5": "brand visibility.",
-        "cardback6-6": "",
-        "cardback6-7": "",
-        "cardback7": "Development of a",
-        "cardback7-2": "unique brand identity,",
-        "cardback7-3": "effective social media management,",
-        "cardback7-4": "building relationships with",
-        "cardback7-5": "customers",
-        "cardback7-6": "",
-        "cardback7-7": "",
-        "cardback7-8": "",
-        "cardback8": "Increase in online sales, optimization",
-        "cardback8-2": "of product pages,",
-        "cardback8-3": "effective promotional strategies,",
-        "cardback8-4": "expansion of",
-        "cardback8-5": "e-commerce"
+        
+        "cardback1": "Increased qualified traffic to the website higher conversions targeted audience reach specific ROI maximization",
+
+        "cardback2": "Increased conversion rates, customer base growth, differentiation from competition, ROI maximization",
+        
+        "cardback3": "Professional websites and applications, enhanced user experience, mobile device accessibility, higher conversion",
+        
+        "cardback4": "More competent sales teams increased sales consistent sales approach improved customer service",
+        
+        "cardback5": "Market data analysis valuable insights informed decision-making competitive advantage",
+        
+        "cardback6": "Audience engagement, solid online presence, building customer relationships, increased brand visibility",
+        
+        "cardback7": "Development of a unique brand identity, effective social media management, building customer relationships",
+        
+        "cardback8": "Increased online sales, product page optimization effective promotional strategies, e-commerce expansion"
+        
     },
     "Footer": {
-        "Jornada": "Your Journey to Success",
-        "Jornada2": "Begins Here",
+        "Jornada": "Your Journey to Success Begins Here",
         "ServicosTitulo": "SERVICES",
         "Servicos": "PAID TRAFFIC",
         "Servicos2": "SOCIAL MEDIA MANAGEMENT",
@@ -257,18 +209,18 @@
     },
     "Contato": {
         "Titulo": "Get in touch",
-        "Titulo-1": "with our",
+        "Titulo-1": "with our ",
         "Titulo-2": "team",
     
-        "Paragrafo": "Maximize",
+        "Paragrafo": "Maximize ",
         "Paragrafo-1": "your online presence with personalized",
         "Paragrafo-2": "strategies created by our team of",
         "Paragrafo-3": "experts",
         "Paragrafo-4": "in marketing",
-        "Paragrafo-5": "Click on the",
-        "Paragrafo-6": "button",
-        "Paragrafo-7": "to",
-        "Paragrafo-8": "hire",
+        "Paragrafo-5": "Click on the ",
+        "Paragrafo-6": "button ",
+        "Paragrafo-7": "to ",
+        "Paragrafo-8": "hire ",
         "Paragrafo-9": "our team"
     },
     "Conosco": {
@@ -283,14 +235,28 @@
         "Linkedin": "Linkedin Profile",
         "Selecione": "Select",
         "Cadastrar": "Sign Up",
-        "Contato": "Contact"
+        "Contato": "Contact",
+        "Vaga": "Representative",
+        "Vaga1": "Programmer",
+        "Vaga2": "International Sales Internship",
+        "Vaga3": "B2B Sales Manager"
+    },
+    "Pagina404": {
+        "Mensagem": "Page not found"
+      },
+      "Feedback": {
+        "Titulo": "Leave your feedback",
+        "Paragrafo": "Leave your feedback so that we can further improve your experience. Your perspective is crucial for us to continue providing exceptional service.",
+        "Button": "Submit",
+        "Obrigado": "Thank you!",
+        "Paragrafo1": "The form has been successfully submitted.",
+        "Arquivo": "Select a File"
 
-
-
-
-
-
+    },
+    "Endereco": {
+        "enderecos": "44-11 Broadway, Queens, NY 11103, Estados Unidos"
     }
+    
     
     
 }

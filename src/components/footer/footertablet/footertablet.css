@@ -5,7 +5,7 @@
 }
 .fundoBlackRedesFooterTablet {
     background-color: #000;
-    width: 100vw;
+    width: 99.9vw;
     height: 15vh;
     position: relative;
     top: 29vh;
@@ -45,11 +45,12 @@
 .logofooterTablet img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .logofooterTablet {
-    height: 20vh;
-    width: 25vw;
+    height: auto;
+    width: 22vw;
     margin-top: 13vh;
     position: absolute;
     top: 6vh;
@@ -70,7 +71,7 @@
 }
 .textosfooterTablet h1 {
     color: #000;
-    font-size: 6vh;
+    font-size: 5.5vh;
 }
 .setafooterTablet img{
     height: 100%;
@@ -80,9 +81,11 @@
 .setafooterTablet {
     height: auto;
     width: 7vh;
-    position: absolute;
-    left: 7.5vw;
-    top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: translate(150%, 10%);
 }
 .titulo2FooterTablet {
     position: absolute;
@@ -93,16 +96,24 @@
 .titulo2FooterTablet a {
     text-decoration: none;
     color: #fff;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 .titulo1FooterTablet p {
     text-decoration: none;
     color: #fff;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 .titulo2FooterTablet,
 .titulo1FooterTablet {
     margin-top: 18vh;
     margin-left: 3vh;
     margin-right: 3vh;
+}
+.enderecoFooterPaiTablet {
+    width: 30vw;
+}
+.enderecoIconeTablet {
+    color: #fff;
+    font-size: 3vh;
+    margin-right: 0.5vw;
 }

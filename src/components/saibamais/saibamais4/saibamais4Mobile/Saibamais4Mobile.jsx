@@ -10,7 +10,7 @@ function Saibamais4Mobile() {
   return (
     <div className="saibaMais4Mobile"> {/* Adicione "Mobile" ao nome da classe */}
       <div className="seta3Mobile"> {/* Adicione "Mobile" ao nome da classe */}
-        <img src={Seta3} alt="" />
+        <img src={Seta3} alt="Seta" />
       </div>
       <div className="quartoRetanguloMobile"> {/* Adicione "Mobile" ao nome da classe */}
         <h1>{t("Saibamais3.Titulo")}</h1>
@@ -21,7 +21,7 @@ function Saibamais4Mobile() {
         </p>
         </div>
         <div className="mulherSaibamais4Mobile"> {/* Adicione "Mobile" ao nome da classe */}
-          <img src={Mulher} alt="" />
+          <img src={Mulher} alt="Mulher" />
         
       </div>
     </div>

@@ -6,6 +6,8 @@
 
 .informacoesMobile {
     background-color: #1E1E1E;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 .infoItem {
     text-align: center;

@@ -15,9 +15,12 @@
 }
 .terceiroRetanguloMobile h1 {
     color: #FF3900;
+    margin-left: 2vw;
 }
 .terceiroRetanguloMobile p {
     margin-top: 8vh;
+    margin-left: 2vw;
+    color: #000;
 }
 .terceiroRetanguloMobile {
     position: absolute;
@@ -32,3 +35,15 @@
     position: absolute;
     top: 45vh;
 }
+
+@media screen and (orientation: landscape) {  
+    .retangulo2Mobile img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .retangulo2Mobile {
+        height: auto;
+        width: 28vw;
+    }
+ }

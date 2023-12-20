@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import analisededados from "../../../assets/image/analisededados.jpg";
 import Reputação from "../../../assets/image/Reputação.jpg";
-import Expansão from "../../../assets/image/Expansão.jpg";
+import Expansão from "../../../assets/image/Espansao+.jpg";
 import leads from "../../../assets/image/leads.jpg";
 import "./carouselfastplaytablet.css"; 
 import { useTranslation } from 'react-i18next';
@@ -17,7 +17,9 @@ function CarouselfastplayTablet() {
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 500,
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 1500,
     slidesToShow: 2,
     slidesToScroll: 1,
   };
@@ -29,11 +31,7 @@ function CarouselfastplayTablet() {
       alt: "Analise",
       title: t("Carousel.Analise") + t("Carousel.Analise1"),
       text:
-        t("Carousel.Paragrafo") +
-        t("Carousel.Paragrafo-1") +
-        t("Carousel.Paragrafo-2") +
-        t("Carousel.Paragrafo-3") +
-        t("Carousel.Paragrafo-4"),
+        t("Carousel.Paragrafo") ,
     },
     {
       id: 2,
@@ -41,11 +39,7 @@ function CarouselfastplayTablet() {
       alt: "Reputacao",
       title: t("Carousel.Reputacao") + t("Carousel.Reputacao1"),
       text:
-        t("Carousel.Paragrafo1") +
-        t("Carousel.Paragrafo1-1") +
-        t("Carousel.Paragrafo1-2") +
-        t("Carousel.Paragrafo1-3") +
-        t("Carousel.Paragrafo1-4"),
+        t("Carousel.Paragrafo1") ,
     },
     {
       id: 3,
@@ -53,11 +47,7 @@ function CarouselfastplayTablet() {
       alt: "Expansao",
       title: t("Carousel.Expansao") + t("Carousel.Expansao1"),
       text:
-        t("Carousel.Paragrafo2") +
-        t("Carousel.Paragrafo2-1") +
-        t("Carousel.Paragrafo2-2") +
-        t("Carousel.Paragrafo2-3") +
-        t("Carousel.Paragrafo2-4"),
+        t("Carousel.Paragrafo2") ,
     },
     {
       id: 4,
@@ -65,11 +55,7 @@ function CarouselfastplayTablet() {
       alt: "Leads",
       title: t("Carousel.Leads") + t("Carousel.Leads1"),
       text:
-        t("Carousel.Paragrafo3") +
-        t("Carousel.Paragrafo3-1") +
-        t("Carousel.Paragrafo3-2") +
-        t("Carousel.Paragrafo3-3") +
-        t("Carousel.Paragrafo3-4"),
+        t("Carousel.Paragrafo3") ,
     },
   ];
 
@@ -93,7 +79,7 @@ function CarouselfastplayTablet() {
         </Slider>
         <div className="posicaoClick">
           <div className="clickTablet"> 
-            <img src={Click} alt="" />
+            <img src={Click} alt="ClickTablet" />
           </div>
         </div>
       </div>

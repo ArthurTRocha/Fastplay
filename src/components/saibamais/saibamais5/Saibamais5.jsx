@@ -10,7 +10,7 @@ const { t } = useTranslation();
     return (
         <div className="saibaMais5">
              <div className="seta1-1">
-                <img src={Seta1} alt="" />
+                <img src={Seta1} alt="Seta" />
             </div>
             <div className="quintoRetangulo">
                     <h1>{t("Saibamais4.Titulo")}</h1>
@@ -19,7 +19,7 @@ const { t } = useTranslation();
                         {t("Saibamais4.Paragrafo2")} {`\n`}
                         {t("Saibamais4.Paragrafo3")} 
                    </p>
-                        <div className="cadeira"><img src={Cadeira} alt="" /></div>
+                        <div className="cadeira"><img src={Cadeira} alt="Cadeira" /></div>
                         
                         </div>
 

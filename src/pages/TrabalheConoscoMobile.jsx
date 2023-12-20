@@ -5,6 +5,8 @@ import HeaderMobile from "../components/header/headermobile/HeaderMobile";
 import FooterMobile from "../components/footer/footermobile/FooterMobile";
 
 function TrabalheConoscoMobile() {
+    window.scrollTo(0, 0);
+
     return (
     <div className="trabalheConoscoMobile">
         <HeaderMobile/>

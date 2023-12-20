@@ -26,7 +26,7 @@
 /* TEXTOS */
 .TextosEmpresasSMMobile h1 {
     font-weight: bold;
-    font-size: 4.8vh;
+    font-size: 4.6vh;
     color: #FF3900;
     text-align: center;
     margin-top: 7vh;
@@ -82,7 +82,15 @@
     transform: translateX(-50%);
     position: absolute;
     top: 3vh;
-    width: 55vw;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+}
+.carouselFastPlayVendas {
+    display: none;
+}
+.carouselfastPlayVendas2 {
+    display: block;
 }
 
 @media (min-width: 540px) {
@@ -99,7 +107,7 @@
     }
     .button-qtmeMobile {
         display: flex;
-        font-size: 3.5vh;
+        font-size: 4.5vh;
         background-color: #FF3900;
         border-radius: 5vh;
         border: none;
@@ -114,7 +122,7 @@
         transform: translateX(-50%);
         position: absolute;
         top: 3vh;
-        width: 39vw;
+        width: auto;
     }
     .TextosEmpresasSMMobile h1 {
         font-weight: bold;
@@ -124,3 +132,91 @@
         margin-top: 10vh;
     }
 }
+.carouselFastPlayVendas {
+    display: none;
+}
+.carouselfastPlayVendas2 {
+    display: block;
+}
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .alvo-sombraMobile {
+        display: none;
+    }
+    .TextosEmpresasSM2Mobile{
+        margin-bottom: 15vh;
+    }
+    .carouselfastPlayVendas2 {
+        display: none;
+    }
+    .carouselFastPlayVendas {
+        display: block;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1380px) and (orientation: landscape) {
+    /* FOTOS */
+.alvo-sombraMobile {
+    position: absolute;
+    left: 57%;
+    transform: translateX(-50%);
+}
+.posicaoAlvoSombra {
+    position: relative;
+}
+.alvoMobile {
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    height: auto;
+    width: 22vw;
+}
+.alvoMobile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sombraMobile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sombraMobile {
+    height: auto;
+    width: 35vw;
+}
+
+
+.TextosEmpresasSMMobile h1 {
+    font-weight: bold;
+    font-size: 4.6vh;
+    color: #FF3900;
+    text-align: center;
+    margin-top: 7vh;
+}
+.TextosEmpresasSMMobile p {
+    font-weight: bold;
+    font-size: 2.7vh;
+    color: #fff;
+    text-align: left;
+    margin-left: 2vw;
+}
+.TextosEmpresasSM2Mobile h1 {
+    font-weight: bold;
+    font-size: 4.8vh;
+    color: #FF3900;
+    text-align: center;
+}
+.TextosEmpresasSM2Mobile{
+    margin-bottom: 45vh;
+}
+.TextosEmpresasSM2Mobile p {
+    font-weight: bold;
+    font-size: 2.7vh;
+    text-align: left;
+    color: #fff;
+    margin-left: 2vw;
+}
+
+}
+
+ 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import analisededados from "../../assets/image/analisededados.jpg";
 import Reputação from "../../assets/image/Reputação.jpg";
-import Expansão from "../../assets/image/Expansão.jpg";
+import Expansão from "../../assets/image/Espansao+.jpg";
 import leads from "../../assets/image/leads.jpg";
 import "./carouselfastplay.css";
 import { useTranslation } from 'react-i18next';
@@ -34,15 +34,7 @@ function Carouselfastplay() {
       alt: "Analise",
       title: t("Carousel.Analise") + "<br>" + t("Carousel.Analise1"),
       text:
-        t("Carousel.Paragrafo") +
-        "<br>" +
-        t("Carousel.Paragrafo-1") +
-        "<br>" +
-        t("Carousel.Paragrafo-2") +
-        "<br>" +
-        t("Carousel.Paragrafo-3") +
-        "<br>" +
-        t("Carousel.Paragrafo-4"),
+        t("Carousel.Paragrafo"),
     },
     {
       id: 2,
@@ -50,15 +42,7 @@ function Carouselfastplay() {
       alt: "Reputacao",
       title: t("Carousel.Reputacao") + "<br>" + t("Carousel.Reputacao1"),
       text:
-        t("Carousel.Paragrafo1") +
-        "<br>" +
-        t("Carousel.Paragrafo1-1") +
-        "<br>" +
-        t("Carousel.Paragrafo1-2") +
-        "<br>" +
-        t("Carousel.Paragrafo1-3") +
-        "<br>" +
-        t("Carousel.Paragrafo1-4"),
+        t("Carousel.Paragrafo1") ,
     },
     {
       id: 3,
@@ -66,15 +50,7 @@ function Carouselfastplay() {
       alt: "Expansao",
       title: t("Carousel.Expansao") + "<br>" + t("Carousel.Expansao1"),
       text:
-        t("Carousel.Paragrafo2") +
-        "<br>" +
-        t("Carousel.Paragrafo2-1") +
-        "<br>" +
-        t("Carousel.Paragrafo2-2") +
-        "<br>" +
-        t("Carousel.Paragrafo2-3") +
-        "<br>" +
-        t("Carousel.Paragrafo2-4"),
+        t("Carousel.Paragrafo2") ,
     },
     {
       id: 4,
@@ -82,15 +58,7 @@ function Carouselfastplay() {
       alt: "Leads",
       title: t("Carousel.Leads") + "<br>" + t("Carousel.Leads1"),
       text:
-        t("Carousel.Paragrafo3") +
-        "<br>" +
-        t("Carousel.Paragrafo3-1") +
-        "<br>" +
-        t("Carousel.Paragrafo3-2") +
-        "<br>" +
-        t("Carousel.Paragrafo3-3") +
-        "<br>" +
-        t("Carousel.Paragrafo3-4"),
+        t("Carousel.Paragrafo3") ,
     },
   ];
   
@@ -113,7 +81,7 @@ function Carouselfastplay() {
         ))}
       </Slider>
       <div className="mouse">
-              <img src={Mouse} alt="" />
+              <img src={Mouse} alt="Mouse" />
             </div>
     </div>
   );

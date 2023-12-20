@@ -9,7 +9,7 @@ function Saibamais2(){
         return (
             <div className="saibaMais2">
                 <div className="seta1">
-                    <img src={newSeta} alt="" />
+                    <img src={newSeta} alt="Seta" />
                 </div>
                 <div className="segundoRetangulo">
                     <h1>{t("Saibamais1.Titulo")}</h1>
@@ -19,7 +19,7 @@ function Saibamais2(){
                         {t("Saibamais1.Paragrafo3")} </p>
                         </div>
                         <div className="dinheiroRetangulo">
-                            <img src={Dinheiro} alt="" />
+                            <img src={Dinheiro} alt="Dinheiro" />
                         </div>
             </div>
         )}

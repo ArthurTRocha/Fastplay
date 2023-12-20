@@ -10,6 +10,7 @@
     color: #000;
     text-align: left;
     margin-top: 5vh;
+    margin-left: 2vw;
 }
 .computadorRetanguloMobile img {
     height: 100%;
@@ -17,6 +18,40 @@
     margin-top: 10vh;
 }
 .textosPrimeirapaginaMobile {
-position: absolute;
-top: 10vh;
+    position: relative;
+    top: 10vh;
+}
+
+@media screen and (orientation: landscape) { 
+    .saibaMais1Mobile {
+        background-color: #fff;
+        position: relative;
+        height: 100vh;
+    }
+    .textosPrimeirapaginaMobile h1 {
+        text-align: center;
+    }
+    .textosPrimeirapaginaMobile p{
+        color: #000;
+        text-align: left;
+        margin-top: 5vh;
+        margin-left: 2vw;
+    }
+    .computadorRetanguloMobile img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 10vh;
+    }
+    .computadorRetanguloMobile {
+        height: auto;
+        width: 35vw;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .textosPrimeirapaginaMobile {
+    position: absolute;
+    top: 15vh;
+    }
 }

@@ -1,0 +1,12 @@
+.pagina404Mobilee {
+    display: none;
+}
+
+@media (max-width: 1110px){
+.pagina4044 {
+    display: none;
+}
+.pagina404Mobilee {
+    display: block;
+}
+}

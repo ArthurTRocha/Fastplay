@@ -1,0 +1,61 @@
+.imagemTexto404 {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5vh;
+}
+.imagemTexto404 h3 {
+font-weight: bold;
+font-size: 8vh;
+color: #FF3900;
+}
+.setaCimaPai404 {
+    position: relative;
+}
+.setaCima404 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
+.setaCima404 {
+    width: 12vw;
+    height: auto;
+    position: absolute;
+    right: 2vw;
+}
+
+.setaBaixoPai404 {
+    position: relative;
+}
+.setaBaixo404 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
+.setaBaixo404 {
+    width: 12vw;
+    height: auto;
+}
+
+.image404 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+.image404 {
+    height: auto;
+    width: 80vh;
+    margin: 0;
+}
+
+
+
+
+

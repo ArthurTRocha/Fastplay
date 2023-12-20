@@ -1,0 +1,55 @@
+
+
+.imagemPalmasMobile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.palmasTextosMobile {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-60%);
+}
+.imagemPalmasMobile {
+    height: auto;
+    width: 45vw;
+}
+.textoObrigadoMobile {
+    text-align: center;
+}
+.textoObrigadoMobile h1 {
+    font-size: 8vh;
+    color: #FF3900;
+    font-weight: bold;
+}
+.textoObrigadoMobile p {
+    font-size: 4vh;
+    color: black;
+}
+
+.tracolaranjaObrigadoMobile {
+    height: 2vh;
+    width: 100%;
+    background-color: #FF3900;
+    position: absolute;
+    bottom: 0;
+}
+.logoObrigadoMobile img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.logoObrigadoMobile {
+    height: auto;
+    width: 30vw;
+    position: absolute;
+    right: 2vw;
+    bottom: 5vh;
+}
+.headerObrigadoMobile {
+    display: none;
+}

@@ -12,11 +12,12 @@
 .logofooterMobile img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .logofooterMobile {
-    height: 15vh;
-    width: 45vw;
-    margin-top: 10vh;
+    height: auto;
+    width: 35vw;
+    margin-top: 13vh;
     position: absolute;
     top: 6vh;
     left: 50%;
@@ -35,13 +36,25 @@
     margin-bottom: 4vh;
     font-size: 3.8vh;
 }
-
-
+.enderecoFooterPaiMobile {
+    width: 80vw;
+    margin-top: 2vh;
+    text-align: center;
+}
+.enderecoIconeMobile {
+    color: #fff;
+    font-size: 3vh;
+}
+.endereçosFooterMobile {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+}
 @media (min-width: 540px) {
     .logofooterMobile {
-        height: 15vh;
-        width: 40vw;
-        margin-top: 10vh;
+        height: auto;
+        width: 35vw;
+        margin-top: 9vh;
         position: absolute;
         top: 6vh;
         left: 50%;
@@ -49,4 +62,33 @@
     } 
 
 
+}
+
+@media screen and (orientation: landscape) {
+    .logofooterMobile img {
+        height: auto;
+        width: 20vw;
+        object-fit: cover;
+    }
+    .logofooterMobile {
+        position: absolute;
+        top: 8vh;
+        left: 50%;
+        transform: translateX(-30%);
+    }
+    .textosfooterMobile h1 {
+        font-size: 5vh;
+        margin-top: 15vh;
+    }
+    .redessociaisfooterMobile {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .enderecoFooterPaiMobile {
+        margin-top: 11vh;
+    }
+    .enderecoIconeMobile {
+        font-size: 4vh;
+    }
 }

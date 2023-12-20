@@ -24,16 +24,17 @@
 
 /*FOTOS*/
 .vendasmaiores-celularMobile {
-    height: 24vh;
-    width: 24vh;
+    height: auto;
+    width: 23vh;
     position: absolute;
     right: 0vw;
-    top: 35vh;
+    top: 30vh;
 }
 .vendasmaiores-celularMobile img {
     transform: scaleX(-1);
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .carouselFastPlayVendas {
     max-width: 100%;
@@ -71,5 +72,39 @@
     }
     .textosvendasmaioresMobile p {
         margin-left: 2vw;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .textosvendasmaioresMobile p {
+        margin-left: 2vw;
+    }
+    .textosvendasmaioresMobile h1{
+        margin-left: 2vw;
+    }
+    .vendasmaiores-celularMobile {
+        display: none;
+    }
+}
+ 
+
+@media screen and (min-width: 1000px) and (max-width: 1380px) and (orientation: landscape) {
+    .vendasmaiores-celularMobile {
+        display: none;
+    }
+    .textosvendasmaioresMobile h1 {
+        text-align: left;
+        margin-left: 2vw;
+    }
+    .textosvendasmaioresMobile p {
+        text-align: left;
+    }
+    .carouselfastPlayVendas2 {
+        display: none;
+    }
+    .carouselFastPlayVendas {
+        display: block;
     }
 }

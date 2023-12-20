@@ -1,0 +1,97 @@
+import React, { useState } from 'react';
+import axios from 'axios';
+import "./feedback.css"
+import FeedbackImagem from "../../assets/image/FeedbackImagem.png"
+import setaesticada from "../../assets/image/setaesticada.png"
+import { useTranslation } from 'react-i18next';
+import Footer from "../footer/Footer"
+import Header from "../header/Header"
+
+
+function Feedback () {
+    const { t } = useTranslation();
+
+    const [dadosFormulario, setDadosFormulario] = useState({
+        name: '',
+        email: '',
+        feedback: '',
+      });
+    
+      const handleChange = (e) => {
+        const { name, value } = e.target;
+        setDadosFormulario({ ...dadosFormulario, [name]: value });
+      };
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+      
+        console.log('Dados do formulário:', dadosFormulario); // Verifique os dados no console.
+      
+        try {
+          await axios.post('https://formsubmit.co/contato@fastplaycomunicacao.com.br', dadosFormulario);
+          console.log('Formulário enviado com sucesso!');
+          // Lógica adicional após o envio bem-sucedido, se necessário.
+        } catch (error) {
+          console.error('Erro ao enviar formulário:', error);
+        }
+      };
+      
+      
+
+    return (
+        <div className="feedback">
+            <Header/>
+
+            <div className="textosFeedback">
+                <h1>{t("Feedback.Titulo")}</h1>
+                <p>{t("Feedback.Paragrafo")}</p>
+            </div>
+
+            <div className="inputsFeedback">
+
+
+            <form onSubmit={handleSubmit}>
+
+            <label>
+            <input type="text" name="name" 
+            required value={dadosFormulario.name} 
+            onChange={handleChange} 
+            placeholder="Nome:"/>
+            </label>
+
+            <label>
+            <input type="email" name="email" 
+            required value={dadosFormulario.email} 
+            onChange={handleChange}
+            placeholder="Email:"/>
+            </label>
+
+            <label>
+            <input type="text" name="feedback" 
+            required value={dadosFormulario.feedback} 
+            onChange={handleChange}
+            placeholder="feedback:"/>
+            </label>
+
+            <div className="buttonFeedback"> 
+            <button type="submit">{t("Feedback.Button")}
+            </button>
+            </div>
+           
+            
+            </form>
+
+            </div>
+            <div className="imagemFeedback">
+                <img src={FeedbackImagem} alt="FeedbackImagem" />
+            </div>
+            <div className="setaFeedback">
+                <img src={setaesticada} alt="Seta" />
+            </div>
+            
+
+            <Footer/>
+        </div>
+    )
+}
+export default Feedback;

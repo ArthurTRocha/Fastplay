@@ -13,7 +13,7 @@ const { t } = useTranslation();
     return (
         <div className="saibaMais4">
             <div className="seta3">
-                <img src={Seta3} alt="" />
+                <img src={Seta3} alt="Seta" />
             </div>
             <div className="quartoRetangulo">
                     <h1>{t("Saibamais3.Titulo")}</h1>
@@ -22,7 +22,7 @@ const { t } = useTranslation();
                         {t("Saibamais3.Paragrafo2")}
                    
                         </p>
-                        <div className="mulherSaibamais4"><img src={Mulher} alt="" /></div>
+                        <div className="mulherSaibamais4"><img src={Mulher} alt="Mulher" /></div>
                         
                         </div>
 

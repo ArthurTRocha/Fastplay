@@ -1,6 +1,5 @@
 .potencialMobile {
-    height: 100vh;
-    margin-bottom: 55vh;
+    height: 145vh;
 }
 
 /* TEXTOS */
@@ -34,8 +33,8 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 12vh;
     position: absolute;
-    bottom: 15.5vh;
-    left: 18vw;
+    bottom: 18.5vh;
+    left: 22vw;
 }
 
 .descriacaoseta1Mobile span {
@@ -50,7 +49,7 @@
     font-weight: bold;
     text-align: left;
     white-space: nowrap;
-    font-size: 2vh;
+    font-size: 1.3vh;
     white-space: pre-line;
 
 }
@@ -142,17 +141,16 @@
 .setaAnossMobile img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .setaAnossMobile {
     position: absolute;
-    top: 16vh;
+    top: 20vh;
     left: 5vw;
-    height: 35vh;
-    width: 50vh;
+    height: auto;
+    width: 30vh;
     z-index: 10;
-    height: 20vh;
-    width: 50vw;
 }
 
 .posicaoMapa01Mobile {
@@ -172,20 +170,13 @@
 @media (min-width: 540px) {
     .posicaoMapaMobile {
         position: absolute;
-        top: 4vh;
-        right: 10vw;
+        right: 8vw;
     }
 }
 
 
 
-@media (min-width: 600px) {
-    .posicaoMapaMobile {
-        position: absolute;
-        top: 4vh;
-        right: 15vw;
-    }
-}
+
 
 
 
@@ -229,4 +220,44 @@
     .setaAnossMobile {
         left: 15vw;
     }
+    }
+    @media screen and (max-width: 1000px) and (orientation: landscape) {
+        .setaAnossMobile img {
+            width: 27vw;
+            height: auto;
+        }
+        .setaAnossMobile {
+            left: 15vw;
+            top: 13vh;
+        }
+        .descriacaoseta1Mobile p {
+            font-size: 3vh;
+        }
+        .descriacaoseta1Mobile span {
+            font-size: 6vh;
+        }
+        .setaempresarialMobile {
+            bottom: 5vh;
+        }
+        .posicaoMapaMobile {
+            right: 10%;
+            transform: translateX(-50%);
+        }
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1380px) and (orientation: landscape) {
+        .setaAnossMobile {
+            height: 35vh;
+            width: auto;
+        }
+        .descriacaoseta1Mobile p {
+            font-size: 3vh;
+        }
+        .descriacaoseta1Mobile span {
+            font-size: 4vh;
+        }
+        .posicaoMapaMobile {
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }

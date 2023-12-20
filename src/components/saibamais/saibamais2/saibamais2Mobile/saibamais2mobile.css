@@ -5,18 +5,22 @@
 }
 .seta1Mobile img {
     height: 100%;
+    object-fit: cover;
     width: 100%;
 }
 .seta1Mobile {
-    height: 20vh;
+    height: auto;
     width: 30vh;
     position: absolute;
-    bottom: 72.5vh;
+    top: -10vh;
     right: 1vw;
 }
 .dinheiroRetanguloMobile img {
     height: 100%;
     width: 100%;
+}
+.segundoRetanguloMobile {
+    margin-left: 2vw;
 }
 .segundoRetanguloMobile h1 {
     color: #FF3900;
@@ -33,4 +37,18 @@
 .posicaoSaibamais2Mobile {
     position: absolute;
     top: 10vh;
+}
+
+@media screen and (orientation: landscape) {  
+    .dinheiroRetanguloMobile img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .dinheiroRetanguloMobile {
+        height: auto;
+        width: 30vw;
+        position: absolute;
+        left: 30%;
+    }
 }

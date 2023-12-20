@@ -1,12 +1,13 @@
 import React from "react";
-import ChatAoVivo from "../chatfastplay/ChatAoVivo";
+import Chat from "../chat/Chat"
 import "./sidebar.css"
+import { MdSms } from "react-icons/md";
 
 const Sidebar = ({ isOpen, onClose }) => {
   return (
     <div className={`sidebar ${isOpen ? "open" : ""}`}>
-      <ChatAoVivo />
-      <button onClick={onClose}>Fechar</button>
+      <Chat />
+      <button className="abrirChatt" onClick={onClose}><MdSms className="MdSms"/> </button>
     </div>
   );
 };
