@@ -193,3 +193,8 @@ color: #fff;
         top: 88vh;
     }
   }
+@media screen and (min-height: 700px) and (max-height: 950px) { 
+    .alvo-sombra {
+        top: 90vh;
+    }
+}

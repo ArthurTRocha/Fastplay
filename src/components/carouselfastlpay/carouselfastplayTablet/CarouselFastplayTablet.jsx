@@ -20,8 +20,10 @@ function CarouselfastplayTablet() {
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 1500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    variableWidth: true,
+
   };
 
   const images = [

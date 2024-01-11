@@ -170,3 +170,13 @@ p{
         display: block;
     }
 }
+@media screen and (min-height: 700px) and (max-height: 950px) { 
+    .vendasmaiores-celular {
+        display: none;
+    }
+    .Carouselfastplay {
+        display: none;
+    }
+    .carouselFTablet {display: block;
+    }
+}

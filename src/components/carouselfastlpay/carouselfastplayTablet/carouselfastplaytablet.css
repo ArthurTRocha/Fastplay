@@ -4,6 +4,7 @@
   max-width: 100%;
   margin-bottom: 10vh;
   position: relative;
+  max-height: 120vh;
 }
 
 .posicaoh3epTablet h3 {
@@ -38,7 +39,7 @@
   height: 8vh;
   width: 7vh;
   position: absolute;
-  top: -3vh;
+  top: 2vh;
   left: 50%;
 }
 
@@ -50,15 +51,30 @@
 .imagemCarouselfastplayTablet {
   height: auto;
   width: 50vh;
-  margin-left: 8vw;
+}
+.carousel-itemTablet {
+  margin: 1vw;
+  display: flex;
 }
 
-/* Adicione mais estilos conforme necessário para a versão Tablet */
+
 @media screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) {
   .posicaoh3epTablet h3 { 
     font-size: 4.5vh;
   }
   .posicaoh3epTablet p { 
     font-size: 2.8vh;
+  } 
+}
+@media screen and (min-height: 700px) and (max-height: 950px) { 
+  .imagemCarouselfastplayTablet {
+    height: auto;
+    width: 32vh;
+  }
+  .posicaoh3epTablet h3 { 
+    font-size: 3vh;
+  }
+  .posicaoh3epTablet p { 
+    font-size: 2vh;
   } 
 }

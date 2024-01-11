@@ -185,7 +185,6 @@ function scrollToentreContato() {
         <img className='logo' src={imageSrc} alt="Fastplay" />
       </Link>
 
-      <div className="todasopcoes">
         <div className="opcoes">
         <div className="opcoes4">
             <Link to="/home">{t("Saibamais.Home")}</Link>
@@ -218,7 +217,6 @@ function scrollToentreContato() {
         </div>
 
       </div>
-    </div>
   )
 }
 export default Header;
